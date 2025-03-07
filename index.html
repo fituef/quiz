@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRẮC NGHIỆM QUẢN TRỊ CƠ SỞ DỮ LIỆU</title>
+    <!-- Thêm thư viện CryptoJS từ CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #e0eafc, #cfdef3);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .container {
+            background: #fff;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 800px;
+            padding: 30px;
+            overflow: hidden;
+        }
+
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            margin-bottom: 20px;
+            font-size: 2em;
+        }
+
+        #login {
+            text-align: center;
+        }
+
+        #login input {
+            display: block;
+            width: 100%;
+            max-width: 300px;
+            margin: 10px auto;
+            padding: 12px;
+            font-size: 1.1em;
+            border-radius: 0PX !important;
+            border: 1px solid #bdc3c7;
+            background: #ffffff;
+        }
+
+        #login label {
+            display: block;
+            margin: 10px auto;
+            font-size: 1em;
+            color: #34495e;
+        }
+
+        #login button {
+            background: #3498db;
+            color: #fff;
+            padding: 12px 25px;
+            border-radius: 0PX !important;
+            border: none;
+            cursor: pointer;
+            font-size: 1.1em;
+            transition: background 0.3s, transform 0.2s;
+            margin-top: 20px;
+        }
+
+        #login button:hover {
+            background: #2980b9;
+            transform: translateY(-2px);
+        }
+
+        #home {
+            display: none;
+            text-align: center;
+        }
+
+        .chapter-btn {
+            display: inline-block;
+            background: #3498db;
+            color: #fff;
+            padding: 12px 25px;
+            margin: 10px;
+            border-radius: 0px !important;
+            text-decoration: none;
+            font-size: 1.1em;
+            transition: background 0.3s, transform 0.2s;
+            text-transform :uppercase;
+        }
+
+        .chapter-btn:hover {
+            background: #2980b9;
+            transform: translateY(-2px);
+        }
+
+        #logout-btn {
+            background: #e74c3c;
+        }
+
+        #logout-btn:hover {
+            background: #c0392b;
+        }
+
+        #time-select {
+            display: block;
+            margin: 20px auto;
+            padding: 10px;
+            font-size: 1.1em;
+            border-radius: 5px;
+            border: 1px solid #00c7dd;
+            background: #ffffff;
+            cursor: pointer;
+            width: 200px;
+            border-radius: 0px !important;
+        }
+
+        #quiz {
+            display: none;
+        }
+
+        #chapter-title {
+            color: #057380;
+            font-size: 1.5em;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        #timer {
+            text-align: center;
+            font-size: 1.2em;
+            color: #e74c3c;
+            margin-bottom: 20px;
+        }
+
+        #question {
+            font-size: 1.3em;
+            color: #2c3e50;
+            margin-bottom: 20px;
+            line-height: 1.4;
+        }
+
+        .option {
+            background: #ffffff;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 0px;
+            cursor: pointer;
+            transition: background 0.3s, transform 0.2s;
+            font-size: 1.1em;
+            color: #2c3e50;
+        }
+
+        .option:hover {
+            background: #ffffff;
+            transform: translateX(5px);
+        }
+
+        .option.selected {
+            background: #2ecc71;
+            color: #fff;
+        }
+
+        .buttons {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 30px;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            background: #3498db;
+            color: #fff;
+            padding: 12px 25px;
+            border-radius: 0PX !important;
+            border: none;
+            cursor: pointer;
+            font-size: 1.1em;
+            transition: background 0.3s, transform 0.2s;
+            margin: 5px;
+        }
+
+        .btn:hover {
+            background: #2980b9;
+            transform: translateY(-2px);
+        }
+
+        .btn:disabled {
+            background: #bdc3c7;
+            cursor: not-allowed;
+        }
+
+        #result {
+            display: none;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        #result h2 {
+            color: #2ecc71;
+            font-size: 1.8em;
+            margin-bottom: 20px;
+        }
+
+        #result p {
+            font-size: 1.2em;
+            color: #34495e;
+            margin-bottom: 20px;
+        }
+
+        #answers {
+            display: none;
+            text-align: left;
+            margin-top: 20px;
+            max-height: 300px;
+            overflow-y: auto;
+            padding: 10px;
+            background: #f9f9f9;
+            border-radius: 10px;
+        }
+
+        .answer-item {
+            margin: 10px 0;
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .correct {
+            color: #2ecc71;
+        }
+
+        .incorrect {
+            color: #e74c3c;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 20px;
+            }
+
+            h1 {
+                font-size: 1.5em;
+            }
+
+            .chapter-btn, .btn {
+                padding: 10px 20px;
+                font-size: 1em;
+                width: 250px;
+            }
+
+            #question {
+                font-size: 1.1em;
+            }
+
+            .option {
+                font-size: 1em;
+            }
+
+            #time-select {
+                width: 150px;
+                font-size: 1em;
+            }
+            .buttons {
+                display: flow;
+                TEXT-ALIGN: CENTER ! IMPORTANT;
+            }
+            #chapter-title {
+                color: #057380;
+                font-size: 1.0em;
+                margin-bottom: 20px;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h3 style="text-align: center;">TRẮC NGHIỆM <br/>QUẢN TRỊ CƠ SỞ DỮ LIỆU</h3>
+        <div id="login">
+            <input type="text" id="username" placeholder="Tên đăng nhập">
+            <input type="password" id="password" placeholder="Mật khẩu">
+            <label style="display: inline;">Ghi nhớ đăng nhập:</label>
+            <label style="display: inline;"> <input  type="checkbox" id="remember"></label>
+            <button onclick="login()">ĐĂNG NHẬP</button>
+        </div>
+        <div id="home">
+            <select id="time-select">
+                <option value="600" selected>10 PHÚT</option>
+                <option value="900">15 PHÚT</option>
+                <option value="1200">20 PHÚT</option>
+                <option value="1800">30 PHÚT</option>
+                <option value="2400">40 PHÚT</option> 
+                <option value="3000">50 PHÚT</option>
+                <option value="3600">60 PHÚT</option>
+            </select>
+            <a href="#" class="chapter-btn" onclick="startQuiz('chuong1')">Chương 1</a>
+            <a href="#" class="chapter-btn" onclick="startQuiz('chuong2')">Chương 2</a>
+            <a href="#" class="chapter-btn" onclick="startQuiz('chuong3')">Chương 3</a>
+            <a href="#" class="chapter-btn" onclick="startQuiz('chuong4')">Chương 4</a>
+            <a href="#" class="chapter-btn" onclick="startQuiz('chuong5')">Chương 5</a>
+            <a href="#" class="chapter-btn" onclick="startExam()">Thi thử (50 câu)</a>
+            <a href="#" class="chapter-btn" onclick="loadSavedQuiz()">Tải bài làm</a>
+            <a href="#" class="chapter-btn" id="logout-btn" onclick="logout()">Đăng xuất</a>
+        </div>
+        <div id="quiz">
+            <h3 id="chapter-title" style="text-transform: uppercase;"></h3>
+            <div id="timer">THỜI GIAN CÒN LẠI: --:--</div>
+            <div id="question"></div>
+            <div id="options"></div>
+            <div class="buttons">
+                <button class="btn" id="prev-btn" onclick="prevQuestion()">CÂU TRƯỚC</button>
+                <button class="btn" id="next-btn" onclick="nextQuestion()">TIẾP</button>
+                <button class="btn" id="save-btn" style="background-color: brown;" onclick="saveQuiz()">LƯU BÀI LÀM</button>
+                <button class="btn" id="submit-btn" style="background-color: #c0392b;" onclick="submitQuiz()">NỘP BÀI</button>
+            </div>
+        </div>
+        <div id="result">
+            <h2>KẾT QUẢ</h2>
+            <p id="score"></p>
+            <div class="buttons">
+                <button class="btn" onclick="showAnswers()">XEM ĐÁP ÁN</button>
+                <button class="btn" onclick="saveResult()">LƯU KẾT QUẢ</button>
+                <button class="btn"  style="background-color: #c0392b;" onclick="restartQuiz()">LÀM LẠI</button>
+            </div>
+            <div id="answers"></div>
+        </div>
+    </div>
+
+    <script>
+        let questions = {};
+        let users = [];
+        let currentChapter = '';
+        let currentQuestion = 0;
+        let score = 0;
+        let timer;
+        let timeLeft = 600;
+        let userAnswers = [];
+        let examQuestions = [];
+
+        // Tải dữ liệu câu hỏi từ file JSON
+        fetch('data.json')
+            .then(response => response.json())
+            .then(data => {
+                questions = data;
+                console.log('Dữ liệu câu hỏi đã tải:', questions);
+            })
+            .catch(error => console.error('Lỗi khi tải dữ liệu câu hỏi:', error));
+
+        // Tải dữ liệu người dùng từ file JSON
+        fetch('users.json')
+            .then(response => response.json())
+            .then(data => {
+                users = data;
+                console.log('Dữ liệu người dùng đã tải:', users);
+                checkRememberedLogin(); // Kiểm tra nếu đã ghi nhớ đăng nhập
+            })
+            .catch(error => console.error('Lỗi khi tải dữ liệu người dùng:', error));
+
+        function login() {
+            const username = document.getElementById('username').value;
+            const password = document.getElementById('password').value;
+            const remember = document.getElementById('remember').checked;
+            const hashedPassword = CryptoJS.SHA256(password).toString();
+            const user = users.find(u => u.username === username && u.password === hashedPassword);
+            if (user) {
+                if (remember) {
+                    localStorage.setItem('rememberedUser', JSON.stringify({ username: username, hashedPassword: hashedPassword }));
+                }
+                document.getElementById('login').style.display = 'none';
+                document.getElementById('home').style.display = 'block';
+            } else {
+                alert('Tên đăng nhập hoặc mật khẩu không đúng!');
+            }
+        }
+
+        function checkRememberedLogin() {
+            const remembered = localStorage.getItem('rememberedUser');
+            if (remembered) {
+                const { username, hashedPassword } = JSON.parse(remembered);
+                const user = users.find(u => u.username === username && u.password === hashedPassword);
+                if (user) {
+                    document.getElementById('login').style.display = 'none';
+                    document.getElementById('home').style.display = 'block';
+                }
+            }
+        }
+
+        function logout() {
+            localStorage.removeItem('rememberedUser');
+            document.getElementById('home').style.display = 'none';
+            document.getElementById('quiz').style.display = 'none';
+            document.getElementById('result').style.display = 'none';
+            document.getElementById('answers').style.display = 'none';
+            document.getElementById('login').style.display = 'block';
+            document.getElementById('username').value = '';
+            document.getElementById('password').value = '';
+            document.getElementById('remember').checked = false;
+            clearInterval(timer); // Dừng đồng hồ nếu đang chạy
+        }
+
+        function startQuiz(chapter) {
+            currentChapter = chapter;
+            currentQuestion = 0;
+            score = 0;
+            timeLeft = parseInt(document.getElementById('time-select').value);
+            userAnswers = new Array(questions[chapter].length).fill(null);
+            examQuestions = questions[chapter];
+            document.getElementById('home').style.display = 'none';
+            document.getElementById('quiz').style.display = 'block';
+            document.getElementById('chapter-title').innerText = `Chương ${chapter.slice(-1)}`;
+            startTimer();
+            loadQuestion();
+        }
+
+        function startExam() {
+            currentChapter = 'exam';
+            currentQuestion = 0;
+            score = 0;
+            timeLeft = 3600; // 60 phút cho thi thử
+            examQuestions = generateExamQuestions();
+            userAnswers = new Array(examQuestions.length).fill(null);
+            document.getElementById('home').style.display = 'none';
+            document.getElementById('quiz').style.display = 'block';
+            document.getElementById('chapter-title').innerText = 'ĐỀ THI THỬ - 50 CÂU';
+            startTimer();
+            loadQuestion();
+        }
+
+        function generateExamQuestions() {
+            let allQuestions = [];
+            for (let chapter in questions) {
+                allQuestions = allQuestions.concat(questions[chapter]);
+            }
+            for (let i = allQuestions.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [allQuestions[i], allQuestions[j]] = [allQuestions[j], allQuestions[i]];
+            }
+            return allQuestions.slice(0, 50);
+        }
+
+        function startTimer() {
+            clearInterval(timer);
+            timer = setInterval(() => {
+                timeLeft--;
+                let minutes = Math.floor(timeLeft / 60);
+                let seconds = timeLeft % 60;
+                document.getElementById('timer').innerText = `THỜI GIAN CÒN LẠI: ${minutes}:${seconds < 10 ? '0' + seconds : seconds}`;
+                if (timeLeft <= 0) {
+                    clearInterval(timer);
+                    submitQuiz();
+                }
+            }, 1000);
+        }
+
+        function loadQuestion() {
+            const q = currentChapter === 'exam' ? examQuestions[currentQuestion] : questions[currentChapter][currentQuestion];
+            document.getElementById('question').innerText = `${currentQuestion + 1}. ${q.question}`;
+            const optionsDiv = document.getElementById('options');
+            optionsDiv.innerHTML = '';
+            q.options.forEach((option, index) => {
+                const div = document.createElement('div');
+                div.className = 'option';
+                div.innerText = `${String.fromCharCode(65 + index)}. ${option}`;
+                div.onclick = () => selectOption(index);
+                if (userAnswers[currentQuestion] === index) {
+                    div.classList.add('selected');
+                }
+                optionsDiv.appendChild(div);
+            });
+            document.getElementById('prev-btn').disabled = currentQuestion === 0;
+            document.getElementById('next-btn').disabled = currentQuestion === (currentChapter === 'exam' ? examQuestions.length - 1 : questions[currentChapter].length - 1);
+            document.getElementById('submit-btn').style.display = currentQuestion === (currentChapter === 'exam' ? examQuestions.length - 1 : questions[currentChapter].length - 1) ? 'block' : 'none';
+        }
+
+        function selectOption(index) {
+            userAnswers[currentQuestion] = index;
+            loadQuestion();
+        }
+
+        function prevQuestion() {
+            if (currentQuestion > 0) {
+                currentQuestion--;
+                loadQuestion();
+            }
+        }
+
+        function nextQuestion() {
+            if (currentQuestion < (currentChapter === 'exam' ? examQuestions.length - 1 : questions[currentChapter].length - 1)) {
+                currentQuestion++;
+                loadQuestion();
+            }
+        }
+
+        function saveQuiz() {
+            const savedData = {
+                chapter: currentChapter,
+                currentQuestion: currentQuestion,
+                timeLeft: timeLeft,
+                userAnswers: userAnswers,
+                examQuestions: currentChapter === 'exam' ? examQuestions : null
+            };
+            const blob = new Blob([JSON.stringify(savedData, null, 2)], { type: 'application/json' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = `bai_lam_${currentChapter}_${new Date().toISOString().slice(0, 10)}.json`;
+            a.click();
+            URL.revokeObjectURL(url);
+            alert('Đã lưu bài làm thành công!');
+        }
+
+        function loadSavedQuiz() {
+            const input = document.createElement('input');
+            input.type = 'file';
+            input.accept = '.json';
+            input.onchange = (event) => {
+                const file = event.target.files[0];
+                if (file) {
+                    const reader = new FileReader();
+                    reader.onload = (e) => {
+                        const savedData = JSON.parse(e.target.result);
+                        currentChapter = savedData.chapter;
+                        currentQuestion = savedData.currentQuestion;
+                        timeLeft = savedData.timeLeft;
+                        userAnswers = savedData.userAnswers;
+                        examQuestions = savedData.examQuestions || questions[currentChapter];
+                        document.getElementById('home').style.display = 'none';
+                        document.getElementById('quiz').style.display = 'block';
+                        document.getElementById('chapter-title').innerText = currentChapter === 'exam' ? 'ĐÈ THI THỬ - 50 CÂU' : `CHƯƠNG ${currentChapter.slice(-1)}`;
+                        startTimer();
+                        loadQuestion();
+                    };
+                    reader.readAsText(file);
+                }
+            };
+            input.click();
+        }
+
+        function submitQuiz() {
+            clearInterval(timer);
+            score = 0;
+            const currentQuestions = currentChapter === 'exam' ? examQuestions : questions[currentChapter];
+            currentQuestions.forEach((q, index) => {
+                if (userAnswers[index] === q.answer) score++;
+            });
+            document.getElementById('quiz').style.display = 'none';
+            document.getElementById('result').style.display = 'block';
+            document.getElementById('score').innerText = `BẠN ĐÚNG ${score}/${currentQuestions.length} CÂU (${(score / currentQuestions.length * 100).toFixed(2)}%)`;
+        }
+
+        function showAnswers() {
+            const answersDiv = document.getElementById('answers');
+            answersDiv.style.display = 'block';
+            answersDiv.innerHTML = '';
+            const currentQuestions = currentChapter === 'exam' ? examQuestions : questions[currentChapter];
+            currentQuestions.forEach((q, index) => {
+                const userAnswer = userAnswers[index];
+                const correctAnswer = q.answer;
+                const div = document.createElement('div');
+                div.className = 'answer-item';
+                div.innerHTML = `
+                    <strong>Câu ${index + 1}: ${q.question}</strong><br>
+                    Bạn chọn: ${userAnswer !== null ? String.fromCharCode(65 + userAnswer) + '. ' + q.options[userAnswer] : 'Chưa chọn'}<br>
+                    Đáp án đúng: ${String.fromCharCode(65 + correctAnswer)}. ${q.options[correctAnswer]}<br>
+                    KẾT QUẢ: <span class="${userAnswer === correctAnswer ? 'correct' : 'incorrect'}">${userAnswer === correctAnswer ? 'Đúng' : 'Sai'}</span>
+                `;
+                answersDiv.appendChild(div);
+            });
+        }
+
+        function saveResult() {
+            const currentQuestions = currentChapter === 'exam' ? examQuestions : questions[currentChapter];
+            const result = {
+                chapter: currentChapter === 'exam' ? 'Thi thử' : `Chương ${currentChapter.slice(-1)}`,
+                score: `${score}/${currentQuestions.length}`,
+                percentage: (score / currentQuestions.length * 100).toFixed(2),
+                date: new Date().toLocaleString(),
+                answers: currentQuestions.map((q, index) => ({
+                    question: q.question,
+                    userAnswer: userAnswers[index] !== null ? q.options[userAnswers[index]] : 'Chưa chọn',
+                    correctAnswer: q.options[q.answer],
+                    isCorrect: userAnswers[index] === q.answer
+                }))
+            };
+            const blob = new Blob([JSON.stringify(result, null, 2)], { type: 'application/json' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = `ket_qua_${currentChapter}_${new Date().toISOString().slice(0, 10)}.json`;
+            a.click();
+            URL.revokeObjectURL(url);
+        }
+
+        function restartQuiz() {
+            document.getElementById('result').style.display = 'none';
+            document.getElementById('answers').style.display = 'none';
+            document.getElementById('home').style.display = 'block';
+        }
+    </script>
+</body>
+</html>

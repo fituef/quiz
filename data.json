@@ -1,0 +1,3472 @@
+{
+    "chuong1": [
+        {
+            "question": "Cơ sở dữ liệu (CSDL) là gì?",
+            "options": ["Tập hợp các phần mềm quản lý dữ liệu", "Tập hợp dữ liệu được tổ chức để truy xuất dễ dàng", "Một chương trình máy tính đơn lẻ", "Dữ liệu không có cấu trúc"],
+            "answer": 1
+        },
+        {
+            "question": "Đặc tính nào không thuộc về CSDL?",
+            "options": ["Tính nhất quán", "Tính độc lập dữ liệu", "Dữ liệu trùng lặp nhiều lần", "Tính bảo mật"],
+            "answer": 2
+        },
+        {
+            "question": "Ai là người sử dụng chính của CSDL?",
+            "options": ["Chỉ có quản trị viên", "Quản trị viên, lập trình viên và người dùng cuối", "Chỉ có lập trình viên", "Nhà cung cấp phần mềm"],
+            "answer": 1
+        },
+        {
+            "question": "Hệ quản trị CSDL (DBMS) có vai trò gì?",
+            "options": ["Tạo phần cứng cho CSDL", "Quản lý và cung cấp cách truy cập dữ liệu", "Chỉ lưu trữ dữ liệu thô", "Xóa dữ liệu tự động"],
+            "answer": 1
+        },
+        {
+            "question": "Hệ quản trị CSDL nào dưới đây là phổ biến?",
+            "options": ["Microsoft Word", "MS SQL Server", "Adobe Photoshop", "Excel"],
+            "answer": 1
+        },
+        {
+            "question": "Ưu điểm của CSDL so với lưu trữ truyền thống là gì?",
+            "options": ["Dữ liệu dễ bị mất mát", "Giảm thiểu dư thừa dữ liệu", "Tốn nhiều không gian lưu trữ", "Không cần bảo mật"],
+            "answer": 1
+        },
+        {
+            "question": "DBMS giúp người dùng làm gì?",
+            "options": ["Thiết kế giao diện phần mềm", "Tạo, truy vấn và quản lý CSDL", "Chỉ lưu trữ hình ảnh", "Tăng tốc phần cứng"],
+            "answer": 1
+        },
+        {
+            "question": "CSDL có thể được chia sẻ bởi bao nhiêu người dùng?",
+            "options": ["Chỉ một người", "Nhiều người cùng lúc", "Chỉ quản trị viên", "Không ai"],
+            "answer": 1
+        },
+        {
+            "question": "Hệ quản trị CSDL nào là mã nguồn mở?",
+            "options": ["MS SQL Server", "Oracle", "MySQL", "DB2"],
+            "answer": 2
+        },
+        {
+            "question": "Tính độc lập dữ liệu trong CSDL nghĩa là gì?",
+            "options": ["Dữ liệu không liên quan đến ứng dụng", "Dữ liệu chỉ phụ thuộc vào phần cứng", "Dữ liệu không thể thay đổi", "Dữ liệu không cần quản lý"],
+            "answer": 0
+        },
+        {
+            "question": "Mục đích chính của CSDL là gì?",
+            "options": ["Lưu trữ dữ liệu không có tổ chức", "Cung cấp dữ liệu nhanh chóng và chính xác", "Tăng tốc phần cứng", "Xóa dữ liệu cũ"],
+            "answer": 1
+        },
+        {
+            "question": "DBMS nào dưới đây không phải hệ quản trị CSDL?",
+            "options": ["MySQL", "PostgreSQL", "Microsoft Excel", "SQLite"],
+            "answer": 2
+        },
+        {
+            "question": "Tính nhất quán trong CSDL nghĩa là gì?",
+            "options": ["Dữ liệu không thay đổi", "Dữ liệu luôn chính xác và đồng bộ", "Dữ liệu trùng lặp", "Dữ liệu không cần kiểm tra"],
+            "answer": 1
+        },
+        {
+            "question": "CSDL giúp giảm thiểu vấn đề gì?",
+            "options": ["Tốc độ truy cập", "Dư thừa dữ liệu", "Bảo mật", "Tính độc lập"],
+            "answer": 1
+        },
+        {
+            "question": "Ai chịu trách nhiệm quản lý DBMS?",
+            "options": ["Người dùng cuối", "Quản trị viên CSDL", "Nhà phát triển phần mềm", "Nhà cung cấp phần cứng"],
+            "answer": 1
+        },
+        {
+            "question": "DBMS cung cấp giao diện nào cho người dùng?",
+            "options": ["Chỉ giao diện đồ họa", "Ngôn ngữ truy vấn và giao diện đồ họa", "Không có giao diện", "Chỉ ngôn ngữ lập trình"],
+            "answer": 1
+        },
+        {
+            "question": "CSDL có thể lưu trữ dữ liệu dạng gì?",
+            "options": ["Chỉ văn bản", "Văn bản, số, hình ảnh, v.v.", "Chỉ số", "Chỉ hình ảnh"],
+            "answer": 1
+        },
+        {
+            "question": "Tính bảo mật trong CSDL liên quan đến gì?",
+            "options": ["Tăng tốc truy vấn", "Ngăn chặn truy cập trái phép", "Tạo dữ liệu mới", "Xóa dữ liệu cũ"],
+            "answer": 1
+        },
+        {
+            "question": "Hệ quản trị CSDL nào do Oracle phát triển?",
+            "options": ["MS SQL Server", "MySQL", "Oracle Database", "SQLite"],
+            "answer": 2
+        },
+        {
+            "question": "CSDL giúp gì trong việc truy vấn dữ liệu?",
+            "options": ["Tăng dư thừa", "Đơn giản hóa truy vấn", "Giảm hiệu suất", "Xóa dữ liệu"],
+            "answer": 1
+        },
+        {
+            "question": "CSDL hỗ trợ bao nhiêu loại dữ liệu?",
+            "options": ["Chỉ một loại", "Nhiều loại (văn bản, số, ngày tháng)", "Không hỗ trợ", "Chỉ hai loại"],
+            "answer": 1
+        },
+        {
+            "question": "DBMS nào nhỏ gọn dùng cho ứng dụng di động?",
+            "options": ["MS SQL Server", "SQLite", "Oracle", "MySQL"],
+            "answer": 1
+        },
+        {
+            "question": "Tính toàn vẹn dữ liệu nghĩa là gì?",
+            "options": ["Dữ liệu không chính xác", "Dữ liệu luôn đúng và đáng tin cậy", "Dữ liệu không cần kiểm tra", "Dữ liệu trùng lặp"],
+            "answer": 1
+        },
+        {
+            "question": "CSDL có thể truy cập qua gì?",
+            "options": ["Chỉ phần mềm đồ họa", "Ngôn ngữ truy vấn như SQL", "Không truy cập được", "Chỉ phần cứng"],
+            "answer": 1
+        },
+        {
+            "question": "DBMS giúp gì trong bảo mật?",
+            "options": ["Tăng rủi ro", "Phân quyền truy cập", "Xóa dữ liệu", "Không hỗ trợ bảo mật"],
+            "answer": 1
+        },
+        {
+            "question": "CSDL khác file văn bản ở điểm nào?",
+            "options": ["Không có cấu trúc", "Dữ liệu được tổ chức và truy vấn dễ dàng", "Chỉ lưu văn bản", "Không cần quản lý"],
+            "answer": 1
+        },
+        {
+            "question": "DBMS nào được dùng trong doanh nghiệp lớn?",
+            "options": ["SQLite", "MS Access", "Oracle Database", "Excel"],
+            "answer": 2
+        },
+        {
+            "question": "CSDL hỗ trợ gì trong quản lý dữ liệu?",
+            "options": ["Tăng dư thừa", "Giảm thiểu lỗi và trùng lặp", "Giảm hiệu suất", "Xóa dữ liệu tự động"],
+            "answer": 1
+        },
+        {
+            "question": "Tính độc lập dữ liệu bao gồm gì?",
+            "options": ["Độc lập vật lý và logic", "Chỉ độc lập vật lý", "Chỉ độc lập logic", "Không độc lập"],
+            "answer": 0
+        },
+        {
+            "question": "DBMS nào không cần cài đặt phức tạp?",
+            "options": ["Oracle", "MS SQL Server", "SQLite", "MySQL"],
+            "answer": 2
+        },
+        {
+            "question": "CSDL giúp gì trong việc sao lưu?",
+            "options": ["Xóa dữ liệu", "Bảo vệ dữ liệu khi có sự cố", "Tăng tốc truy vấn", "Không hỗ trợ sao lưu"],
+            "answer": 1
+        },
+        {
+            "question": "Hệ quản trị CSDL nào miễn phí?",
+            "options": ["MS SQL Server", "Oracle", "MySQL", "DB2"],
+            "answer": 2
+        },
+        {
+            "question": "CSDL có thể chạy trên nền tảng nào?",
+            "options": ["Chỉ Windows", "Nhiều nền tảng (Windows, Linux, v.v.)", "Chỉ Linux", "Không chạy được"],
+            "answer": 1
+        },
+        {
+            "question": "DBMS hỗ trợ gì ngoài truy vấn?",
+            "options": ["Chỉ lưu trữ", "Sao lưu và phục hồi", "Xóa dữ liệu tự động", "Không hỗ trợ gì"],
+            "answer": 1
+        },
+        {
+            "question": "Tính toàn vẹn dữ liệu được đảm bảo bằng gì?",
+            "options": ["Không cần kiểm tra", "Ràng buộc và quy tắc", "Dữ liệu ngẫu nhiên", "Trùng lặp dữ liệu"],
+            "answer": 1
+        },
+        {
+            "question": "CSDL giúp gì trong phân tích dữ liệu?",
+            "options": ["Tăng dư thừa", "Cung cấp dữ liệu chính xác", "Giảm hiệu suất", "Xóa dữ liệu"],
+            "answer": 1
+        },
+        {
+            "question": "DBMS nào được dùng trong giáo dục?",
+            "options": ["MS SQL Server", "MySQL", "SQLite", "Tất cả đều đúng"],
+            "answer": 3
+        },
+        {
+            "question": "CSDL có thể lưu trữ bao nhiêu dữ liệu?",
+            "options": ["Chỉ vài dòng", "Hàng triệu dòng tùy phần cứng", "Không giới hạn", "Chỉ vài cột"],
+            "answer": 1
+        },
+        {
+            "question": "Tính bảo mật trong DBMS bao gồm gì?",
+            "options": ["Chỉ mã hóa", "Phân quyền và mã hóa", "Không có bảo mật", "Chỉ phân quyền"],
+            "answer": 1
+        },
+        {
+            "question": "DBMS giúp gì trong quản lý người dùng?",
+            "options": ["Tăng rủi ro", "Phân quyền truy cập", "Xóa người dùng tự động", "Không quản lý"],
+            "answer": 1
+        },
+        {
+            "question": "CSDL khác hệ thống file ở điểm nào?",
+            "options": ["Không có cấu trúc", "Có khả năng truy vấn và quản lý", "Chỉ lưu văn bản", "Không cần bảo mật"],
+            "answer": 1
+        },
+        {
+            "question": "DBMS nào hỗ trợ giao diện đồ họa?",
+            "options": ["MS SQL Server", "MySQL", "Oracle", "Tất cả đều đúng"],
+            "answer": 3
+        },
+        {
+            "question": "CSDL giúp gì trong việc chia sẻ dữ liệu?",
+            "options": ["Tăng dư thừa", "Cho phép nhiều người dùng cùng truy cập", "Giảm hiệu suất", "Xóa dữ liệu"],
+            "answer": 1
+        },
+        {
+            "question": "Tính độc lập vật lý nghĩa là gì?",
+            "options": ["Dữ liệu không phụ thuộc cách lưu trữ", "Dữ liệu phụ thuộc ứng dụng", "Dữ liệu không thay đổi", "Dữ liệu trùng lặp"],
+            "answer": 0
+        },
+        {
+            "question": "DBMS nào phù hợp cho ứng dụng nhỏ?",
+            "options": ["Oracle", "MS SQL Server", "SQLite", "DB2"],
+            "answer": 2
+        },
+        {
+            "question": "CSDL hỗ trợ gì trong kinh doanh?",
+            "options": ["Tăng dư thừa", "Quản lý dữ liệu khách hàng", "Giảm hiệu suất", "Xóa dữ liệu tự động"],
+            "answer": 1
+        },
+        {
+            "question": "Hệ quản trị CSDL nào có chi phí cao?",
+            "options": ["MySQL", "SQLite", "Oracle", "MS Access"],
+            "answer": 2
+        },
+        {
+            "question": "CSDL giúp gì trong việc truy xuất dữ liệu?",
+            "options": ["Tăng thời gian", "Giảm thời gian truy xuất", "Không hỗ trợ", "Xóa dữ liệu"],
+            "answer": 1
+        },
+        {
+            "question": "DBMS hỗ trợ ngôn ngữ truy vấn nào?",
+            "options": ["Python", "SQL", "Java", "C++"],
+            "answer": 1
+        },
+        {
+            "question": "Tính toàn vẹn dữ liệu ngăn chặn gì?",
+            "options": ["Truy cập nhanh", "Dữ liệu không hợp lệ", "Tăng tốc", "Không ngăn chặn"],
+            "answer": 1
+        },
+        {
+            "question": "CSDL có thể tích hợp với gì?",
+            "options": ["Chỉ phần mềm đồ họa", "Ứng dụng và hệ thống khác", "Không tích hợp", "Chỉ phần cứng"],
+            "answer": 1
+        },
+        {
+            "question": "DBMS nào hỗ trợ đám mây?",
+            "options": ["MS SQL Server", "MySQL", "Oracle", "Tất cả đều đúng"],
+            "answer": 3
+        },
+        {
+            "question": "CSDL giúp gì trong việc bảo trì?",
+            "options": ["Tăng rủi ro", "Đơn giản hóa quản lý dữ liệu", "Giảm hiệu suất", "Xóa dữ liệu"],
+            "answer": 1
+        },
+        {
+            "question": "Tính độc lập logic nghĩa là gì?",
+            "options": ["Dữ liệu không phụ thuộc ứng dụng", "Dữ liệu phụ thuộc phần cứng", "Dữ liệu không thay đổi", "Dữ liệu trùng lặp"],
+            "answer": 0
+        },
+        {
+            "question": "DBMS nào không cần cấu hình phức tạp?",
+            "options": ["Oracle", "MS SQL Server", "SQLite", "DB2"],
+            "answer": 2
+        },
+        {
+            "question": "CSDL hỗ trợ gì trong phân quyền?",
+            "options": ["Tăng rủi ro", "Kiểm soát truy cập", "Xóa dữ liệu", "Không hỗ trợ"],
+            "answer": 1
+        },
+        {
+            "question": "Hệ quản trị CSDL nào dùng cho cá nhân?",
+            "options": ["MS SQL Server", "MySQL", "MS Access", "Oracle"],
+            "answer": 2
+        },
+        {
+            "question": "CSDL giúp gì trong việc lưu trữ?",
+            "options": ["Tăng dư thừa", "Tổ chức dữ liệu hiệu quả", "Giảm hiệu suất", "Xóa dữ liệu"],
+            "answer": 1
+        },
+        {
+            "question": "DBMS hỗ trợ gì trong sao lưu?",
+            "options": ["Xóa dữ liệu", "Tạo bản sao dữ liệu", "Tăng tốc", "Không hỗ trợ"],
+            "answer": 1
+        },
+        {
+            "question": "Tính bảo mật trong CSDL ngăn chặn gì?",
+            "options": ["Truy cập hợp lệ", "Truy cập trái phép", "Tăng tốc", "Tạo dữ liệu"],
+            "answer": 1
+        },
+        {
+            "question": "CSDL có thể dùng trong lĩnh vực nào?",
+            "options": ["Chỉ giáo dục", "Giáo dục, kinh doanh, y tế, v.v.", "Chỉ kinh doanh", "Không dùng được"],
+            "answer": 1
+        },
+        {
+            "question": "DBMS nào hỗ trợ nhiều người dùng?",
+            "options": ["MS Access", "MS SQL Server", "MySQL", "Tất cả đều đúng"],
+            "answer": 3
+        },
+        {
+            "question": "CSDL giúp gì trong việc quản lý thông tin?",
+            "options": ["Tăng dư thừa", "Tổ chức và truy xuất dễ dàng", "Giảm hiệu suất", "Xóa dữ liệu"],
+            "answer": 1
+        },
+        {
+            "question": "Tính độc lập dữ liệu giúp gì?",
+            "options": ["Tăng phụ thuộc", "Dễ dàng thay đổi cấu trúc", "Giảm hiệu suất", "Xóa dữ liệu"],
+            "answer": 1
+        },
+        {
+            "question": "DBMS nào hỗ trợ giao diện dòng lệnh?",
+            "options": ["MS SQL Server", "MySQL", "SQLite", "Tất cả đều đúng"],
+            "answer": 3
+        },
+        {
+            "question": "CSDL hỗ trợ gì trong báo cáo?",
+            "options": ["Tăng dư thừa", "Cung cấp dữ liệu chính xác", "Giảm hiệu suất", "Xóa dữ liệu"],
+            "answer": 1
+        },
+        {
+            "question": "Hệ quản trị CSDL nào dùng cho web?",
+            "options": ["MS Access", "MySQL", "SQLite", "Tất cả đều đúng"],
+            "answer": 1
+        },
+        {
+            "question": "CSDL giúp gì trong việc kiểm soát dữ liệu?",
+            "options": ["Tăng rủi ro", "Đảm bảo tính toàn vẹn", "Giảm hiệu suất", "Xóa dữ liệu"],
+            "answer": 1
+        },
+        {
+            "question": "DBMS hỗ trợ gì trong truy vấn phức tạp?",
+            "options": ["Tăng thời gian", "Ngôn ngữ như SQL", "Không hỗ trợ", "Xóa dữ liệu"],
+            "answer": 1
+        },
+        {
+            "question": "Tính toàn vẹn dữ liệu bao gồm gì?",
+            "options": ["Dữ liệu ngẫu nhiên", "Ràng buộc và kiểm tra", "Tăng dư thừa", "Không kiểm tra"],
+            "answer": 1
+        },
+        {
+            "question": "CSDL hỗ trợ gì trong phân tích kinh doanh?",
+            "options": ["Tăng dư thừa", "Dữ liệu đáng tin cậy", "Giảm hiệu suất", "Xóa dữ liệu"],
+            "answer": 1
+        },
+        {
+            "question": "DBMS nào hỗ trợ mã hóa dữ liệu?",
+            "options": ["MS SQL Server", "MySQL", "Oracle", "Tất cả đều đúng"],
+            "answer": 3
+        },
+        {
+            "question": "CSDL giúp gì trong quản lý khách hàng?",
+            "options": ["Tăng dư thừa", "Lưu trữ và truy xuất thông tin", "Giảm hiệu suất", "Xóa dữ liệu"],
+            "answer": 1
+        },
+        {
+            "question": "Tính độc lập dữ liệu ngăn chặn gì?",
+            "options": ["Thay đổi dễ dàng", "Phụ thuộc vào ứng dụng", "Tăng tốc", "Xóa dữ liệu"],
+            "answer": 1
+        },
+        {
+            "question": "DBMS nào dùng cho hệ thống nhúng?",
+            "options": ["Oracle", "MS SQL Server", "SQLite", "DB2"],
+            "answer": 2
+        },
+        {
+            "question": "CSDL hỗ trợ gì trong giáo dục?",
+            "options": ["Tăng dư thừa", "Quản lý điểm sinh viên", "Giảm hiệu suất", "Xóa dữ liệu"],
+            "answer": 1
+        },
+        {
+            "question": "Hệ quản trị CSDL nào có cộng đồng lớn?",
+            "options": ["MS SQL Server", "MySQL", "Oracle", "DB2"],
+            "answer": 1
+        },
+        {
+            "question": "CSDL giúp gì trong việc lưu trữ lâu dài?",
+            "options": ["Tăng dư thừa", "Dữ liệu bền vững", "Giảm hiệu suất", "Xóa dữ liệu"],
+            "answer": 1
+        },
+        {
+            "question": "DBMS hỗ trợ gì trong bảo trì?",
+            "options": ["Tăng rủi ro", "Công cụ sao lưu và phục hồi", "Xóa dữ liệu", "Không hỗ trợ"],
+            "answer": 1
+        },
+        {
+            "question": "Tính bảo mật trong CSDL bao gồm gì?",
+            "options": ["Chỉ phân quyền", "Phân quyền và mã hóa", "Không bảo mật", "Chỉ mã hóa"],
+            "answer": 1
+        },
+        {
+            "question": "CSDL có thể dùng trong ngành nào?",
+            "options": ["Chỉ kinh doanh", "Kinh doanh, giáo dục, y tế", "Chỉ y tế", "Không dùng được"],
+            "answer": 1
+        },
+        {
+            "question": "DBMS nào hỗ trợ truy vấn nhanh?",
+            "options": ["MS SQL Server", "MySQL", "Oracle", "Tất cả đều đúng"],
+            "answer": 3
+        },
+        {
+            "question": "CSDL giúp gì trong quản lý tài nguyên?",
+            "options": ["Tăng dư thừa", "Tổ chức dữ liệu hiệu quả", "Giảm hiệu suất", "Xóa dữ liệu"],
+            "answer": 1
+        },
+        {
+            "question": "Tính độc lập dữ liệu hỗ trợ gì?",
+            "options": ["Tăng phụ thuộc", "Thay đổi cấu trúc dễ dàng", "Giảm hiệu suất", "Xóa dữ liệu"],
+            "answer": 1
+        },
+        {
+            "question": "DBMS nào dùng cho ứng dụng desktop?",
+            "options": ["MS SQL Server", "MySQL", "MS Access", "Tất cả đều đúng"],
+            "answer": 2
+        },
+        {
+            "question": "CSDL hỗ trợ gì trong nghiên cứu?",
+            "options": ["Tăng dư thừa", "Lưu trữ và phân tích dữ liệu", "Giảm hiệu suất", "Xóa dữ liệu"],
+            "answer": 1
+        },
+        {
+            "question": "Hệ quản trị CSDL nào dùng cho doanh nghiệp nhỏ?",
+            "options": ["Oracle", "MS SQL Server", "MySQL", "DB2"],
+            "answer": 2
+        },
+        {
+            "question": "CSDL giúp gì trong việc truy cập đồng thời?",
+            "options": ["Tăng rủi ro", "Hỗ trợ nhiều người dùng", "Giảm hiệu suất", "Xóa dữ liệu"],
+            "answer": 1
+        },
+        {
+            "question": "DBMS hỗ trợ gì trong quản lý phiên bản?",
+            "options": ["Tăng rủi ro", "Sao lưu và khôi phục", "Xóa dữ liệu", "Không hỗ trợ"],
+            "answer": 1
+        },
+        {
+            "question": "Tính toàn vẹn dữ liệu giúp gì?",
+            "options": ["Tăng dư thừa", "Đảm bảo dữ liệu chính xác", "Giảm hiệu suất", "Xóa dữ liệu"],
+            "answer": 1
+        },
+        {
+            "question": "CSDL hỗ trợ gì trong quản lý nhân sự?",
+            "options": ["Tăng dư thừa", "Lưu trữ thông tin nhân viên", "Giảm hiệu suất", "Xóa dữ liệu"],
+            "answer": 1
+        },
+        {
+            "question": "DBMS nào hỗ trợ phân quyền tốt?",
+            "options": ["MS SQL Server", "MySQL", "Oracle", "Tất cả đều đúng"],
+            "answer": 3
+        },
+        {
+            "question": "CSDL giúp gì trong việc lập kế hoạch?",
+            "options": ["Tăng dư thừa", "Cung cấp dữ liệu đáng tin cậy", "Giảm hiệu suất", "Xóa dữ liệu"],
+            "answer": 1
+        },
+        {
+            "question": "Tính độc lập dữ liệu ngăn chặn gì?",
+            "options": ["Thay đổi cấu trúc", "Phụ thuộc vào ứng dụng", "Tăng tốc", "Xóa dữ liệu"],
+            "answer": 1
+        },
+        {
+            "question": "DBMS nào dùng cho hệ thống lớn?",
+            "options": ["MS Access", "MS SQL Server", "MySQL", "Oracle"],
+            "answer": 3
+        },
+        {
+            "question": "CSDL hỗ trợ gì trong y tế?",
+            "options": ["Tăng dư thừa", "Quản lý hồ sơ bệnh nhân", "Giảm hiệu suất", "Xóa dữ liệu"],
+            "answer": 1
+        },
+        {
+            "question": "Hệ quản trị CSDL nào dễ học?",
+            "options": ["Oracle", "MS SQL Server", "MySQL", "DB2"],
+            "answer": 2
+        },
+        {
+            "question": "CSDL giúp gì trong quản lý tài chính?",
+            "options": ["Tăng dư thừa", "Theo dõi giao dịch", "Giảm hiệu suất", "Xóa dữ liệu"],
+            "answer": 1
+        },
+        {
+            "question": "DBMS hỗ trợ gì trong bảo mật dữ liệu?",
+            "options": ["Tăng rủi ro", "Mã hóa và phân quyền", "Xóa dữ liệu", "Không hỗ trợ"],
+            "answer": 1
+        }
+    ],
+    "chuong2": [
+        {
+            "question": "Mô hình dữ liệu quan hệ dựa trên cấu trúc nào?",
+            "options": ["Cây", "Bảng", "Đồ thị", "Danh sách"],
+            "answer": 1
+        },
+        {
+            "question": "Khóa chính (Primary Key) có đặc điểm gì?",
+            "options": ["Có thể trùng lặp", "Phải duy nhất và không null", "Không cần thiết trong bảng", "Chỉ dùng để liên kết bảng"],
+            "answer": 1
+        },
+        {
+            "question": "Khóa ngoại (Foreign Key) dùng để làm gì?",
+            "options": ["Xóa bảng", "Liên kết giữa các bảng", "Tạo dữ liệu mới", "Sắp xếp dữ liệu"],
+            "answer": 1
+        },
+        {
+            "question": "Trong mô hình quan hệ, bảng được gọi là gì?",
+            "options": ["Tuple", "Relation", "Attribute", "Domain"],
+            "answer": 1
+        },
+        {
+            "question": "Hàng trong bảng quan hệ được gọi là gì?",
+            "options": ["Tuple", "Relation", "Attribute", "Domain"],
+            "answer": 0
+        },
+        {
+            "question": "Cột trong bảng quan hệ được gọi là gì?",
+            "options": ["Tuple", "Relation", "Attribute", "Domain"],
+            "answer": 2
+        },
+        {
+            "question": "Miền giá trị (Domain) trong mô hình quan hệ là gì?",
+            "options": ["Tập hợp giá trị có thể có của cột", "Tập hợp các bảng", "Tập hợp các hàng", "Tập hợp các khóa"],
+            "answer": 0
+        },
+        {
+            "question": "Khóa chính dùng để làm gì?",
+            "options": ["Xóa dữ liệu", "Nhận diện duy nhất mỗi hàng", "Sắp xếp bảng", "Tạo bảng mới"],
+            "answer": 1
+        },
+        {
+            "question": "Khóa ngoại phải tham chiếu đến đâu?",
+            "options": ["Bảng khác", "Khóa chính hoặc khóa duy nhất", "Cột bất kỳ", "Không cần tham chiếu"],
+            "answer": 1
+        },
+        {
+            "question": "Mô hình quan hệ được đề xuất bởi ai?",
+            "options": ["Bill Gates", "E.F. Codd", "Larry Ellison", "Steve Jobs"],
+            "answer": 1
+        },
+        {
+            "question": "Ràng buộc toàn vẹn thực thể là gì?",
+            "options": ["Khóa chính không được null", "Khóa ngoại phải null", "Dữ liệu trùng lặp", "Không cần khóa chính"],
+            "answer": 0
+        },
+        {
+            "question": "Ràng buộc toàn vẹn tham chiếu là gì?",
+            "options": ["Khóa chính không null", "Khóa ngoại phải tham chiếu giá trị hợp lệ", "Dữ liệu trùng lặp", "Không cần khóa ngoại"],
+            "answer": 1
+        },
+        {
+            "question": "Quan hệ trong mô hình quan hệ có đặc điểm gì?",
+            "options": ["Dữ liệu trùng lặp", "Không có hàng trùng lặp", "Không có cột", "Không cần khóa"],
+            "answer": 1
+        },
+        {
+            "question": "Khóa ứng viên (Candidate Key) là gì?",
+            "options": ["Khóa không duy nhất", "Khóa có thể dùng làm khóa chính", "Khóa ngoại", "Khóa bất kỳ"],
+            "answer": 1
+        },
+        {
+            "question": "Khóa chính được chọn từ đâu?",
+            "options": ["Khóa ngoại", "Khóa ứng viên", "Cột bất kỳ", "Không cần chọn"],
+            "answer": 1
+        },
+        {
+            "question": "Mô hình quan hệ hỗ trợ gì?",
+            "options": ["Dữ liệu không tổ chức", "Quan hệ giữa các thực thể", "Tăng dư thừa", "Xóa dữ liệu"],
+            "answer": 1
+        },
+        {
+            "question": "Trong mô hình quan hệ, mỗi hàng có bao nhiêu giá trị null?",
+            "options": ["Không giới hạn", "Tùy thuộc cột", "Không có null", "Chỉ một null"],
+            "answer": 1
+        },
+        {
+            "question": "Khóa siêu (Super Key) là gì?",
+            "options": ["Tập hợp cột nhận diện duy nhất hàng", "Khóa không duy nhất", "Khóa ngoại", "Khóa bất kỳ"],
+            "answer": 0
+        },
+        {
+            "question": "Khóa chính khác khóa siêu ở điểm nào?",
+            "options": ["Không duy nhất", "Là tập hợp nhỏ nhất của khóa siêu", "Có thể null", "Không cần thiết"],
+            "answer": 1
+        },
+        {
+            "question": "Mô hình quan hệ giúp gì trong thiết kế CSDL?",
+            "options": ["Tăng dư thừa", "Tổ chức dữ liệu logic", "Giảm hiệu suất", "Xóa dữ liệu"],
+            "answer": 1
+        },
+        {
+            "question": "Quan hệ một-một nghĩa là gì?",
+            "options": ["Một hàng liên kết với nhiều hàng", "Một hàng liên kết với một hàng duy nhất", "Không có liên kết", "Nhiều hàng liên kết một hàng"],
+            "answer": 1
+        },
+        {
+            "question": "Quan hệ một-nhiều nghĩa là gì?",
+            "options": ["Một hàng liên kết với nhiều hàng", "Một hàng liên kết với một hàng", "Không có liên kết", "Nhiều hàng liên kết nhiều hàng"],
+            "answer": 0
+        },
+        {
+            "question": "Quan hệ nhiều-nhiều cần gì để thực hiện?",
+            "options": ["Chỉ một bảng", "Bảng trung gian", "Không cần bảng", "Khóa chính"],
+            "answer": 1
+        },
+        {
+            "question": "Khóa ngoại có thể null không?",
+            "options": ["Không bao giờ", "Có, tùy trường hợp", "Luôn luôn", "Không cần kiểm tra"],
+            "answer": 1
+        },
+        {
+            "question": "Mô hình quan hệ dùng ngôn ngữ nào để truy vấn?",
+            "options": ["Python", "SQL", "Java", "C++"],
+            "answer": 1
+        },
+        {
+            "question": "Ràng buộc duy nhất (Unique) khác khóa chính ở điểm nào?",
+            "options": ["Không duy nhất", "Có thể null", "Phải không null", "Không cần kiểm tra"],
+            "answer": 1
+        },
+        {
+            "question": "Mô hình quan hệ giảm thiểu gì?",
+            "options": ["Tốc độ truy vấn", "Dư thừa dữ liệu", "Bảo mật", "Tính toàn vẹn"],
+            "answer": 1
+        },
+        {
+            "question": "Khóa chính có thể bao gồm bao nhiêu cột?",
+            "options": ["Chỉ một", "Một hoặc nhiều", "Không có cột", "Chỉ hai"],
+            "answer": 1
+        },
+        {
+            "question": "Quan hệ trong mô hình quan hệ có thứ tự không?",
+            "options": ["Có, theo hàng", "Không, không có thứ tự", "Có, theo cột", "Tùy trường hợp"],
+            "answer": 1
+        },
+        {
+            "question": "Mô hình quan hệ hỗ trợ gì trong quản lý dữ liệu?",
+            "options": ["Tăng dư thừa", "Tính toàn vẹn và liên kết", "Giảm hiệu suất", "Xóa dữ liệu"],
+            "answer": 1
+        },
+        {
+            "question": "Khóa ngoại tham chiếu đến bảng nào?",
+            "options": ["Bảng bất kỳ", "Bảng có khóa chính hoặc duy nhất", "Bảng không có khóa", "Không tham chiếu"],
+            "answer": 1
+        },
+        {
+            "question": "Ràng buộc toàn vẹn thực thể áp dụng cho gì?",
+            "options": ["Khóa ngoại", "Khóa chính", "Cột bất kỳ", "Không áp dụng"],
+            "answer": 1
+        },
+        {
+            "question": "Ràng buộc toàn vẹn tham chiếu áp dụng cho gì?",
+            "options": ["Khóa chính", "Khóa ngoại", "Cột bất kỳ", "Không áp dụng"],
+            "answer": 1
+        },
+        {
+            "question": "Mô hình quan hệ có bao nhiêu loại quan hệ?",
+            "options": ["Chỉ một", "Ba (1-1, 1-n, n-n)", "Không có", "Hai"],
+            "answer": 1
+        },
+        {
+            "question": "Khóa ứng viên có thể trùng lặp không?",
+            "options": ["Có", "Không", "Tùy trường hợp", "Không kiểm tra"],
+            "answer": 1
+        },
+        {
+            "question": "Khóa chính đảm bảo gì?",
+            "options": ["Dữ liệu trùng lặp", "Mỗi hàng duy nhất", "Dữ liệu null", "Không cần kiểm tra"],
+            "answer": 1
+        },
+        {
+            "question": "Mô hình quan hệ giúp gì trong truy vấn?",
+            "options": ["Tăng dư thừa", "Đơn giản hóa truy vấn", "Giảm hiệu suất", "Xóa dữ liệu"],
+            "answer": 1
+        },
+        {
+            "question": "Quan hệ nhiều-nhiều được biểu diễn thế nào?",
+            "options": ["Một bảng", "Bảng trung gian với khóa ngoại", "Không biểu diễn", "Chỉ khóa chính"],
+            "answer": 1
+        },
+        {
+            "question": "Khóa ngoại có thể tham chiếu chính bảng chứa nó không?",
+            "options": ["Không", "Có", "Tùy trường hợp", "Không kiểm tra"],
+            "answer": 1
+        },
+        {
+            "question": "Mô hình quan hệ hỗ trợ gì trong bảo trì?",
+            "options": ["Tăng dư thừa", "Dễ dàng thay đổi cấu trúc", "Giảm hiệu suất", "Xóa dữ liệu"],
+            "answer": 1
+        },
+        {
+            "question": "Khóa chính có thể thay đổi không?",
+            "options": ["Không bao giờ", "Có, nhưng hiếm khi", "Luôn luôn", "Không kiểm tra"],
+            "answer": 1
+        },
+        {
+            "question": "Ràng buộc duy nhất áp dụng cho gì?",
+            "options": ["Khóa chính", "Cột hoặc tập hợp cột", "Khóa ngoại", "Không áp dụng"],
+            "answer": 1
+        },
+        {
+            "question": "Mô hình quan hệ dựa trên lý thuyết nào?",
+            "options": ["Lý thuyết tập hợp", "Lý thuyết đồ thị", "Lý thuyết cây", "Lý thuyết danh sách"],
+            "answer": 0
+        },
+        {
+            "question": "Khóa siêu có thể bao gồm bao nhiêu cột?",
+            "options": ["Chỉ một", "Một hoặc nhiều", "Không có cột", "Chỉ hai"],
+            "answer": 1
+        },
+        {
+            "question": "Quan hệ một-nhiều thường dùng gì để liên kết?",
+            "options": ["Khóa chính và khóa ngoại", "Chỉ khóa chính", "Chỉ khóa ngoại", "Không liên kết"],
+            "answer": 0
+        },
+        {
+            "question": "Mô hình quan hệ hỗ trợ gì trong phân tích?",
+            "options": ["Tăng dư thừa", "Dữ liệu có cấu trúc", "Giảm hiệu suất", "Xóa dữ liệu"],
+            "answer": 1
+        },
+        {
+            "question": "Khóa ngoại giúp gì trong quan hệ?",
+            "options": ["Tăng dư thừa", "Duy trì tính toàn vẹn tham chiếu", "Giảm hiệu suất", "Xóa dữ liệu"],
+            "answer": 1
+        },
+        {
+            "question": "Cho bảng SinhVien (MaSV, HoTen, NgaySinh, MaLop). Xác định khóa chính?",
+            "options": ["HoTen", "NgaySinh", "MaSV", "MaLop"],
+            "answer": 2
+        },
+        {
+            "question": "Cho bảng Diem (MaSV, MaMon, Diem, HocKy). Khóa ngoại nào tham chiếu đến bảng SinhVien?",
+            "options": ["MaMon", "Diem", "MaSV", "HocKy"],
+            "answer": 2
+        },
+        {
+            "question": "Cho bảng NhanVien (MaNV, TenNV, MaPB). Khóa chính là gì?",
+            "options": ["MaNV", "TenNV", "MaPB", "Không có"],
+            "answer": 0
+        },
+        {
+            "question": "Cho bảng PhongBan (MaPB, TenPB, DiaChi). Khóa chính là gì?",
+            "options": ["MaPB", "TenPB", "DiaChi", "TenPB + DiaChi"],
+            "answer": 0
+        },
+        {
+            "question": "Cho bảng DonHang (MaDH, MaKH, NgayDat). Khóa ngoại tham chiếu đến bảng KhachHang là gì?",
+            "options": ["MaDH", "MaKH", "NgayDat", "Không có"],
+            "answer": 1
+        },
+        {
+            "question": "Cho bảng KhachHang (MaKH, TenKH, SDT). Khóa chính là gì?",
+            "options": ["MaKH", "TenKH", "SDT", "TenKH + SDT"],
+            "answer": 0
+        },
+        {
+            "question": "Cho bảng Sach (MaSach, TenSach, MaTG). Quan hệ với bảng TacGia dựa trên cột nào?",
+            "options": ["MaSach", "TenSach", "MaTG", "Không có"],
+            "answer": 2
+        },
+        {
+            "question": "Cho bảng TacGia (MaTG, TenTG, NgaySinh). Khóa chính là gì?",
+            "options": ["MaTG", "TenTG", "NgaySinh", "TenTG + NgaySinh"],
+            "answer": 0
+        },
+        {
+            "question": "Cho bảng PhieuMuon (MaPM, MaDG, MaSach). Khóa ngoại tham chiếu đến bảng DocGia là gì?",
+            "options": ["MaPM", "MaDG", "MaSach", "Không có"],
+            "answer": 1
+        },
+        {
+            "question": "Cho bảng DocGia (MaDG, TenDG, DiaChi). Khóa chính là gì?",
+            "options": ["MaDG", "TenDG", "DiaChi", "TenDG + DiaChi"],
+            "answer": 0
+        },
+        {
+            "question": "Cho bảng HoaDon (MaHD, MaKH, NgayLap). Khóa chính là gì?",
+            "options": ["MaHD", "MaKH", "NgayLap", "MaKH + NgayLap"],
+            "answer": 0
+        },
+        {
+            "question": "Cho bảng ChiTietHD (MaHD, MaSP, SoLuong). Khóa ngoại tham chiếu đến bảng HoaDon là gì?",
+            "options": ["MaHD", "MaSP", "SoLuong", "Không có"],
+            "answer": 0
+        },
+        {
+            "question": "Cho bảng SanPham (MaSP, TenSP, Gia). Khóa chính là gì?",
+            "options": ["MaSP", "TenSP", "Gia", "TenSP + Gia"],
+            "answer": 0
+        },
+        {
+            "question": "Cho bảng GiaoVien (MaGV, TenGV, MaMon). Quan hệ với bảng MonHoc dựa trên cột nào?",
+            "options": ["MaGV", "TenGV", "MaMon", "Không có"],
+            "answer": 2
+        },
+        {
+            "question": "Cho bảng MonHoc (MaMon, TenMon, SoTiet). Khóa chính là gì?",
+            "options": ["MaMon", "TenMon", "SoTiet", "TenMon + SoTiet"],
+            "answer": 0
+        },
+        {
+            "question": "Cho bảng PhieuNhap (MaPN, MaNCC, NgayNhap). Khóa ngoại tham chiếu đến bảng NhaCungCap là gì?",
+            "options": ["MaPN", "MaNCC", "NgayNhap", "Không có"],
+            "answer": 1
+        },
+        {
+            "question": "Cho bảng NhaCungCap (MaNCC, TenNCC, SDT). Khóa chính là gì?",
+            "options": ["MaNCC", "TenNCC", "SDT", "TenNCC + SDT"],
+            "answer": 0
+        },
+        {
+            "question": "Cho bảng HocSinh (MaHS, HoTen, MaLop). Khóa ngoại tham chiếu đến bảng LopHoc là gì?",
+            "options": ["MaHS", "HoTen", "MaLop", "Không có"],
+            "answer": 2
+        },
+        {
+            "question": "Cho bảng LopHoc (MaLop, TenLop, PhongHoc). Khóa chính là gì?",
+            "options": ["MaLop", "TenLop", "PhongHoc", "TenLop + PhongHoc"],
+            "answer": 0
+        },
+        {
+            "question": "Cho bảng PhieuXuat (MaPX, MaKho, NgayXuat). Quan hệ với bảng KhoHang dựa trên cột nào?",
+            "options": ["MaPX", "MaKho", "NgayXuat", "Không có"],
+            "answer": 1
+        },
+        {
+            "question": "Cho bảng KhoHang (MaKho, TenKho, DiaChi). Khóa chính là gì?",
+            "options": ["MaKho", "TenKho", "DiaChi", "TenKho + DiaChi"],
+            "answer": 0
+        },
+        {
+            "question": "Cho bảng ChiTietPX (MaPX, MaSP, SoLuong). Khóa ngoại tham chiếu đến bảng PhieuXuat là gì?",
+            "options": ["MaPX", "MaSP", "SoLuong", "Không có"],
+            "answer": 0
+        },
+        {
+            "question": "Cho bảng LoaiSP (MaLoai, TenLoai). Khóa chính là gì?",
+            "options": ["MaLoai", "TenLoai", "MaLoai + TenLoai", "Không có"],
+            "answer": 0
+        },
+        {
+            "question": "Cho bảng SanPham (MaSP, TenSP, MaLoai). Khóa ngoại tham chiếu đến bảng LoaiSP là gì?",
+            "options": ["MaSP", "TenSP", "MaLoai", "Không có"],
+            "answer": 2
+        },
+        {
+            "question": "Cho bảng NhanVien (MaNV, TenNV, MaCV). Quan hệ với bảng ChucVu dựa trên cột nào?",
+            "options": ["MaNV", "TenNV", "MaCV", "Không có"],
+            "answer": 2
+        },
+        {
+            "question": "Cho bảng ChucVu (MaCV, TenCV, Luong). Khóa chính là gì?",
+            "options": ["MaCV", "TenCV", "Luong", "TenCV + Luong"],
+            "answer": 0
+        },
+        {
+            "question": "Cho bảng SinhVien (MaSV, HoTen, MaKhoa). Khóa ngoại tham chiếu đến bảng Khoa là gì?",
+            "options": ["MaSV", "HoTen", "MaKhoa", "Không có"],
+            "answer": 2
+        },
+        {
+            "question": "Cho bảng Khoa (MaKhoa, TenKhoa, DiaChi). Khóa chính là gì?",
+            "options": ["MaKhoa", "TenKhoa", "DiaChi", "TenKhoa + DiaChi"],
+            "answer": 0
+        },
+        {
+            "question": "Cho bảng PhieuDangKy (MaDK, MaSV, MaMon). Khóa ngoại tham chiếu đến bảng SinhVien là gì?",
+            "options": ["MaDK", "MaSV", "MaMon", "Không có"],
+            "answer": 1
+        },
+        {
+            "question": "Cho bảng MonHoc (MaMon, TenMon, TinChi). Khóa chính là gì?",
+            "options": ["MaMon", "TenMon", "TinChi", "TenMon + TinChi"],
+            "answer": 0
+        },
+        {
+            "question": "Cho bảng Xe (MaXe, TenXe, MaHang). Quan hệ với bảng HangXe dựa trên cột nào?",
+            "options": ["MaXe", "TenXe", "MaHang", "Không có"],
+            "answer": 2
+        },
+        {
+            "question": "Cho bảng HangXe (MaHang, TenHang). Khóa chính là gì?",
+            "options": ["MaHang", "TenHang", "MaHang + TenHang", "Không có"],
+            "answer": 0
+        },
+        {
+            "question": "Cho bảng PhieuThue (MaPT, MaKH, MaXe). Khóa ngoại tham chiếu đến bảng KhachHang là gì?",
+            "options": ["MaPT", "MaKH", "MaXe", "Không có"],
+            "answer": 1
+        },
+        {
+            "question": "Cho bảng KhachHang (MaKH, TenKH, CMND). Khóa chính là gì?",
+            "options": ["MaKH", "TenKH", "CMND", "TenKH + CMND"],
+            "answer": 0
+        },
+        {
+            "question": "Cho bảng NhanVien (MaNV, TenNV, MaDV). Khóa ngoại tham chiếu đến bảng DonVi là gì?",
+            "options": ["MaNV", "TenNV", "MaDV", "Không có"],
+            "answer": 2
+        },
+        {
+            "question": "Cho bảng DonVi (MaDV, TenDV, DiaChi). Khóa chính là gì?",
+            "options": ["MaDV", "TenDV", "DiaChi", "TenDV + DiaChi"],
+            "answer": 0
+        },
+        {
+            "question": "Cho bảng HopDong (MaHD, MaNV, NgayKy). Khóa ngoại tham chiếu đến bảng NhanVien là gì?",
+            "options": ["MaHD", "MaNV", "NgayKy", "Không có"],
+            "answer": 1
+        },
+        {
+            "question": "Cho bảng SinhVien (MaSV, HoTen, MaNH). Quan hệ với bảng NamHoc dựa trên cột nào?",
+            "options": ["MaSV", "HoTen", "MaNH", "Không có"],
+            "answer": 2
+        },
+        {
+            "question": "Cho bảng NamHoc (MaNH, TenNH). Khóa chính là gì?",
+            "options": ["MaNH", "TenNH", "MaNH + TenNH", "Không có"],
+            "answer": 0
+        },
+        {
+            "question": "Cho bảng PhieuGui (MaPG, MaKH, NgayGui). Khóa ngoại tham chiếu đến bảng KhachHang là gì?",
+            "options": ["MaPG", "MaKH", "NgayGui", "Không có"],
+            "answer": 1
+        },
+        {
+            "question": "Cho bảng KhachHang (MaKH, TenKH, Email). Khóa chính là gì?",
+            "options": ["MaKH", "TenKH", "Email", "TenKH + Email"],
+            "answer": 0
+        },
+        {
+            "question": "Cho bảng HangHoa (MaHH, TenHH, MaLoai). Khóa ngoại tham chiếu đến bảng LoaiHang là gì?",
+            "options": ["MaHH", "TenHH", "MaLoai", "Không có"],
+            "answer": 2
+        },
+        {
+            "question": "Cho bảng LoaiHang (MaLoai, TenLoai). Khóa chính là gì?",
+            "options": ["MaLoai", "TenLoai", "MaLoai + TenLoai", "Không có"],
+            "answer": 0
+        },
+        {
+            "question": "Cho bảng PhieuKiem (MaPK, MaHH, NgayKiem). Quan hệ với bảng HangHoa dựa trên cột nào?",
+            "options": ["MaPK", "MaHH", "NgayKiem", "Không có"],
+            "answer": 1
+        },
+        {
+            "question": "Cho bảng NhanVien (MaNV, TenNV, MaBP). Khóa chính là gì?",
+            "options": ["MaNV", "TenNV", "MaBP", "TenNV + MaBP"],
+            "answer": 0
+        },
+        {
+            "question": "Cho bảng BoPhan (MaBP, TenBP). Khóa chính là gì?",
+            "options": ["MaBP", "TenBP", "MaBP + TenBP", "Không có"],
+            "answer": 0
+        },
+        {
+            "question": "Cho bảng ChamCong (MaCC, MaNV, NgayCC). Khóa ngoại tham chiếu đến bảng NhanVien là gì?",
+            "options": ["MaCC", "MaNV", "NgayCC", "Không có"],
+            "answer": 1
+        },
+        {
+            "question": "Cho bảng SinhVien (MaSV, HoTen, MaCN). Khóa ngoại tham chiếu đến bảng ChuyenNganh là gì?",
+            "options": ["MaSV", "HoTen", "MaCN", "Không có"],
+            "answer": 2
+        },
+        {
+            "question": "Cho bảng ChuyenNganh (MaCN, TenCN). Khóa chính là gì?",
+            "options": ["MaCN", "TenCN", "MaCN + TenCN", "Không có"],
+            "answer": 0
+        },
+        {
+            "question": "Cho bảng DangKyHoc (MaDK, MaSV, MaHocPhan). Quan hệ với bảng SinhVien dựa trên cột nào?",
+            "options": ["MaDK", "MaSV", "MaHocPhan", "Không có"],
+            "answer": 1
+        },
+        {
+            "question": "Cho bảng HocPhan (MaHocPhan, TenHP, SoTinChi). Khóa chính là gì?",
+            "options": ["MaHocPhan", "TenHP", "SoTinChi", "TenHP + SoTinChi"],
+            "answer": 0
+        },
+        {
+            "question": "Cho bảng XeMay (MaXe, TenXe, MaNSX). Khóa ngoại tham chiếu đến bảng NhaSanXuat là gì?",
+            "options": ["MaXe", "TenXe", "MaNSX", "Không có"],
+            "answer": 2
+        },
+        {
+            "question": "Cho bảng NhaSanXuat (MaNSX, TenNSX). Khóa chính là gì?",
+            "options": ["MaNSX", "TenNSX", "MaNSX + TenNSX", "Không có"],
+            "answer": 0
+        },
+        {
+            "question": "Cho bảng DonDatHang (MaDDH, MaKH, NgayDat). Khóa chính là gì?",
+            "options": ["MaDDH", "MaKH", "NgayDat", "MaKH + NgayDat"],
+            "answer": 0
+        },
+        {
+            "question": "Cho bảng ChiTietDDH (MaDDH, MaSP, SoLuong). Khóa ngoại tham chiếu đến bảng DonDatHang là gì?",
+            "options": ["MaDDH", "MaSP", "SoLuong", "Không có"],
+            "answer": 0
+        },
+        {
+            "question": "Cho bảng KhachHang (MaKH, TenKH, DiaChi). Quan hệ với bảng DonDatHang dựa trên cột nào?",
+            "options": ["MaKH", "TenKH", "DiaChi", "Không có"],
+            "answer": 0
+        },
+        {
+            "question": "Cho bảng NhanVienBanHang (MaNV, TenNV, MaCuaHang). Khóa chính là gì?",
+            "options": ["MaNV", "TenNV", "MaCuaHang", "TenNV + MaCuaHang"],
+            "answer": 0
+        },
+        {
+            "question": "Cho bảng CuaHang (MaCuaHang, TenCH, DiaChi). Khóa chính là gì?",
+            "options": ["MaCuaHang", "TenCH", "DiaChi", "TenCH + DiaChi"],
+            "answer": 0
+        },
+        {
+            "question": "Cho bảng BanHang (MaBH, MaNV, NgayBan). Khóa ngoại tham chiếu đến bảng NhanVienBanHang là gì?",
+            "options": ["MaBH", "MaNV", "NgayBan", "Không có"],
+            "answer": 1
+        },
+        {
+            "question": "Cho bảng SinhVien (MaSV, HoTen, MaKhoaHoc). Quan hệ với bảng KhoaHoc dựa trên cột nào?",
+            "options": ["MaSV", "HoTen", "MaKhoaHoc", "Không có"],
+            "answer": 2
+        },
+        {
+            "question": "Cho bảng KhoaHoc (MaKhoaHoc, TenKH). Khóa chính là gì?",
+            "options": ["MaKhoaHoc", "TenKH", "MaKhoaHoc + TenKH", "Không có"],
+            "answer": 0
+        },
+        {
+            "question": "Cho bảng DangKyKH (MaDK, MaSV, MaKhoaHoc). Khóa ngoại tham chiếu đến bảng SinhVien là gì?",
+            "options": ["MaDK", "MaSV", "MaKhoaHoc", "Không có"],
+            "answer": 1
+        },
+        {
+            "question": "Cho bảng ThietBi (MaTB, TenTB, MaPhong). Khóa chính là gì?",
+            "options": ["MaTB", "TenTB", "MaPhong", "TenTB + MaPhong"],
+            "answer": 0
+        },
+        {
+            "question": "Cho bảng PhongThietBi (MaPhong, TenPhong). Khóa chính là gì?",
+            "options": ["MaPhong", "TenPhong", "MaPhong + TenPhong", "Không có"],
+            "answer": 0
+        },
+        {
+            "question": "Cho bảng SuDungTB (MaSD, MaTB, NgaySD). Khóa ngoại tham chiếu đến bảng ThietBi là gì?",
+            "options": ["MaSD", "MaTB", "NgaySD", "Không có"],
+            "answer": 1
+        },
+        {
+            "question": "Cho bảng NguoiDung (MaND, TenND, MaQuyen). Quan hệ với bảng QuyenHan dựa trên cột nào?",
+            "options": ["MaND", "TenND", "MaQuyen", "Không có"],
+            "answer": 2
+        },
+        {
+            "question": "Cho bảng QuyenHan (MaQuyen, TenQuyen). Khóa chính là gì?",
+            "options": ["MaQuyen", "TenQuyen", "MaQuyen + TenQuyen", "Không có"],
+            "answer": 0
+        },
+        {
+            "question": "Cho bảng LichSuDN (MaLS, MaND, NgayDN). Khóa ngoại tham chiếu đến bảng NguoiDung là gì?",
+            "options": ["MaLS", "MaND", "NgayDN", "Không có"],
+            "answer": 1
+        },
+        {
+            "question": "Cho bảng TaiSan (MaTS, TenTS, MaDV). Khóa chính là gì?",
+            "options": ["MaTS", "TenTS", "MaDV", "TenTS + MaDV"],
+            "answer": 0
+        },
+        {
+            "question": "Cho bảng DonViTS (MaDV, TenDV). Khóa chính là gì?",
+            "options": ["MaDV", "TenDV", "MaDV + TenDV", "Không có"],
+            "answer": 0
+        },
+        {
+            "question": "Cho bảng KiemKe (MaKK, MaTS, NgayKK). Quan hệ với bảng TaiSan dựa trên cột nào?",
+            "options": ["MaKK", "MaTS", "NgayKK", "Không có"],
+            "answer": 1
+        },
+        {
+            "question": "Cho bảng KhachHang (MaKH, TenKH, MaTP). Khóa ngoại tham chiếu đến bảng ThanhPho là gì?",
+            "options": ["MaKH", "TenKH", "MaTP", "Không có"],
+            "answer": 2
+        },
+        {
+            "question": "Cho bảng ThanhPho (MaTP, TenTP). Khóa chính là gì?",
+            "options": ["MaTP", "TenTP", "MaTP + TenTP", "Không có"],
+            "answer": 0
+        },
+        {
+            "question": "Cho bảng GiaoHang (MaGH, MaKH, NgayGH). Khóa ngoại tham chiếu đến bảng KhachHang là gì?",
+            "options": ["MaGH", "MaKH", "NgayGH", "Không có"],
+            "answer": 1
+        },
+        {
+            "question": "Cho bảng MayTinh (MaMT, TenMT, MaNSX). Quan hệ với bảng NhaSanXuatMT dựa trên cột nào?",
+            "options": ["MaMT", "TenMT", "MaNSX", "Không có"],
+            "answer": 2
+        },
+        {
+            "question": "Cho bảng NhaSanXuatMT (MaNSX, TenNSX). Khóa chính là gì?",
+            "options": ["MaNSX", "TenNSX", "MaNSX + TenNSX", "Không có"],
+            "answer": 0
+        },
+        {
+            "question": "Cho bảng SuDungMT (MaSD, MaMT, NgaySD). Khóa ngoại tham chiếu đến bảng MayTinh là gì?",
+            "options": ["MaSD", "MaMT", "NgaySD", "Không có"],
+            "answer": 1
+        },
+        {
+            "question": "Cho bảng NhanVien (MaNV, TenNV, MaVT). Khóa chính là gì?",
+            "options": ["MaNV", "TenNV", "MaVT", "TenNV + MaVT"],
+            "answer": 0
+        },
+        {
+            "question": "Cho bảng ViTri (MaVT, TenVT). Khóa chính là gì?",
+            "options": ["MaVT", "TenVT", "MaVT + TenVT", "Không có"],
+            "answer": 0
+        },
+        {
+            "question": "Cho bảng LichLamViec (MaLLV, MaNV, NgayLV). Quan hệ với bảng NhanVien dựa trên cột nào?",
+            "options": ["MaLLV", "MaNV", "NgayLV", "Không có"],
+            "answer": 1
+        },
+        {
+            "question": "Cho bảng SinhVien (MaSV, HoTen, MaCTDT). Khóa ngoại tham chiếu đến bảng ChuongTrinhDT là gì?",
+            "options": ["MaSV", "HoTen", "MaCTDT", "Không có"],
+            "answer": 2
+        },
+        {
+            "question": "Cho bảng ChuongTrinhDT (MaCTDT, TenCT). Khóa chính là gì?",
+            "options": ["MaCTDT", "TenCT", "MaCTDT + TenCT", "Không có"],
+            "answer": 0
+        },
+        {
+            "question": "Cho bảng DangKyCT (MaDK, MaSV, MaCTDT). Khóa ngoại tham chiếu đến bảng SinhVien là gì?",
+            "options": ["MaDK", "MaSV", "MaCTDT", "Không có"],
+            "answer": 1
+        },
+        {
+            "question": "Cho bảng PhongHoc (MaPH, TenPH, MaToa). Quan hệ với bảng ToaNha dựa trên cột nào?",
+            "options": ["MaPH", "TenPH", "MaToa", "Không có"],
+            "answer": 2
+        },
+        {
+            "question": "Cho bảng ToaNha (MaToa, TenToa). Khóa chính là gì?",
+            "options": ["MaToa", "TenToa", "MaToa + TenToa", "Không có"],
+            "answer": 0
+        },
+        {
+            "question": "Cho bảng LichHoc (MaLH, MaPH, NgayHoc). Khóa ngoại tham chiếu đến bảng PhongHoc là gì?",
+            "options": ["MaLH", "MaPH", "NgayHoc", "Không có"],
+            "answer": 1
+        },
+        {
+            "question": "Cho bảng KhachHang (MaKH, TenKH, MaNV). Khóa chính là gì?",
+            "options": ["MaKH", "TenKH", "MaNV", "TenKH + MaNV"],
+            "answer": 0
+        },
+        {
+            "question": "Cho bảng NhanVienQL (MaNV, TenNV). Khóa chính là gì?",
+            "options": ["MaNV", "TenNV", "MaNV + TenNV", "Không có"],
+            "answer": 0
+        },
+        {
+            "question": "Cho bảng DonHangKH (MaDH, MaKH, NgayDat). Quan hệ với bảng KhachHang dựa trên cột nào?",
+            "options": ["MaDH", "MaKH", "NgayDat", "Không có"],
+            "answer": 1
+        },
+        {
+            "question": "Ràng buộc toàn vẹn thực thể ngăn chặn gì?",
+            "options": ["Dữ liệu trùng lặp", "Khóa chính null", "Khóa ngoại null", "Không ngăn chặn"],
+            "answer": 1
+        },
+        {
+            "question": "Mô hình quan hệ có thể biểu diễn dữ liệu gì?",
+            "options": ["Chỉ văn bản", "Văn bản, số, ngày tháng, v.v.", "Chỉ số", "Chỉ hình ảnh"],
+            "answer": 1
+        },
+        {
+            "question": "Khóa chính có thể là khóa ngoại không?",
+            "options": ["Không", "Có", "Tùy trường hợp", "Không kiểm tra"],
+            "answer": 1
+        },
+        {
+            "question": "Quan hệ một-một thường dùng trong trường hợp nào?",
+            "options": ["Dữ liệu trùng lặp", "Thực thể có liên kết duy nhất", "Nhiều thực thể", "Không dùng"],
+            "answer": 1
+        },
+        {
+            "question": "Mô hình quan hệ giúp gì trong thiết kế?",
+            "options": ["Tăng dư thừa", "Tổ chức dữ liệu hợp lý", "Giảm hiệu suất", "Xóa dữ liệu"],
+            "answer": 1
+        },
+        {
+            "question": "Khóa ngoại đảm bảo gì?",
+            "options": ["Dữ liệu trùng lặp", "Tham chiếu hợp lệ", "Dữ liệu null", "Không kiểm tra"],
+            "answer": 1
+        },
+        {
+            "question": "Ràng buộc toàn vẹn tham chiếu ngăn chặn gì?",
+            "options": ["Khóa chính null", "Khóa ngoại không hợp lệ", "Dữ liệu trùng lặp", "Không ngăn chặn"],
+            "answer": 1
+        },
+        {
+            "question": "Mô hình quan hệ hỗ trợ gì trong quản lý?",
+            "options": ["Tăng dư thừa", "Tính toàn vẹn dữ liệu", "Giảm hiệu suất", "Xóa dữ liệu"],
+            "answer": 1
+        },
+        {
+            "question": "Khóa ứng viên khác khóa chính ở điểm nào?",
+            "options": ["Không duy nhất", "Không được chọn làm khóa chính", "Có thể null", "Không kiểm tra"],
+            "answer": 1
+        },
+        {
+            "question": "Quan hệ nhiều-nhiều cần bao nhiêu bảng?",
+            "options": ["Chỉ một", "Hai", "Ba", "Không cần bảng"],
+            "answer": 2
+        },
+        {
+            "question": "Mô hình quan hệ giúp gì trong truy xuất?",
+            "options": ["Tăng dư thừa", "Truy xuất nhanh qua khóa", "Giảm hiệu suất", "Xóa dữ liệu"],
+            "answer": 1
+        },
+        {
+            "question": "Khóa chính có thể bao gồm cột nào?",
+            "options": ["Cột bất kỳ", "Cột duy nhất và không null", "Cột null", "Không cần cột"],
+            "answer": 1
+        },
+        {
+            "question": "Ràng buộc duy nhất giúp gì?",
+            "options": ["Tăng dư thừa", "Ngăn giá trị trùng lặp", "Giảm hiệu suất", "Xóa dữ liệu"],
+            "answer": 1
+        },
+        {
+            "question": "Mô hình quan hệ hỗ trợ gì trong bảo mật?",
+            "options": ["Tăng rủi ro", "Phân quyền qua bảng", "Giảm hiệu suất", "Xóa dữ liệu"],
+            "answer": 1
+        },
+        {
+            "question": "Khóa ngoại có thể tham chiếu cột nào?",
+            "options": ["Cột bất kỳ", "Cột có ràng buộc duy nhất", "Cột null", "Không tham chiếu"],
+            "answer": 1
+        },
+        {
+            "question": "Quan hệ một-nhiều biểu diễn thế nào?",
+            "options": ["Chỉ một bảng", "Khóa chính và khóa ngoại", "Không biểu diễn", "Bảng trung gian"],
+            "answer": 1
+        },
+        {
+            "question": "Mô hình quan hệ giúp gì trong phân quyền?",
+            "options": ["Tăng dư thừa", "Kiểm soát truy cập qua bảng", "Giảm hiệu suất", "Xóa dữ liệu"],
+            "answer": 1
+        },
+        {
+            "question": "Khóa chính có thể thay đổi giá trị không?",
+            "options": ["Không bao giờ", "Có, nhưng cần cẩn thận", "Luôn luôn", "Không kiểm tra"],
+            "answer": 1
+        },
+        {
+            "question": "Ràng buộc toàn vẹn thực thể áp dụng khi nào?",
+            "options": ["Thêm dữ liệu", "Xóa dữ liệu", "Sửa dữ liệu", "Tất cả đều đúng"],
+            "answer": 3
+        },
+        {
+            "question": "Mô hình quan hệ hỗ trợ gì trong báo cáo?",
+            "options": ["Tăng dư thừa", "Dữ liệu có cấu trúc", "Giảm hiệu suất", "Xóa dữ liệu"],
+            "answer": 1
+        },
+        {
+            "question": "Khóa ngoại có thể liên kết với khóa ứng viên không?",
+            "options": ["Không", "Có", "Tùy trường hợp", "Không kiểm tra"],
+            "answer": 1
+        },
+        {
+            "question": "Quan hệ nhiều-nhiều dùng bảng trung gian để làm gì?",
+            "options": ["Tăng dư thừa", "Liên kết hai bảng", "Giảm hiệu suất", "Xóa dữ liệu"],
+            "answer": 1
+        },
+        {
+            "question": "Mô hình quan hệ giúp gì trong lập trình?",
+            "options": ["Tăng dư thừa", "Cung cấp cấu trúc rõ ràng", "Giảm hiệu suất", "Xóa dữ liệu"],
+            "answer": 1
+        },
+        {
+            "question": "Khóa chính có thể là số không?",
+            "options": ["Không", "Có", "Tùy trường hợp", "Không kiểm tra"],
+            "answer": 1
+        },
+        {
+            "question": "Ràng buộc toàn vẹn tham chiếu kiểm tra gì?",
+            "options": ["Khóa chính", "Khóa ngoại hợp lệ", "Dữ liệu trùng lặp", "Không kiểm tra"],
+            "answer": 1
+        },
+        {
+            "question": "Mô hình quan hệ hỗ trợ gì trong phân tích dữ liệu?",
+            "options": ["Tăng dư thừa", "Quan hệ rõ ràng giữa thực thể", "Giảm hiệu suất", "Xóa dữ liệu"],
+            "answer": 1
+        },
+        {
+            "question": "Khóa ứng viên có thể bao gồm bao nhiêu cột?",
+            "options": ["Chỉ một", "Một hoặc nhiều", "Không có cột", "Chỉ hai"],
+            "answer": 1
+        },
+        {
+            "question": "Quan hệ một-một có thể dùng khóa ngoại không?",
+            "options": ["Không", "Có", "Tùy trường hợp", "Không kiểm tra"],
+            "answer": 1
+        },
+        {
+            "question": "Mô hình quan hệ giúp gì trong quản lý tài nguyên?",
+            "options": ["Tăng dư thừa", "Tổ chức dữ liệu hiệu quả", "Giảm hiệu suất", "Xóa dữ liệu"],
+            "answer": 1
+        },
+        {
+            "question": "Khóa ngoại có thể tham chiếu cột duy nhất không?",
+            "options": ["Không", "Có", "Tùy trường hợp", "Không kiểm tra"],
+            "answer": 1
+        },
+        {
+            "question": "Ràng buộc duy nhất ngăn chặn gì?",
+            "options": ["Dữ liệu null", "Dữ liệu trùng lặp", "Khóa chính null", "Không ngăn chặn"],
+            "answer": 1
+        },
+        {
+            "question": "Mô hình quan hệ hỗ trợ gì trong kinh doanh?",
+            "options": ["Tăng dư thừa", "Quản lý dữ liệu khách hàng", "Giảm hiệu suất", "Xóa dữ liệu"],
+            "answer": 1
+        },
+        {
+            "question": "Khóa chính có thể là văn bản không?",
+            "options": ["Không", "Có", "Tùy trường hợp", "Không kiểm tra"],
+            "answer": 1
+        },
+        {
+            "question": "Quan hệ nhiều-nhiều có thể biểu diễn trực tiếp không?",
+            "options": ["Có", "Không, cần bảng trung gian", "Tùy trường hợp", "Không kiểm tra"],
+            "answer": 1
+        },
+        {
+            "question": "Mô hình quan hệ giúp gì trong giáo dục?",
+            "options": ["Tăng dư thừa", "Quản lý điểm sinh viên", "Giảm hiệu suất", "Xóa dữ liệu"],
+            "answer": 1
+        },
+        {
+            "question": "Khóa ngoại có thể tham chiếu khóa siêu không?",
+            "options": ["Không", "Có", "Tùy trường hợp", "Không kiểm tra"],
+            "answer": 1
+        },
+        {
+            "question": "Ràng buộc toàn vẹn thực thể giúp gì?",
+            "options": ["Tăng dư thừa", "Đảm bảo khóa chính hợp lệ", "Giảm hiệu suất", "Xóa dữ liệu"],
+            "answer": 1
+        },
+        {
+            "question": "Mô hình quan hệ hỗ trợ gì trong y tế?",
+            "options": ["Tăng dư thừa", "Quản lý hồ sơ bệnh nhân", "Giảm hiệu suất", "Xóa dữ liệu"],
+            "answer": 1
+        },
+        {
+            "question": "Khóa chính có thể là ngày tháng không?",
+            "options": ["Không", "Có", "Tùy trường hợp", "Không kiểm tra"],
+            "answer": 1
+        },
+        {
+            "question": "Quan hệ một-nhiều giúp gì?",
+            "options": ["Tăng dư thừa", "Liên kết thực thể hiệu quả", "Giảm hiệu suất", "Xóa dữ liệu"],
+            "answer": 1
+        },
+        {
+            "question": "Mô hình quan hệ hỗ trợ gì trong tài chính?",
+            "options": ["Tăng dư thừa", "Theo dõi giao dịch", "Giảm hiệu suất", "Xóa dữ liệu"],
+            "answer": 1
+        },
+        {
+            "question": "Khóa ngoại có thể tham chiếu chính nó không?",
+            "options": ["Không", "Có", "Tùy trường hợp", "Không kiểm tra"],
+            "answer": 1
+        },
+        {
+            "question": "Ràng buộc toàn vẹn tham chiếu đảm bảo gì?",
+            "options": ["Khóa chính null", "Khóa ngoại hợp lệ", "Dữ liệu trùng lặp", "Không kiểm tra"],
+            "answer": 1
+        },
+        {
+            "question": "Mô hình quan hệ giúp gì trong nghiên cứu?",
+            "options": ["Tăng dư thừa", "Phân tích dữ liệu có cấu trúc", "Giảm hiệu suất", "Xóa dữ liệu"],
+            "answer": 1
+        },
+        {
+            "question": "Khóa ứng viên có thể là khóa ngoại không?",
+            "options": ["Không", "Có", "Tùy trường hợp", "Không kiểm tra"],
+            "answer": 1
+        },
+        {
+            "question": "Quan hệ nhiều-nhiều hỗ trợ gì?",
+            "options": ["Tăng dư thừa", "Liên kết phức tạp giữa thực thể", "Giảm hiệu suất", "Xóa dữ liệu"],
+            "answer": 1
+        },
+        {
+            "question": "Mô hình quan hệ giúp gì trong quản lý nhân sự?",
+            "options": ["Tăng dư thừa", "Lưu trữ thông tin nhân viên", "Giảm hiệu suất", "Xóa dữ liệu"],
+            "answer": 1
+        },
+        {
+            "question": "Khóa chính có thể là tập hợp cột không?",
+            "options": ["Không", "Có", "Tùy trường hợp", "Không kiểm tra"],
+            "answer": 1
+        },
+        {
+            "question": "Ràng buộc duy nhất áp dụng khi nào?",
+            "options": ["Thêm dữ liệu", "Xóa dữ liệu", "Sửa dữ liệu", "Tất cả đều đúng"],
+            "answer": 3
+        },
+        {
+            "question": "Mô hình quan hệ hỗ trợ gì trong lập kế hoạch?",
+            "options": ["Tăng dư thừa", "Dữ liệu đáng tin cậy", "Giảm hiệu suất", "Xóa dữ liệu"],
+            "answer": 1
+        }
+    ],
+    "chuong3": [
+        {
+            "question": "MS SQL Server là sản phẩm của hãng nào?",
+            "options": ["Oracle", "Microsoft", "IBM", "Google"],
+            "answer": 1
+        },
+        {
+            "question": "Để sử dụng MS SQL Server, bước đầu tiên là gì?",
+            "options": ["Xóa dữ liệu cũ", "Cài đặt Server và Client", "Tạo bảng ngay lập tức", "Tắt máy tính"],
+            "answer": 1
+        },
+        {
+            "question": "MS SQL Server hỗ trợ ngôn ngữ truy vấn nào?",
+            "options": ["Python", "T-SQL", "Java", "C++"],
+            "answer": 1
+        },
+        {
+            "question": "Công cụ quản lý MS SQL Server là gì?",
+            "options": ["SQL Server Management Studio", "MySQL Workbench", "Oracle SQL Developer", "pgAdmin"],
+            "answer": 0
+        },
+        {
+            "question": "MS SQL Server lưu trữ dữ liệu ở đâu?",
+            "options": ["File .txt", "File .mdf và .ldf", "File .sql", "File .csv"],
+            "answer": 1
+        },
+        {
+            "question": "Phiên bản miễn phí của MS SQL Server là gì?",
+            "options": ["Enterprise", "Standard", "Express", "Developer"],
+            "answer": 2
+        },
+        {
+            "question": "MS SQL Server hỗ trợ hệ điều hành nào?",
+            "options": ["Chỉ Windows", "Windows và Linux", "Chỉ Linux", "MacOS"],
+            "answer": 1
+        },
+        {
+            "question": "File .mdf trong MS SQL Server là gì?",
+            "options": ["File log", "File dữ liệu chính", "File sao lưu", "File cấu hình"],
+            "answer": 1
+        },
+        {
+            "question": "File .ldf trong MS SQL Server là gì?",
+            "options": ["File dữ liệu chính", "File log giao dịch", "File sao lưu", "File cấu hình"],
+            "answer": 1
+        },
+        {
+            "question": "MS SQL Server dùng để làm gì?",
+            "options": ["Thiết kế web", "Quản lý cơ sở dữ liệu", "Chỉnh sửa ảnh", "Lập trình game"],
+            "answer": 1
+        },
+        {
+            "question": "Cơ sở dữ liệu hệ thống trong MS SQL Server là gì?",
+            "options": ["master, msdb, tempdb", "userdb", "data", "logdb"],
+            "answer": 0
+        },
+        {
+            "question": "Cơ sở dữ liệu master trong MS SQL Server chứa gì?",
+            "options": ["Dữ liệu người dùng", "Thông tin cấu hình hệ thống", "Log giao dịch", "Dữ liệu tạm"],
+            "answer": 1
+        },
+        {
+            "question": "Cơ sở dữ liệu tempdb dùng để làm gì?",
+            "options": ["Lưu dữ liệu vĩnh viễn", "Lưu dữ liệu tạm thời", "Lưu cấu hình", "Lưu log"],
+            "answer": 1
+        },
+        {
+            "question": "MS SQL Server hỗ trợ bao nhiêu cơ sở dữ liệu?",
+            "options": ["Chỉ một", "Hàng nghìn", "Không giới hạn", "Chỉ hai"],
+            "answer": 1
+        },
+        {
+            "question": "Công cụ sao lưu trong MS SQL Server là gì?",
+            "options": ["Backup and Restore", "Copy Paste", "Export", "Save As"],
+            "answer": 0
+        },
+        {
+            "question": "MS SQL Server hỗ trợ gì trong bảo mật?",
+            "options": ["Tăng rủi ro", "Phân quyền và mã hóa", "Xóa dữ liệu", "Không hỗ trợ"],
+            "answer": 1
+        },
+        {
+            "question": "Phiên bản MS SQL Server nào dành cho doanh nghiệp lớn?",
+            "options": ["Express", "Standard", "Enterprise", "Developer"],
+            "answer": 2
+        },
+        {
+            "question": "MS SQL Server có thể chạy trên đám mây không?",
+            "options": ["Không", "Có", "Tùy phiên bản", "Không kiểm tra"],
+            "answer": 1
+        },
+        {
+            "question": "Công cụ nào dùng để viết T-SQL?",
+            "options": ["Notepad", "SQL Server Management Studio", "Word", "Excel"],
+            "answer": 1
+        },
+        {
+            "question": "MS SQL Server hỗ trợ gì trong phân tích dữ liệu?",
+            "options": ["Tăng dư thừa", "SQL Server Analysis Services", "Giảm hiệu suất", "Xóa dữ liệu"],
+            "answer": 1
+        },
+        {
+            "question": "Cơ sở dữ liệu msdb trong MS SQL Server chứa gì?",
+            "options": ["Dữ liệu người dùng", "Lịch sử công việc và sao lưu", "Dữ liệu tạm", "Cấu hình hệ thống"],
+            "answer": 1
+        },
+        {
+            "question": "MS SQL Server có thể tích hợp với gì?",
+            "options": ["Chỉ Windows", "Các ứng dụng và hệ thống khác", "Không tích hợp", "Chỉ Linux"],
+            "answer": 1
+        },
+        {
+            "question": "Phiên bản Developer của MS SQL Server dùng để làm gì?",
+            "options": ["Triển khai sản phẩm", "Phát triển và thử nghiệm", "Doanh nghiệp lớn", "Miễn phí vĩnh viễn"],
+            "answer": 1
+        },
+        {
+            "question": "MS SQL Server hỗ trợ gì trong quản lý người dùng?",
+            "options": ["Tăng rủi ro", "Phân quyền truy cập", "Xóa người dùng", "Không hỗ trợ"],
+            "answer": 1
+        },
+        {
+            "question": "Cơ sở dữ liệu mặc định khi tạo mới là gì?",
+            "options": ["master", "tempdb", "model", "msdb"],
+            "answer": 2
+        },
+        {
+            "question": "MS SQL Server dùng port nào mặc định?",
+            "options": ["80", "1433", "3306", "5432"],
+            "answer": 1
+        },
+        {
+            "question": "Công cụ nào dùng để giám sát MS SQL Server?",
+            "options": ["Task Manager", "SQL Server Profiler", "Control Panel", "Event Viewer"],
+            "answer": 1
+        },
+        {
+            "question": "MS SQL Server hỗ trợ gì trong sao lưu?",
+            "options": ["Xóa dữ liệu", "Sao lưu toàn phần và tăng dần", "Tăng tốc", "Không hỗ trợ"],
+            "answer": 1
+        },
+        {
+            "question": "Tính năng Always On trong MS SQL Server là gì?",
+            "options": ["Tăng dư thừa", "Tính sẵn sàng cao", "Giảm hiệu suất", "Xóa dữ liệu"],
+            "answer": 1
+        },
+        {
+            "question": "MS SQL Server có thể dùng cho ứng dụng nào?",
+            "options": ["Chỉ web", "Web, desktop, mobile", "Chỉ desktop", "Không dùng được"],
+            "answer": 1
+        },
+        {
+            "question": "Cơ sở dữ liệu model trong MS SQL Server làm gì?",
+            "options": ["Lưu dữ liệu người dùng", "Mẫu cho cơ sở dữ liệu mới", "Lưu log", "Dữ liệu tạm"],
+            "answer": 1
+        },
+        {
+            "question": "MS SQL Server hỗ trợ gì trong truy vấn?",
+            "options": ["Tăng dư thừa", "Truy vấn phức tạp với T-SQL", "Giảm hiệu suất", "Xóa dữ liệu"],
+            "answer": 1
+        },
+        {
+            "question": "Phiên bản Express của MS SQL Server có giới hạn gì?",
+            "options": ["Không giới hạn", "Dung lượng tối đa 10GB", "Chỉ một người dùng", "Không hỗ trợ T-SQL"],
+            "answer": 1
+        },
+        {
+            "question": "MS SQL Server hỗ trợ gì trong bảo trì?",
+            "options": ["Tăng rủi ro", "Công cụ sao lưu và tối ưu", "Xóa dữ liệu", "Không hỗ trợ"],
+            "answer": 1
+        },
+        {
+            "question": "Công cụ nào dùng để tối ưu MS SQL Server?",
+            "options": ["Database Engine Tuning Advisor", "Notepad", "Task Manager", "Excel"],
+            "answer": 0
+        },
+        {
+            "question": "MS SQL Server có thể dùng trong kinh doanh không?",
+            "options": ["Không", "Có", "Tùy phiên bản", "Không kiểm tra"],
+            "answer": 1
+        },
+        {
+            "question": "Tính năng nào giúp MS SQL Server xử lý dữ liệu lớn?",
+            "options": ["Tăng dư thừa", "SQL Server Integration Services", "Giảm hiệu suất", "Xóa dữ liệu"],
+            "answer": 1
+        },
+        {
+            "question": "MS SQL Server hỗ trợ gì trong giáo dục?",
+            "options": ["Tăng dư thừa", "Quản lý dữ liệu sinh viên", "Giảm hiệu suất", "Xóa dữ liệu"],
+            "answer": 1
+        },
+        {
+            "question": "Cơ sở dữ liệu hệ thống nào không thể xóa?",
+            "options": ["master", "tempdb", "msdb", "Tất cả đều đúng"],
+            "answer": 3
+        },
+        {
+            "question": "MS SQL Server hỗ trợ gì trong y tế?",
+            "options": ["Tăng dư thừa", "Quản lý hồ sơ bệnh nhân", "Giảm hiệu suất", "Xóa dữ liệu"],
+            "answer": 1
+        },
+        {
+            "question": "Công cụ nào dùng để import/export dữ liệu?",
+            "options": ["SQL Server Integration Services", "Notepad", "Word", "Excel"],
+            "answer": 0
+        },
+        {
+            "question": "MS SQL Server có thể dùng cho web không?",
+            "options": ["Không", "Có", "Tùy phiên bản", "Không kiểm tra"],
+            "answer": 1
+        },
+        {
+            "question": "Tính năng nào giúp MS SQL Server bảo mật?",
+            "options": ["Tăng rủi ro", "Transparent Data Encryption", "Xóa dữ liệu", "Không hỗ trợ"],
+            "answer": 1
+        },
+        {
+            "question": "MS SQL Server hỗ trợ gì trong tài chính?",
+            "options": ["Tăng dư thừa", "Theo dõi giao dịch", "Giảm hiệu suất", "Xóa dữ liệu"],
+            "answer": 1
+        },
+        {
+            "question": "Cơ sở dữ liệu tempdb được tạo lại khi nào?",
+            "options": ["Khi thêm dữ liệu", "Khi server khởi động lại", "Khi xóa dữ liệu", "Không tạo lại"],
+            "answer": 1
+        },
+        {
+            "question": "MS SQL Server hỗ trợ gì trong nghiên cứu?",
+            "options": ["Tăng dư thừa", "Phân tích dữ liệu", "Giảm hiệu suất", "Xóa dữ liệu"],
+            "answer": 1
+        },
+        {
+            "question": "Công cụ nào dùng để kiểm tra hiệu suất?",
+            "options": ["SQL Server Profiler", "Notepad", "Task Manager", "Excel"],
+            "answer": 0
+        },
+        {
+            "question": "MS SQL Server có thể dùng cho hệ thống nhúng không?",
+            "options": ["Không", "Có", "Tùy phiên bản", "Không kiểm tra"],
+            "answer": 2
+        },
+        {
+            "question": "Tính năng nào giúp MS SQL Server quản lý phiên bản?",
+            "options": ["Tăng dư thừa", "Sao lưu và khôi phục", "Giảm hiệu suất", "Xóa dữ liệu"],
+            "answer": 1
+        },
+        {
+            "question": "MS SQL Server hỗ trợ gì trong quản lý nhân sự?",
+            "options": ["Tăng dư thừa", "Lưu trữ thông tin nhân viên", "Giảm hiệu suất", "Xóa dữ liệu"],
+            "answer": 1
+        },
+        {
+            "question": "Cơ sở dữ liệu master bị hỏng thì sao?",
+            "options": ["Không ảnh hưởng", "Server không hoạt động", "Dữ liệu người dùng mất", "Tự sửa"],
+            "answer": 1
+        },
+        {
+            "question": "MS SQL Server hỗ trợ gì trong lập kế hoạch?",
+            "options": ["Tăng dư thừa", "Dữ liệu đáng tin cậy", "Giảm hiệu suất", "Xóa dữ liệu"],
+            "answer": 1
+        },
+        {
+            "question": "Công cụ nào dùng để quản lý công việc tự động?",
+            "options": ["SQL Server Agent", "Notepad", "Task Manager", "Excel"],
+            "answer": 0
+        },
+        {
+            "question": "MS SQL Server có thể dùng cho ứng dụng nhỏ không?",
+            "options": ["Không", "Có", "Tùy phiên bản", "Không kiểm tra"],
+            "answer": 1
+        },
+        {
+            "question": "Tính năng nào giúp MS SQL Server tối ưu truy vấn?",
+            "options": ["Tăng dư thừa", "Query Optimizer", "Giảm hiệu suất", "Xóa dữ liệu"],
+            "answer": 1
+        },
+        {
+            "question": "MS SQL Server hỗ trợ gì trong quản lý tài nguyên?",
+            "options": ["Tăng dư thừa", "Tổ chức dữ liệu hiệu quả", "Giảm hiệu suất", "Xóa dữ liệu"],
+            "answer": 1
+        },
+        {
+            "question": "Cơ sở dữ liệu msdb lưu trữ gì?",
+            "options": ["Dữ liệu người dùng", "Lịch sử công việc", "Dữ liệu tạm", "Cấu hình hệ thống"],
+            "answer": 1
+        },
+        {
+            "question": "MS SQL Server hỗ trợ gì trong truy cập đồng thời?",
+            "options": ["Tăng rủi ro", "Hỗ trợ nhiều người dùng", "Giảm hiệu suất", "Xóa dữ liệu"],
+            "answer": 1
+        },
+        {
+            "question": "Công cụ nào dùng để thiết kế bảng?",
+            "options": ["SQL Server Management Studio", "Notepad", "Word", "Excel"],
+            "answer": 0
+        },
+        {
+            "question": "MS SQL Server có thể dùng trong giáo dục không?",
+            "options": ["Không", "Có", "Tùy phiên bản", "Không kiểm tra"],
+            "answer": 1
+        },
+        {
+            "question": "Tính năng nào giúp MS SQL Server mã hóa dữ liệu?",
+            "options": ["Tăng dư thừa", "Transparent Data Encryption", "Giảm hiệu suất", "Xóa dữ liệu"],
+            "answer": 1
+        },
+        {
+            "question": "MS SQL Server hỗ trợ gì trong quản lý khách hàng?",
+            "options": ["Tăng dư thừa", "Lưu trữ thông tin khách hàng", "Giảm hiệu suất", "Xóa dữ liệu"],
+            "answer": 1
+        },
+        {
+            "question": "Cơ sở dữ liệu model có thể sửa không?",
+            "options": ["Không", "Có", "Tùy phiên bản", "Không kiểm tra"],
+            "answer": 1
+        },
+        {
+            "question": "MS SQL Server hỗ trợ gì trong báo cáo?",
+            "options": ["Tăng dư thừa", "SQL Server Reporting Services", "Giảm hiệu suất", "Xóa dữ liệu"],
+            "answer": 1
+        },
+        {
+            "question": "Công cụ nào dùng để kiểm tra lỗi?",
+            "options": ["SQL Server Profiler", "Notepad", "Task Manager", "Excel"],
+            "answer": 0
+        },
+        {
+            "question": "MS SQL Server có thể dùng cho hệ thống lớn không?",
+            "options": ["Không", "Có", "Tùy phiên bản", "Không kiểm tra"],
+            "answer": 1
+        },
+        {
+            "question": "Tính năng nào giúp MS SQL Server quản lý dữ liệu lớn?",
+            "options": ["Tăng dư thừa", "SQL Server Integration Services", "Giảm hiệu suất", "Xóa dữ liệu"],
+            "answer": 1
+        },
+        {
+            "question": "MS SQL Server hỗ trợ gì trong phân quyền?",
+            "options": ["Tăng rủi ro", "Kiểm soát truy cập", "Giảm hiệu suất", "Xóa dữ liệu"],
+            "answer": 1
+        },
+        {
+            "question": "Cơ sở dữ liệu tempdb có thể xóa không?",
+            "options": ["Có", "Không", "Tùy phiên bản", "Không kiểm tra"],
+            "answer": 1
+        },
+        {
+            "question": "MS SQL Server hỗ trợ gì trong quản lý tài chính?",
+            "options": ["Tăng dư thừa", "Theo dõi giao dịch", "Giảm hiệu suất", "Xóa dữ liệu"],
+            "answer": 1
+        },
+        {
+            "question": "Công cụ nào dùng để lập lịch công việc?",
+            "options": ["SQL Server Agent", "Notepad", "Task Manager", "Excel"],
+            "answer": 0
+        },
+        {
+            "question": "MS SQL Server có thể dùng trong nghiên cứu không?",
+            "options": ["Không", "Có", "Tùy phiên bản", "Không kiểm tra"],
+            "answer": 1
+        },
+        {
+            "question": "Tính năng nào giúp MS SQL Server phục hồi dữ liệu?",
+            "options": ["Tăng dư thừa", "Backup and Restore", "Giảm hiệu suất", "Xóa dữ liệu"],
+            "answer": 1
+        },
+        {
+            "question": "MS SQL Server hỗ trợ gì trong quản lý nhân sự?",
+            "options": ["Tăng dư thừa", "Lưu trữ thông tin nhân viên", "Giảm hiệu suất", "Xóa dữ liệu"],
+            "answer": 1
+        },
+        {
+            "question": "Cơ sở dữ liệu master lưu trữ gì?",
+            "options": ["Dữ liệu người dùng", "Thông tin cấu hình", "Dữ liệu tạm", "Log giao dịch"],
+            "answer": 1
+        },
+        {
+            "question": "MS SQL Server hỗ trợ gì trong lập kế hoạch?",
+            "options": ["Tăng dư thừa", "Dữ liệu đáng tin cậy", "Giảm hiệu suất", "Xóa dữ liệu"],
+            "answer": 1
+        },
+        {
+            "question": "Công cụ nào dùng để tối ưu cơ sở dữ liệu?",
+            "options": ["Database Engine Tuning Advisor", "Notepad", "Task Manager", "Excel"],
+            "answer": 0
+        },
+        {
+            "question": "MS SQL Server có thể dùng cho ứng dụng web không?",
+            "options": ["Không", "Có", "Tùy phiên bản", "Không kiểm tra"],
+            "answer": 1
+        },
+        {
+            "question": "Tính năng nào giúp MS SQL Server bảo mật dữ liệu?",
+            "options": ["Tăng dư thừa", "Transparent Data Encryption", "Giảm hiệu suất", "Xóa dữ liệu"],
+            "answer": 1
+        },
+        {
+            "question": "MS SQL Server hỗ trợ gì trong quản lý khách hàng?",
+            "options": ["Tăng dư thừa", "Lưu trữ thông tin khách hàng", "Giảm hiệu suất", "Xóa dữ liệu"],
+            "answer": 1
+        },
+        {
+            "question": "Cơ sở dữ liệu msdb có thể xóa không?",
+            "options": ["Có", "Không", "Tùy phiên bản", "Không kiểm tra"],
+            "answer": 1
+        },
+        {
+            "question": "MS SQL Server hỗ trợ gì trong báo cáo kinh doanh?",
+            "options": ["Tăng dư thừa", "SQL Server Reporting Services", "Giảm hiệu suất", "Xóa dữ liệu"],
+            "answer": 1
+        },
+        {
+            "question": "Công cụ nào dùng để giám sát hiệu suất?",
+            "options": ["SQL Server Profiler", "Notepad", "Task Manager", "Excel"],
+            "answer": 0
+        },
+        {
+            "question": "MS SQL Server có thể dùng cho hệ thống nhỏ không?",
+            "options": ["Không", "Có", "Tùy phiên bản", "Không kiểm tra"],
+            "answer": 1
+        },
+        {
+            "question": "Tính năng nào giúp MS SQL Server xử lý dữ liệu lớn?",
+            "options": ["Tăng dư thừa", "SQL Server Integration Services", "Giảm hiệu suất", "Xóa dữ liệu"],
+            "answer": 1
+        },
+        {
+            "question": "MS SQL Server hỗ trợ gì trong phân tích kinh doanh?",
+            "options": ["Tăng dư thừa", "SQL Server Analysis Services", "Giảm hiệu suất", "Xóa dữ liệu"],
+            "answer": 1
+        },
+        {
+            "question": "Cơ sở dữ liệu model dùng để làm gì?",
+            "options": ["Lưu dữ liệu người dùng", "Mẫu cho cơ sở dữ liệu mới", "Lưu log", "Dữ liệu tạm"],
+            "answer": 1
+        },
+        {
+            "question": "MS SQL Server hỗ trợ gì trong quản lý tài nguyên?",
+            "options": ["Tăng dư thừa", "Tổ chức dữ liệu hiệu quả", "Giảm hiệu suất", "Xóa dữ liệu"],
+            "answer": 1
+        },
+        {
+            "question": "Công cụ nào dùng để import dữ liệu?",
+            "options": ["SQL Server Integration Services", "Notepad", "Word", "Excel"],
+            "answer": 0
+        },
+        {
+            "question": "MS SQL Server có thể dùng trong y tế không?",
+            "options": ["Không", "Có", "Tùy phiên bản", "Không kiểm tra"],
+            "answer": 1
+        },
+        {
+            "question": "Tính năng nào giúp MS SQL Server tối ưu hiệu suất?",
+            "options": ["Tăng dư thừa", "Query Optimizer", "Giảm hiệu suất", "Xóa dữ liệu"],
+            "answer": 1
+        },
+        {
+            "question": "MS SQL Server hỗ trợ gì trong quản lý tài chính?",
+            "options": ["Tăng dư thừa", "Theo dõi giao dịch", "Giảm hiệu suất", "Xóa dữ liệu"],
+            "answer": 1
+        },
+        {
+            "question": "Cơ sở dữ liệu tempdb lưu trữ gì?",
+            "options": ["Dữ liệu vĩnh viễn", "Dữ liệu tạm thời", "Cấu hình hệ thống", "Log giao dịch"],
+            "answer": 1
+        },
+        {
+            "question": "MS SQL Server hỗ trợ gì trong nghiên cứu khoa học?",
+            "options": ["Tăng dư thừa", "Phân tích dữ liệu", "Giảm hiệu suất", "Xóa dữ liệu"],
+            "answer": 1
+        },
+        {
+            "question": "Công cụ nào dùng để lập lịch sao lưu?",
+            "options": ["SQL Server Agent", "Notepad", "Task Manager", "Excel"],
+            "answer": 0
+        }
+    ],
+    "chuong4": [
+        {
+            "question": "T-SQL là gì?",
+            "options": ["Ngôn ngữ lập trình web", "Ngôn ngữ truy vấn của MS SQL Server", "Ngôn ngữ thiết kế giao diện", "Ngôn ngữ lập trình phần cứng"],
+            "answer": 1
+        },
+        {
+            "question": "Lệnh CREATE trong T-SQL dùng để làm gì?",
+            "options": ["Xóa dữ liệu", "Tạo đối tượng mới (bảng, CSDL)", "Sửa dữ liệu", "Truy vấn dữ liệu"],
+            "answer": 1
+        },
+        {
+            "question": "Lệnh SELECT trong T-SQL dùng để làm gì?",
+            "options": ["Thêm dữ liệu", "Truy vấn dữ liệu", "Xóa dữ liệu", "Sửa dữ liệu"],
+            "answer": 1
+        },
+        {
+            "question": "Lệnh INSERT trong T-SQL dùng để làm gì?",
+            "options": ["Xóa dữ liệu", "Thêm dữ liệu", "Truy vấn dữ liệu", "Sửa dữ liệu"],
+            "answer": 1
+        },
+        {
+            "question": "Lệnh UPDATE trong T-SQL dùng để làm gì?",
+            "options": ["Xóa dữ liệu", "Thêm dữ liệu", "Sửa dữ liệu", "Truy vấn dữ liệu"],
+            "answer": 2
+        },
+        {
+            "question": "Lệnh DELETE trong T-SQL dùng để làm gì?",
+            "options": ["Xóa dữ liệu", "Thêm dữ liệu", "Sửa dữ liệu", "Truy vấn dữ liệu"],
+            "answer": 0
+        },
+        {
+            "question": "Lệnh DROP trong T-SQL dùng để làm gì?",
+            "options": ["Tạo bảng", "Xóa đối tượng (bảng, CSDL)", "Sửa bảng", "Truy vấn bảng"],
+            "answer": 1
+        },
+        {
+            "question": "Câu lệnh WHERE trong T-SQL dùng để làm gì?",
+            "options": ["Sắp xếp dữ liệu", "Lọc dữ liệu", "Thêm dữ liệu", "Xóa dữ liệu"],
+            "answer": 1
+        },
+        {
+            "question": "Câu lệnh ORDER BY trong T-SQL dùng để làm gì?",
+            "options": ["Lọc dữ liệu", "Sắp xếp dữ liệu", "Thêm dữ liệu", "Xóa dữ liệu"],
+            "answer": 1
+        },
+        {
+            "question": "Câu lệnh GROUP BY trong T-SQL dùng để làm gì?",
+            "options": ["Nhóm dữ liệu", "Sắp xếp dữ liệu", "Lọc dữ liệu", "Thêm dữ liệu"],
+            "answer": 0
+        },
+        {
+            "question": "Hàm COUNT trong T-SQL trả về gì?",
+            "options": ["Tổng giá trị", "Số lượng hàng", "Giá trị trung bình", "Giá trị lớn nhất"],
+            "answer": 1
+        },
+        {
+            "question": "Hàm SUM trong T-SQL trả về gì?",
+            "options": ["Tổng giá trị", "Số lượng hàng", "Giá trị trung bình", "Giá trị lớn nhất"],
+            "answer": 0
+        },
+        {
+            "question": "Hàm AVG trong T-SQL trả về gì?",
+            "options": ["Tổng giá trị", "Số lượng hàng", "Giá trị trung bình", "Giá trị lớn nhất"],
+            "answer": 2
+        },
+        {
+            "question": "Hàm MAX trong T-SQL trả về gì?",
+            "options": ["Tổng giá trị", "Số lượng hàng", "Giá trị trung bình", "Giá trị lớn nhất"],
+            "answer": 3
+        },
+        {
+            "question": "Hàm MIN trong T-SQL trả về gì?",
+            "options": ["Giá trị nhỏ nhất", "Số lượng hàng", "Giá trị trung bình", "Giá trị lớn nhất"],
+            "answer": 0
+        },
+        {
+            "question": "Cho bảng SinhVien (MaSV, HoTen, Lop). Thêm sinh viên: MaSV='SV001', HoTen='Nguyen Van A', Lop='CNTT1'. Câu lệnh đúng là?",
+            "options": [
+                "INSERT INTO SinhVien VALUES ('SV001', 'Nguyen Van A', 'CNTT1')",
+                "INSERT INTO SinhVien (MaSV, HoTen) VALUES ('SV001', 'Nguyen Van A')",
+                "UPDATE SinhVien SET MaSV='SV001', HoTen='Nguyen Van A'",
+                "SELECT * FROM SinhVien WHERE MaSV='SV001'"
+            ],
+            "answer": 0
+        },
+        {
+            "question": "Cho bảng Diem (MaSV, MonHoc, Diem). Cập nhật Diem=8 cho MaSV='SV001', MonHoc='Toan'. Câu lệnh đúng là?",
+            "options": [
+                "UPDATE Diem SET Diem=8 WHERE MaSV='SV001'",
+                "UPDATE Diem SET Diem=8 WHERE MaSV='SV001' AND MonHoc='Toan'",
+                "INSERT INTO Diem VALUES ('SV001', 'Toan', 8)",
+                "DELETE FROM Diem WHERE MaSV='SV001'"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "Cho bảng NhanVien (MaNV, TenNV, Luong). Xóa nhân viên MaNV='NV001'. Câu lệnh đúng là?",
+            "options": [
+                "DELETE FROM NhanVien WHERE MaNV='NV001'",
+                "DROP TABLE NhanVien WHERE MaNV='NV001'",
+                "UPDATE NhanVien SET MaNV=NULL WHERE MaNV='NV001'",
+                "SELECT * FROM NhanVien WHERE MaNV='NV001'"
+            ],
+            "answer": 0
+        },
+        {
+            "question": "Cho bảng SinhVien (MaSV, HoTen, Lop). Lấy danh sách sinh viên lớp 'CNTT2'. Câu lệnh đúng là?",
+            "options": [
+                "SELECT * FROM SinhVien WHERE Lop='CNTT2'",
+                "SELECT HoTen FROM SinhVien WHERE MaSV='CNTT2'",
+                "UPDATE SinhVien SET Lop='CNTT2'",
+                "DELETE FROM SinhVien WHERE Lop='CNTT2'"
+            ],
+            "answer": 0
+        },
+        {
+            "question": "Cho bảng Diem (MaSV, MonHoc, Diem). Tính tổng điểm của MaSV='SV002'. Câu lệnh đúng là?",
+            "options": [
+                "SELECT SUM(Diem) FROM Diem WHERE MaSV='SV002'",
+                "SELECT AVG(Diem) FROM Diem WHERE MaSV='SV002'",
+                "SELECT COUNT(Diem) FROM Diem WHERE MaSV='SV002'",
+                "SELECT MAX(Diem) FROM Diem WHERE MaSV='SV002'"
+            ],
+            "answer": 0
+        },
+        {
+            "question": "Cho bảng Sach (MaSach, TenSach, Gia). Thêm sách: MaSach='S001', TenSach='SQL', Gia=50000. Câu lệnh đúng là?",
+            "options": [
+                "INSERT INTO Sach VALUES ('S001', 'SQL', 50000)",
+                "INSERT INTO Sach (MaSach, Gia) VALUES ('S001', 50000)",
+                "UPDATE Sach SET TenSach='SQL' WHERE MaSach='S001'",
+                "SELECT * FROM Sach WHERE MaSach='S001'"
+            ],
+            "answer": 0
+        },
+        {
+            "question": "Cho bảng KhachHang (MaKH, TenKH, SDT). Cập nhật SDT='0909123456' cho MaKH='KH001'. Câu lệnh đúng là?",
+            "options": [
+                "UPDATE KhachHang SET SDT='0909123456' WHERE MaKH='KH001'",
+                "INSERT INTO KhachHang VALUES ('KH001', '0909123456')",
+                "DELETE FROM KhachHang WHERE MaKH='KH001'",
+                "SELECT SDT FROM KhachHang WHERE MaKH='KH001'"
+            ],
+            "answer": 0
+        },
+        {
+            "question": "Cho bảng DonHang (MaDH, MaKH, NgayDat). Xóa đơn hàng MaDH='DH001'. Câu lệnh đúng là?",
+            "options": [
+                "DELETE FROM DonHang WHERE MaDH='DH001'",
+                "DROP TABLE DonHang WHERE MaDH='DH001'",
+                "UPDATE DonHang SET MaDH=NULL WHERE MaDH='DH001'",
+                "SELECT * FROM DonHang WHERE MaDH='DH001'"
+            ],
+            "answer": 0
+        },
+        {
+            "question": "Cho bảng Diem (MaSV, MonHoc, Diem). Đếm số môn học của MaSV='SV003'. Câu lệnh đúng là?",
+            "options": [
+                "SELECT SUM(Diem) FROM Diem WHERE MaSV='SV003'",
+                "SELECT AVG(Diem) FROM Diem WHERE MaSV='SV003'",
+                "SELECT COUNT(MonHoc) FROM Diem WHERE MaSV='SV003'",
+                "SELECT MAX(Diem) FROM Diem WHERE MaSV='SV003'"
+            ],
+            "answer": 2
+        },
+        {
+            "question": "Cho bảng GiaoVien (MaGV, TenGV, MonDay). Lấy giáo viên dạy 'Toan'. Câu lệnh đúng là?",
+            "options": [
+                "SELECT * FROM GiaoVien WHERE MonDay='Toan'",
+                "SELECT TenGV FROM GiaoVien WHERE MaGV='Toan'",
+                "UPDATE GiaoVien SET MonDay='Toan'",
+                "DELETE FROM GiaoVien WHERE MonDay='Toan'"
+            ],
+            "answer": 0
+        },
+        {
+            "question": "Cho bảng PhongBan (MaPB, TenPB, DiaChi). Thêm phòng ban: MaPB='PB001', TenPB='IT', DiaChi='HN'. Câu lệnh đúng là?",
+            "options": [
+                "INSERT INTO PhongBan VALUES ('PB001', 'IT', 'HN')",
+                "INSERT INTO PhongBan (MaPB, TenPB) VALUES ('PB001', 'IT')",
+                "UPDATE PhongBan SET TenPB='IT' WHERE MaPB='PB001'",
+                "SELECT * FROM PhongBan WHERE MaPB='PB001'"
+            ],
+            "answer": 0
+        },
+        {
+            "question": "Cho bảng NhanVien (MaNV, TenNV, MaPB). Cập nhật MaPB='PB002' cho MaNV='NV002'. Câu lệnh đúng là?",
+            "options": [
+                "UPDATE NhanVien SET MaPB='PB002' WHERE MaNV='NV002'",
+                "INSERT INTO NhanVien VALUES ('NV002', 'PB002')",
+                "DELETE FROM NhanVien WHERE MaNV='NV002'",
+                "SELECT MaPB FROM NhanVien WHERE MaNV='NV002'"
+            ],
+            "answer": 0
+        },
+        {
+            "question": "Cho bảng HocSinh (MaHS, HoTen, Lop). Xóa học sinh MaHS='HS001'. Câu lệnh đúng là?",
+            "options": [
+                "DELETE FROM HocSinh WHERE MaHS='HS001'",
+                "DROP TABLE HocSinh WHERE MaHS='HS001'",
+                "UPDATE HocSinh SET MaHS=NULL WHERE MaHS='HS001'",
+                "SELECT * FROM HocSinh WHERE MaHS='HS001'"
+            ],
+            "answer": 0
+        },
+        {
+            "question": "Cho bảng MonHoc (MaMon, TenMon, SoTiet). Lấy môn học có SoTiet>30. Câu lệnh đúng là?",
+            "options": [
+                "SELECT * FROM MonHoc WHERE SoTiet>30",
+                "SELECT TenMon FROM MonHoc WHERE MaMon='30'",
+                "UPDATE MonHoc SET SoTiet=30",
+                "DELETE FROM MonHoc WHERE SoTiet>30"
+            ],
+            "answer": 0
+        },
+        {
+            "question": "Cho bảng Diem (MaSV, MonHoc, Diem). Tính điểm trung bình của MaSV='SV004'. Câu lệnh đúng là?",
+            "options": [
+                "SELECT SUM(Diem) FROM Diem WHERE MaSV='SV004'",
+                "SELECT AVG(Diem) FROM Diem WHERE MaSV='SV004'",
+                "SELECT COUNT(Diem) FROM Diem WHERE MaSV='SV004'",
+                "SELECT MIN(Diem) FROM Diem WHERE MaSV='SV004'"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "Cho bảng KhachHang (MaKH, TenKH, DiaChi). Thêm khách hàng: MaKH='KH002', TenKH='Tran B', DiaChi='HCM'. Câu lệnh đúng là?",
+            "options": [
+                "INSERT INTO KhachHang VALUES ('KH002', 'Tran B', 'HCM')",
+                "INSERT INTO KhachHang (MaKH, TenKH) VALUES ('KH002', 'Tran B')",
+                "UPDATE KhachHang SET TenKH='Tran B' WHERE MaKH='KH002'",
+                "SELECT * FROM KhachHang WHERE MaKH='KH002'"
+            ],
+            "answer": 0
+        },
+        {
+            "question": "Cho bảng DonHang (MaDH, MaKH, TongTien). Cập nhật TongTien=1000000 cho MaDH='DH002'. Câu lệnh đúng là?",
+            "options": [
+                "UPDATE DonHang SET TongTien=1000000 WHERE MaDH='DH002'",
+                "INSERT INTO DonHang VALUES ('DH002', 1000000)",
+                "DELETE FROM DonHang WHERE MaDH='DH002'",
+                "SELECT TongTien FROM DonHang WHERE MaDH='DH002'"
+            ],
+            "answer": 0
+        },
+        {
+            "question": "Cho bảng PhieuMuon (MaPM, MaDG, NgayMuon). Xóa phiếu mượn MaPM='PM001'. Câu lệnh đúng là?",
+            "options": [
+                "DELETE FROM PhieuMuon WHERE MaPM='PM001'",
+                "DROP TABLE PhieuMuon WHERE MaPM='PM001'",
+                "UPDATE PhieuMuon SET MaPM=NULL WHERE MaPM='PM001'",
+                "SELECT * FROM PhieuMuon WHERE MaPM='PM001'"
+            ],
+            "answer": 0
+        },
+        {
+            "question": "Cho bảng DocGia (MaDG, TenDG, SDT). Lấy độc giả có SDT='0912345678'. Câu lệnh đúng là?",
+            "options": [
+                "SELECT * FROM DocGia WHERE SDT='0912345678'",
+                "SELECT TenDG FROM DocGia WHERE MaDG='0912345678'",
+                "UPDATE DocGia SET SDT='0912345678'",
+                "DELETE FROM DocGia WHERE SDT='0912345678'"
+            ],
+            "answer": 0
+        },
+        {
+            "question": "Cho bảng Diem (MaSV, MonHoc, Diem). Đếm số sinh viên có điểm > 5. Câu lệnh đúng là?",
+            "options": [
+                "SELECT SUM(Diem) FROM Diem WHERE Diem>5",
+                "SELECT AVG(Diem) FROM Diem WHERE Diem>5",
+                "SELECT COUNT(DISTINCT MaSV) FROM Diem WHERE Diem>5",
+                "SELECT MAX(Diem) FROM Diem WHERE Diem>5"
+            ],
+            "answer": 2
+        },
+        {
+            "question": "Cho bảng SanPham (MaSP, TenSP, Gia). Thêm sản phẩm: MaSP='SP001', TenSP='Laptop', Gia=15000000. Câu lệnh đúng là?",
+            "options": [
+                "INSERT INTO SanPham VALUES ('SP001', 'Laptop', 15000000)",
+                "INSERT INTO SanPham (MaSP, TenSP) VALUES ('SP001', 'Laptop')",
+                "UPDATE SanPham SET TenSP='Laptop' WHERE MaSP='SP001'",
+                "SELECT * FROM SanPham WHERE MaSP='SP001'"
+            ],
+            "answer": 0
+        },
+        {
+            "question": "Cho bảng HoaDon (MaHD, MaKH, NgayLap). Cập nhật NgayLap='2023-10-01' cho MaHD='HD001'. Câu lệnh đúng là?",
+            "options": [
+                "UPDATE HoaDon SET NgayLap='2023-10-01' WHERE MaHD='HD001'",
+                "INSERT INTO HoaDon VALUES ('HD001', '2023-10-01')",
+                "DELETE FROM HoaDon WHERE MaHD='HD001'",
+                "SELECT NgayLap FROM HoaDon WHERE MaHD='HD001'"
+            ],
+            "answer": 0
+        },
+        {
+            "question": "Cho bảng ChiTietHD (MaHD, MaSP, SoLuong). Xóa chi tiết hóa đơn MaHD='HD002'. Câu lệnh đúng là?",
+            "options": [
+                "DELETE FROM ChiTietHD WHERE MaHD='HD002'",
+                "DROP TABLE ChiTietHD WHERE MaHD='HD002'",
+                "UPDATE ChiTietHD SET MaHD=NULL WHERE MaHD='HD002'",
+                "SELECT * FROM ChiTietHD WHERE MaHD='HD002'"
+            ],
+            "answer": 0
+        },
+        {
+            "question": "Cho bảng SanPham (MaSP, TenSP, Gia). Lấy sản phẩm có Gia>1000000. Câu lệnh đúng là?",
+            "options": [
+                "SELECT * FROM SanPham WHERE Gia>1000000",
+                "SELECT TenSP FROM SanPham WHERE MaSP='1000000'",
+                "UPDATE SanPham SET Gia=1000000",
+                "DELETE FROM SanPham WHERE Gia>1000000"
+            ],
+            "answer": 0
+        },
+        {
+            "question": "Cho bảng NhanVien (MaNV, TenNV, Luong). Tính lương trung bình của nhân viên. Câu lệnh đúng là?",
+            "options": [
+                "SELECT SUM(Luong) FROM NhanVien",
+                "SELECT AVG(Luong) FROM NhanVien",
+                "SELECT COUNT(Luong) FROM NhanVien",
+                "SELECT MAX(Luong) FROM NhanVien"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "Cho bảng LopHoc (MaLop, TenLop, SiSo). Thêm lớp: MaLop='L001', TenLop='CNTT3', SiSo=40. Câu lệnh đúng là?",
+            "options": [
+                "INSERT INTO LopHoc VALUES ('L001', 'CNTT3', 40)",
+                "INSERT INTO LopHoc (MaLop, TenLop) VALUES ('L001', 'CNTT3')",
+                "UPDATE LopHoc SET TenLop='CNTT3' WHERE MaLop='L001'",
+                "SELECT * FROM LopHoc WHERE MaLop='L001'"
+            ],
+            "answer": 0
+        },
+        {
+            "question": "Cho bảng SinhVien (MaSV, HoTen, MaLop). Cập nhật MaLop='L002' cho MaSV='SV005'. Câu lệnh đúng là?",
+            "options": [
+                "UPDATE SinhVien SET MaLop='L002' WHERE MaSV='SV005'",
+                "INSERT INTO SinhVien VALUES ('SV005', 'L002')",
+                "DELETE FROM SinhVien WHERE MaSV='SV005'",
+                "SELECT MaLop FROM SinhVien WHERE MaSV='SV005'"
+            ],
+            "answer": 0
+        },
+        {
+            "question": "Cho bảng PhieuNhap (MaPN, MaNCC, NgayNhap). Xóa phiếu nhập MaPN='PN001'. Câu lệnh đúng là?",
+            "options": [
+                "DELETE FROM PhieuNhap WHERE MaPN='PN001'",
+                "DROP TABLE PhieuNhap WHERE MaPN='PN001'",
+                "UPDATE PhieuNhap SET MaPN=NULL WHERE MaPN='PN001'",
+                "SELECT * FROM PhieuNhap WHERE MaPN='PN001'"
+            ],
+            "answer": 0
+        },
+        {
+            "question": "Cho bảng NhaCungCap (MaNCC, TenNCC, DiaChi). Lấy nhà cung cấp ở 'HCM'. Câu lệnh đúng là?",
+            "options": [
+                "SELECT * FROM NhaCungCap WHERE DiaChi='HCM'",
+                "SELECT TenNCC FROM NhaCungCap WHERE MaNCC='HCM'",
+                "UPDATE NhaCungCap SET DiaChi='HCM'",
+                "DELETE FROM NhaCungCap WHERE DiaChi='HCM'"
+            ],
+            "answer": 0
+        },
+        {
+            "question": "Cho bảng DonHang (MaDH, MaKH, TongTien). Tính tổng tiền của tất cả đơn hàng. Câu lệnh đúng là?",
+            "options": [
+                "SELECT SUM(TongTien) FROM DonHang",
+                "SELECT AVG(TongTien) FROM DonHang",
+                "SELECT COUNT(TongTien) FROM DonHang",
+                "SELECT MIN(TongTien) FROM DonHang"
+            ],
+            "answer": 0
+        },
+        {
+            "question": "Cho bảng TacGia (MaTG, TenTG, NgaySinh). Thêm tác giả: MaTG='TG001', TenTG='Nguyen Du', NgaySinh='1765-01-01'. Câu lệnh đúng là?",
+            "options": [
+                "INSERT INTO TacGia VALUES ('TG001', 'Nguyen Du', '1765-01-01')",
+                "INSERT INTO TacGia (MaTG, TenTG) VALUES ('TG001', 'Nguyen Du')",
+                "UPDATE TacGia SET TenTG='Nguyen Du' WHERE MaTG='TG001'",
+                "SELECT * FROM TacGia WHERE MaTG='TG001'"
+            ],
+            "answer": 0
+        },
+        {
+            "question": "Cho bảng Sach (MaSach, TenSach, MaTG). Cập nhật MaTG='TG002' cho MaSach='S002'. Câu lệnh đúng là?",
+            "options": [
+                "UPDATE Sach SET MaTG='TG002' WHERE MaSach='S002'",
+                "INSERT INTO Sach VALUES ('S002', 'TG002')",
+                "DELETE FROM Sach WHERE MaSach='S002'",
+                "SELECT MaTG FROM Sach WHERE MaSach='S002'"
+            ],
+            "answer": 0
+        },
+        {
+            "question": "Cho bảng PhieuXuat (MaPX, MaKho, NgayXuat). Xóa phiếu xuất MaPX='PX001'. Câu lệnh đúng là?",
+            "options": [
+                "DELETE FROM PhieuXuat WHERE MaPX='PX001'",
+                "DROP TABLE PhieuXuat WHERE MaPX='PX001'",
+                "UPDATE PhieuXuat SET MaPX=NULL WHERE MaPX='PX001'",
+                "SELECT * FROM PhieuXuat WHERE MaPX='PX001'"
+            ],
+            "answer": 0
+        },
+        {
+            "question": "Cho bảng KhoHang (MaKho, TenKho, DiaChi). Lấy kho ở 'HN'. Câu lệnh đúng là?",
+            "options": [
+                "SELECT * FROM KhoHang WHERE DiaChi='HN'",
+                "SELECT TenKho FROM KhoHang WHERE MaKho='HN'",
+                "UPDATE KhoHang SET DiaChi='HN'",
+                "DELETE FROM KhoHang WHERE DiaChi='HN'"
+            ],
+            "answer": 0
+        },
+        {
+            "question": "Cho bảng ChiTietPX (MaPX, MaSP, SoLuong). Đếm số sản phẩm trong MaPX='PX002'. Câu lệnh đúng là?",
+            "options": [
+                "SELECT SUM(SoLuong) FROM ChiTietPX WHERE MaPX='PX002'",
+                "SELECT AVG(SoLuong) FROM ChiTietPX WHERE MaPX='PX002'",
+                "SELECT COUNT(MaSP) FROM ChiTietPX WHERE MaPX='PX002'",
+                "SELECT MAX(SoLuong) FROM ChiTietPX WHERE MaPX='PX002'"
+            ],
+            "answer": 2
+        },
+        {
+            "question": "Cho bảng ChucVu (MaCV, TenCV, Luong). Thêm chức vụ: MaCV='CV001', TenCV='QuanLy', Luong=20000000. Câu lệnh đúng là?",
+            "options": [
+                "INSERT INTO ChucVu VALUES ('CV001', 'QuanLy', 20000000)",
+                "INSERT INTO ChucVu (MaCV, TenCV) VALUES ('CV001', 'QuanLy')",
+                "UPDATE ChucVu SET TenCV='QuanLy' WHERE MaCV='CV001'",
+                "SELECT * FROM ChucVu WHERE MaCV='CV001'"
+            ],
+            "answer": 0
+        },
+        {
+            "question": "Cho bảng NhanVien (MaNV, TenNV, MaCV). Cập nhật MaCV='CV002' cho MaNV='NV003'. Câu lệnh đúng là?",
+            "options": [
+                "UPDATE NhanVien SET MaCV='CV002' WHERE MaNV='NV003'",
+                "INSERT INTO NhanVien VALUES ('NV003', 'CV002')",
+                "DELETE FROM NhanVien WHERE MaNV='NV003'",
+                "SELECT MaCV FROM NhanVien WHERE MaNV='NV003'"
+            ],
+            "answer": 0
+        },
+        {
+            "question": "Cho bảng PhieuDangKy (MaDK, MaSV, MaMon). Xóa phiếu đăng ký MaDK='DK001'. Câu lệnh đúng là?",
+            "options": [
+                "DELETE FROM PhieuDangKy WHERE MaDK='DK001'",
+                "DROP TABLE PhieuDangKy WHERE MaDK='DK001'",
+                "UPDATE PhieuDangKy SET MaDK=NULL WHERE MaDK='DK001'",
+                "SELECT * FROM PhieuDangKy WHERE MaDK='DK001'"
+            ],
+            "answer": 0
+        },
+        {
+            "question": "Cho bảng MonHoc (MaMon, TenMon, TinChi). Lấy môn học có TinChi=3. Câu lệnh đúng là?",
+            "options": [
+                "SELECT * FROM MonHoc WHERE TinChi=3",
+                "SELECT TenMon FROM MonHoc WHERE MaMon='3'",
+                "UPDATE MonHoc SET TinChi=3",
+                "DELETE FROM MonHoc WHERE TinChi=3"
+            ],
+            "answer": 0
+        },
+        {
+            "question": "Cho bảng NhanVien (MaNV, TenNV, Luong). Tính lương cao nhất. Câu lệnh đúng là?",
+            "options": [
+                "SELECT SUM(Luong) FROM NhanVien",
+                "SELECT AVG(Luong) FROM NhanVien",
+                "SELECT MAX(Luong) FROM NhanVien",
+                "SELECT MIN(Luong) FROM NhanVien"
+            ],
+            "answer": 2
+        },
+        {
+            "question": "Cho bảng Xe (MaXe, TenXe, Gia). Thêm xe: MaXe='X001', TenXe='Honda', Gia=30000000. Câu lệnh đúng là?",
+            "options": [
+                "INSERT INTO Xe VALUES ('X001', 'Honda', 30000000)",
+                "INSERT INTO Xe (MaXe, TenXe) VALUES ('X001', 'Honda')",
+                "UPDATE Xe SET TenXe='Honda' WHERE MaXe='X001'",
+                "SELECT * FROM Xe WHERE MaXe='X001'"
+            ],
+            "answer": 0
+        },
+        {
+            "question": "Cho bảng PhieuThue (MaPT, MaKH, MaXe). Cập nhật MaXe='X002' cho MaPT='PT001'. Câu lệnh đúng là?",
+            "options": [
+                "UPDATE PhieuThue SET MaXe='X002' WHERE MaPT='PT001'",
+                "INSERT INTO PhieuThue VALUES ('PT001', 'X002')",
+                "DELETE FROM PhieuThue WHERE MaPT='PT001'",
+                "SELECT MaXe FROM PhieuThue WHERE MaPT='PT001'"
+            ],
+            "answer": 0
+        },
+        {
+            "question": "Cho bảng KhachHang (MaKH, TenKH, CMND). Xóa khách hàng MaKH='KH003'. Câu lệnh đúng là?",
+            "options": [
+                "DELETE FROM KhachHang WHERE MaKH='KH003'",
+                "DROP TABLE KhachHang WHERE MaKH='KH003'",
+                "UPDATE KhachHang SET MaKH=NULL WHERE MaKH='KH003'",
+                "SELECT * FROM KhachHang WHERE MaKH='KH003'"
+            ],
+            "answer": 0
+        },
+        {
+            "question": "Cho bảng Xe (MaXe, TenXe, Gia). Lấy xe có Gia<50000000. Câu lệnh đúng là?",
+            "options": [
+                "SELECT * FROM Xe WHERE Gia<50000000",
+                "SELECT TenXe FROM Xe WHERE MaXe='50000000'",
+                "UPDATE Xe SET Gia=50000000",
+                "DELETE FROM Xe WHERE Gia<50000000"
+            ],
+            "answer": 0
+        },
+        {
+            "question": "Cho bảng DonHang (MaDH, MaKH, TongTien). Đếm số đơn hàng có TongTien>500000. Câu lệnh đúng là?",
+            "options": [
+                "SELECT SUM(TongTien) FROM DonHang WHERE TongTien>500000",
+                "SELECT AVG(TongTien) FROM DonHang WHERE TongTien>500000",
+                "SELECT COUNT(MaDH) FROM DonHang WHERE TongTien>500000",
+                "SELECT MAX(TongTien) FROM DonHang WHERE TongTien>500000"
+            ],
+            "answer": 2
+        },
+        {
+            "question": "Cho bảng HangXe (MaHang, TenHang). Thêm hãng xe: MaHang='H001', TenHang='Toyota'. Câu lệnh đúng là?",
+            "options": [
+                "INSERT INTO HangXe VALUES ('H001', 'Toyota')",
+                "INSERT INTO HangXe (MaHang) VALUES ('H001')",
+                "UPDATE HangXe SET TenHang='Toyota' WHERE MaHang='H001'",
+                "SELECT * FROM HangXe WHERE MaHang='H001'"
+            ],
+            "answer": 0
+        },
+        {
+            "question": "Cho bảng Xe (MaXe, TenXe, MaHang). Cập nhật MaHang='H002' cho MaXe='X003'. Câu lệnh đúng là?",
+            "options": [
+                "UPDATE Xe SET MaHang='H002' WHERE MaXe='X003'",
+                "INSERT INTO Xe VALUES ('X003', 'H002')",
+                "DELETE FROM Xe WHERE MaXe='X003'",
+                "SELECT MaHang FROM Xe WHERE MaXe='X003'"
+            ],
+            "answer": 0
+        },
+        {
+            "question": "Cho bảng PhieuNhap (MaPN, MaNCC, TongTien). Xóa phiếu nhập MaPN='PN002'. Câu lệnh đúng là?",
+            "options": [
+                "DELETE FROM PhieuNhap WHERE MaPN='PN002'",
+                "DROP TABLE PhieuNhap WHERE MaPN='PN002'",
+                "UPDATE PhieuNhap SET MaPN=NULL WHERE MaPN='PN002'",
+                "SELECT * FROM PhieuNhap WHERE MaPN='PN002'"
+            ],
+            "answer": 0
+        },
+        {
+            "question": "Cho bảng NhaCungCap (MaNCC, TenNCC, SDT). Lấy nhà cung cấp có SDT='0987654321'. Câu lệnh đúng là?",
+            "options": [
+                "SELECT * FROM NhaCungCap WHERE SDT='0987654321'",
+                "SELECT TenNCC FROM NhaCungCap WHERE MaNCC='0987654321'",
+                "UPDATE NhaCungCap SET SDT='0987654321'",
+                "DELETE FROM NhaCungCap WHERE SDT='0987654321'"
+            ],
+            "answer": 0
+        },
+        {
+            "question": "Cho bảng SanPham (MaSP, TenSP, Gia). Tính giá trung bình của sản phẩm. Câu lệnh đúng là?",
+            "options": [
+                "SELECT SUM(Gia) FROM SanPham",
+                "SELECT AVG(Gia) FROM SanPham",
+                "SELECT COUNT(Gia) FROM SanPham",
+                "SELECT MIN(Gia) FROM SanPham"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "Cho bảng LoaiSP (MaLoai, TenLoai). Thêm loại sản phẩm: MaLoai='L001', TenLoai='DienTu'. Câu lệnh đúng là?",
+            "options": [
+                "INSERT INTO LoaiSP VALUES ('L001', 'DienTu')",
+                "INSERT INTO LoaiSP (MaLoai) VALUES ('L001')",
+                "UPDATE LoaiSP SET TenLoai='DienTu' WHERE MaLoai='L001'",
+                "SELECT * FROM LoaiSP WHERE MaLoai='L001'"
+            ],
+            "answer": 0
+        },
+        {
+            "question": "Cho bảng SanPham (MaSP, TenSP, MaLoai). Cập nhật MaLoai='L002' cho MaSP='SP002'. Câu lệnh đúng là?",
+            "options": [
+                "UPDATE SanPham SET MaLoai='L002' WHERE MaSP='SP002'",
+                "INSERT INTO SanPham VALUES ('SP002', 'L002')",
+                "DELETE FROM SanPham WHERE MaSP='SP002'",
+                "SELECT MaLoai FROM SanPham WHERE MaSP='SP002'"
+            ],
+            "answer": 0
+        },
+        {
+            "question": "Cho bảng ChiTietDH (MaDH, MaSP, SoLuong). Xóa chi tiết đơn hàng MaDH='DH003'. Câu lệnh đúng là?",
+            "options": [
+                "DELETE FROM ChiTietDH WHERE MaDH='DH003'",
+                "DROP TABLE ChiTietDH WHERE MaDH='DH003'",
+                "UPDATE ChiTietDH SET MaDH=NULL WHERE MaDH='DH003'",
+                "SELECT * FROM ChiTietDH WHERE MaDH='DH003'"
+            ],
+            "answer": 0
+        },
+        {
+            "question": "Cho bảng DonHang (MaDH, MaKH, NgayDat). Lấy đơn hàng ngày '2023-11-01'. Câu lệnh đúng là?",
+            "options": [
+                "SELECT * FROM DonHang WHERE NgayDat='2023-11-01'",
+                "SELECT MaKH FROM DonHang WHERE MaDH='2023-11-01'",
+                "UPDATE DonHang SET NgayDat='2023-11-01'",
+                "DELETE FROM DonHang WHERE NgayDat='2023-11-01'"
+            ],
+            "answer": 0
+        },
+        {
+            "question": "Cho bảng NhanVien (MaNV, TenNV, Luong). Tính lương thấp nhất. Câu lệnh đúng là?",
+            "options": [
+                "SELECT SUM(Luong) FROM NhanVien",
+                "SELECT AVG(Luong) FROM NhanVien",
+                "SELECT MAX(Luong) FROM NhanVien",
+                "SELECT MIN(Luong) FROM NhanVien"
+            ],
+            "answer": 3
+        },
+        {
+            "question": "Cho bảng Khoa (MaKhoa, TenKhoa). Thêm khoa: MaKhoa='K001', TenKhoa='CNTT'. Câu lệnh đúng là?",
+            "options": [
+                "INSERT INTO Khoa VALUES ('K001', 'CNTT')",
+                "INSERT INTO Khoa (MaKhoa) VALUES ('K001')",
+                "UPDATE Khoa SET TenKhoa='CNTT' WHERE MaKhoa='K001'",
+                "SELECT * FROM Khoa WHERE MaKhoa='K001'"
+            ],
+            "answer": 0
+        },
+        {
+            "question": "Cho bảng SinhVien (MaSV, HoTen, MaKhoa). Cập nhật MaKhoa='K002' cho MaSV='SV006'. Câu lệnh đúng là?",
+            "options": [
+                "UPDATE SinhVien SET MaKhoa='K002' WHERE MaSV='SV006'",
+                "INSERT INTO SinhVien VALUES ('SV006', 'K002')",
+                "DELETE FROM SinhVien WHERE MaSV='SV006'",
+                "SELECT MaKhoa FROM SinhVien WHERE MaSV='SV006'"
+            ],
+            "answer": 0
+        },
+        {
+            "question": "Cho bảng PhieuDK (MaDK, MaSV, MaMon). Xóa phiếu đăng ký MaDK='DK002'. Câu lệnh đúng là?",
+            "options": [
+                "DELETE FROM PhieuDK WHERE MaDK='DK002'",
+                "DROP TABLE PhieuDK WHERE MaDK='DK002'",
+                "UPDATE PhieuDK SET MaDK=NULL WHERE MaDK='DK002'",
+                "SELECT * FROM PhieuDK WHERE MaDK='DK002'"
+            ],
+            "answer": 0
+        },
+        {
+            "question": "Cho bảng MonHoc (MaMon, TenMon, SoTiet). Lấy môn có SoTiet<20. Câu lệnh đúng là?",
+            "options": [
+                "SELECT * FROM MonHoc WHERE SoTiet<20",
+                "SELECT TenMon FROM MonHoc WHERE MaMon='20'",
+                "UPDATE MonHoc SET SoTiet=20",
+                "DELETE FROM MonHoc WHERE SoTiet<20"
+            ],
+            "answer": 0
+        },
+        {
+            "question": "Cho bảng HoaDon (MaHD, MaKH, TongTien). Tính tổng tiền trung bình. Câu lệnh đúng là?",
+            "options": [
+                "SELECT SUM(TongTien) FROM HoaDon",
+                "SELECT AVG(TongTien) FROM HoaDon",
+                "SELECT COUNT(TongTien) FROM HoaDon",
+                "SELECT MAX(TongTien) FROM HoaDon"
+            ],
+            "answer": 1
+        },
+        {
+            "question": "Cho bảng BoPhan (MaBP, TenBP). Thêm bộ phận: MaBP='BP001', TenBP='NhanSu'. Câu lệnh đúng là?",
+            "options": [
+                "INSERT INTO BoPhan VALUES ('BP001', 'NhanSu')",
+                "INSERT INTO BoPhan (MaBP) VALUES ('BP001')",
+                "UPDATE BoPhan SET TenBP='NhanSu' WHERE MaBP='BP001'",
+                "SELECT * FROM BoPhan WHERE MaBP='BP001'"
+            ],
+            "answer": 0
+        },
+        {
+            "question": "Cho bảng NhanVien (MaNV, TenNV, MaBP). Cập nhật MaBP='BP002' cho MaNV='NV004'. Câu lệnh đúng là?",
+            "options": [
+                "UPDATE NhanVien SET MaBP='BP002' WHERE MaNV='NV004'",
+                "INSERT INTO NhanVien VALUES ('NV004', 'BP002')",
+                "DELETE FROM NhanVien WHERE MaNV='NV004'",
+                "SELECT MaBP FROM NhanVien WHERE MaNV='NV004'"
+            ],
+            "answer": 0
+        },
+        {
+            "question": "Cho bảng ChamCong (MaCC, MaNV, NgayCC). Xóa chấm công MaCC='CC001'. Câu lệnh đúng là?",
+            "options": [
+                "DELETE FROM ChamCong WHERE MaCC='CC001'",
+                "DROP TABLE ChamCong WHERE MaCC='CC001'",
+                "UPDATE ChamCong SET MaCC=NULL WHERE MaCC='CC001'",
+                "SELECT * FROM ChamCong WHERE MaCC='CC001'"
+            ],
+            "answer": 0
+        },
+        {
+            "question": "Cho bảng NhanVien (MaNV, TenNV, Luong). Lấy nhân viên có Luong>10000000. Câu lệnh đúng là?",
+            "options": [
+                "SELECT * FROM NhanVien WHERE Luong>10000000",
+                "SELECT TenNV FROM NhanVien WHERE MaNV='10000000'",
+                "UPDATE NhanVien SET Luong=10000000",
+                "DELETE FROM NhanVien WHERE Luong>10000000"
+            ],
+            "answer": 0
+        },
+        {
+            "question": "Cho bảng SanPham (MaSP, TenSP, Gia). Đếm số sản phẩm có Gia>500000. Câu lệnh đúng là?",
+            "options": [
+                "SELECT SUM(Gia) FROM SanPham WHERE Gia>500000",
+                "SELECT AVG(Gia) FROM SanPham WHERE Gia>500000",
+                "SELECT COUNT(MaSP) FROM SanPham WHERE Gia>500000",
+                "SELECT MAX(Gia) FROM SanPham WHERE Gia>500000"
+            ],
+            "answer": 2
+        },
+        {
+            "question": "Câu lệnh JOIN trong T-SQL dùng để làm gì?",
+            "options": ["Xóa bảng", "Kết hợp dữ liệu từ nhiều bảng", "Thêm bảng", "Sửa bảng"],
+            "answer": 1
+        },
+        {
+            "question": "Loại JOIN nào trả về tất cả hàng từ bảng trái?",
+            "options": ["INNER JOIN", "LEFT JOIN", "RIGHT JOIN", "FULL JOIN"],
+            "answer": 1
+        },
+        {
+            "question": "Loại JOIN nào trả về tất cả hàng từ bảng phải?",
+            "options": ["INNER JOIN", "LEFT JOIN", "RIGHT JOIN", "FULL JOIN"],
+            "answer": 2
+        },
+        {
+            "question": "Loại JOIN nào trả về tất cả hàng từ cả hai bảng?",
+            "options": ["INNER JOIN", "LEFT JOIN", "RIGHT JOIN", "FULL JOIN"],
+            "answer": 3
+        },
+        {
+            "question": "Câu lệnh HAVING trong T-SQL dùng để làm gì?",
+            "options": ["Lọc dữ liệu sau GROUP BY", "Sắp xếp dữ liệu", "Thêm dữ liệu", "Xóa dữ liệu"],
+            "answer": 0
+        },
+        {
+            "question": "Lệnh ALTER trong T-SQL dùng để làm gì?",
+            "options": ["Tạo bảng", "Sửa đổi đối tượng", "Xóa bảng", "Truy vấn bảng"],
+            "answer": 1
+        },
+        {
+            "question": "Câu lệnh TOP trong T-SQL dùng để làm gì?",
+            "options": ["Lấy số hàng đầu tiên", "Sắp xếp dữ liệu", "Nhóm dữ liệu", "Lọc dữ liệu"],
+            "answer": 0
+        },
+        {
+            "question": "Hàm GETDATE trong T-SQL trả về gì?",
+            "options": ["Ngày giờ hiện tại", "Số lượng hàng", "Giá trị trung bình", "Giá trị lớn nhất"],
+            "answer": 0
+        },
+        {
+            "question": "Câu lệnh IF trong T-SQL dùng để làm gì?",
+            "options": ["Lặp lại lệnh", "Kiểm tra điều kiện", "Thêm dữ liệu", "Xóa dữ liệu"],
+            "answer": 1
+        },
+        {
+            "question": "Câu lệnh WHILE trong T-SQL dùng để làm gì?",
+            "options": ["Kiểm tra điều kiện", "Lặp lại lệnh", "Thêm dữ liệu", "Xóa dữ liệu"],
+            "answer": 1
+        },
+        {
+            "question": "Hàm LEN trong T-SQL trả về gì?",
+            "options": ["Độ dài chuỗi", "Số lượng hàng", "Giá trị trung bình", "Giá trị lớn nhất"],
+            "answer": 0
+        },
+        {
+            "question": "Hàm UPPER trong T-SQL làm gì?",
+            "options": ["Chuyển chuỗi thành chữ hoa", "Chuyển chuỗi thành chữ thường", "Cắt chuỗi", "Nối chuỗi"],
+            "answer": 0
+        },
+        {
+            "question": "Hàm LOWER trong T-SQL làm gì?",
+            "options": ["Chuyển chuỗi thành chữ hoa", "Chuyển chuỗi thành chữ thường", "Cắt chuỗi", "Nối chuỗi"],
+            "answer": 1
+        },
+        {
+            "question": "Hàm CONCAT trong T-SQL làm gì?",
+            "options": ["Cắt chuỗi", "Nối chuỗi", "Chuyển chuỗi thành chữ hoa", "Đếm ký tự"],
+            "answer": 1
+        },
+        {
+            "question": "Câu lệnh BEGIN...END trong T-SQL dùng để làm gì?",
+            "options": ["Xóa dữ liệu", "Nhóm các câu lệnh", "Thêm dữ liệu", "Truy vấn dữ liệu"],
+            "answer": 1
+        },
+        {
+            "question": "Lệnh TRUNCATE trong T-SQL dùng để làm gì?",
+            "options": ["Xóa toàn bộ dữ liệu trong bảng", "Thêm dữ liệu", "Sửa dữ liệu", "Truy vấn dữ liệu"],
+            "answer": 0
+        },
+        {
+            "question": "Câu lệnh DECLARE trong T-SQL dùng để làm gì?",
+            "options": ["Khai báo biến", "Xóa biến", "Sửa biến", "Truy vấn biến"],
+            "answer": 0
+        },
+        {
+            "question": "Hàm CAST trong T-SQL làm gì?",
+            "options": ["Chuyển đổi kiểu dữ liệu", "Đếm ký tự", "Nối chuỗi", "Cắt chuỗi"],
+            "answer": 0
+        },
+        {
+            "question": "Hàm CONVERT trong T-SQL làm gì?",
+            "options": ["Chuyển đổi kiểu dữ liệu", "Đếm ký tự", "Nối chuỗi", "Cắt chuỗi"],
+            "answer": 0
+        },
+        {
+            "question": "Câu lệnh SET trong T-SQL dùng để làm gì?",
+            "options": ["Xóa biến", "Gán giá trị cho biến", "Khai báo biến", "Truy vấn biến"],
+            "answer": 1
+        },
+        {
+            "question": "Hàm DATEADD trong T-SQL làm gì?",
+            "options": ["Thêm thời gian vào ngày", "Trừ thời gian", "Lấy ngày hiện tại", "Đếm ngày"],
+            "answer": 0
+        },
+        {
+            "question": "Hàm DATEDIFF trong T-SQL trả về gì?",
+            "options": ["Ngày hiện tại", "Khoảng cách giữa hai ngày", "Thêm ngày", "Trừ ngày"],
+            "answer": 1
+        },
+        {
+            "question": "Câu lệnh CASE trong T-SQL dùng để làm gì?",
+            "options": ["Lặp lại lệnh", "Kiểm tra điều kiện nhiều nhánh", "Thêm dữ liệu", "Xóa dữ liệu"],
+            "answer": 1
+        },
+        {
+            "question": "Hàm ISNULL trong T-SQL làm gì?",
+            "options": ["Kiểm tra null", "Thay giá trị null bằng giá trị khác", "Đếm null", "Xóa null"],
+            "answer": 1
+        },
+        {
+            "question": "Câu lệnh EXISTS trong T-SQL dùng để làm gì?",
+            "options": ["Kiểm tra sự tồn tại", "Xóa dữ liệu", "Thêm dữ liệu", "Sửa dữ liệu"],
+            "answer": 0
+        },
+        {
+            "question": "Hàm COALESCE trong T-SQL trả về gì?",
+            "options": ["Giá trị null đầu tiên", "Giá trị không null đầu tiên", "Tổng giá trị", "Đếm giá trị"],
+            "answer": 1
+        },
+        {
+            "question": "Câu lệnh UNION trong T-SQL dùng để làm gì?",
+            "options": ["Kết hợp kết quả truy vấn", "Xóa dữ liệu", "Thêm dữ liệu", "Sửa dữ liệu"],
+            "answer": 0
+        },
+        {
+            "question": "Câu lệnh EXCEPT trong T-SQL dùng để làm gì?",
+            "options": ["Lấy giao của hai tập hợp", "Lấy trừ của hai tập hợp", "Kết hợp tập hợp", "Nhóm dữ liệu"],
+            "answer": 1
+        },
+        {
+            "question": "Câu lệnh INTERSECT trong T-SQL dùng để làm gì?",
+            "options": ["Lấy giao của hai tập hợp", "Lấy trừ của hai tập hợp", "Kết hợp tập hợp", "Nhóm dữ liệu"],
+            "answer": 0
+        },
+        {
+            "question": "Hàm ROUND trong T-SQL làm gì?",
+            "options": ["Làm tròn số", "Đếm số", "Tổng số", "Trừ số"],
+            "answer": 0
+        },
+        {
+            "question": "Câu lệnh WITH trong T-SQL dùng để làm gì?",
+            "options": ["Xóa dữ liệu", "Định nghĩa truy vấn tạm (CTE)", "Thêm dữ liệu", "Sửa dữ liệu"],
+            "answer": 1
+        },
+        {
+            "question": "Hàm SUBSTRING trong T-SQL làm gì?",
+            "options": ["Nối chuỗi", "Cắt chuỗi", "Chuyển chuỗi thành chữ hoa", "Đếm ký tự"],
+            "answer": 1
+        },
+        {
+            "question": "Câu lệnh BEGIN TRAN trong T-SQL dùng để làm gì?",
+            "options": ["Kết thúc giao dịch", "Bắt đầu giao dịch", "Xóa giao dịch", "Truy vấn giao dịch"],
+            "answer": 1
+        },
+        {
+            "question": "Câu lệnh COMMIT trong T-SQL dùng để làm gì?",
+            "options": ["Hủy giao dịch", "Xác nhận giao dịch", "Bắt đầu giao dịch", "Truy vấn giao dịch"],
+            "answer": 1
+        },
+        {
+            "question": "Câu lệnh ROLLBACK trong T-SQL dùng để làm gì?",
+            "options": ["Hủy giao dịch", "Xác nhận giao dịch", "Bắt đầu giao dịch", "Truy vấn giao dịch"],
+            "answer": 0
+        },
+        {
+            "question": "Hàm CHARINDEX trong T-SQL trả về gì?",
+            "options": ["Độ dài chuỗi", "Vị trí của ký tự trong chuỗi", "Chuỗi con", "Số ký tự"],
+            "answer": 1
+        },
+        {
+            "question": "Câu lệnh MERGE trong T-SQL dùng để làm gì?",
+            "options": ["Xóa dữ liệu", "Kết hợp INSERT, UPDATE, DELETE", "Thêm dữ liệu", "Truy vấn dữ liệu"],
+            "answer": 1
+        },
+        {
+            "question": "Hàm REPLACE trong T-SQL làm gì?",
+            "options": ["Thay thế chuỗi", "Cắt chuỗi", "Nối chuỗi", "Đếm ký tự"],
+            "answer": 0
+        },
+        {
+            "question": "Câu lệnh TRY...CATCH trong T-SQL dùng để làm gì?",
+            "options": ["Xử lý lỗi", "Lặp lại lệnh", "Thêm dữ liệu", "Xóa dữ liệu"],
+            "answer": 0
+        },
+        {
+            "question": "Hàm DATEPART trong T-SQL trả về gì?",
+            "options": ["Ngày hiện tại", "Phần cụ thể của ngày", "Khoảng cách ngày", "Thêm ngày"],
+            "answer": 1
+        },
+        {
+            "question": "Câu lệnh GO trong T-SQL dùng để làm gì?",
+            "options": ["Kết thúc batch lệnh", "Bắt đầu batch", "Xóa batch", "Truy vấn batch"],
+            "answer": 0
+        },
+        {
+            "question": "Hàm PATINDEX trong T-SQL trả về gì?",
+            "options": ["Độ dài chuỗi", "Vị trí mẫu trong chuỗi", "Chuỗi con", "Số ký tự"],
+            "answer": 1
+        },
+        {
+            "question": "Câu lệnh EXEC trong T-SQL dùng để làm gì?",
+            "options": ["Xóa lệnh", "Thực thi stored procedure", "Thêm lệnh", "Sửa lệnh"],
+            "answer": 1
+        },
+        {
+            "question": "Hàm STUFF trong T-SQL làm gì?",
+            "options": ["Chèn chuỗi vào chuỗi khác", "Cắt chuỗi", "Nối chuỗi", "Đếm ký tự"],
+            "answer": 0
+        },
+        {
+            "question": "Câu lệnh RETURN trong T-SQL dùng để làm gì?",
+            "options": ["Trả về giá trị và thoát", "Tiếp tục lệnh", "Thêm dữ liệu", "Xóa dữ liệu"],
+            "answer": 0
+        },
+        {
+            "question": "Hàm CEILING trong T-SQL làm gì?",
+            "options": ["Làm tròn xuống", "Làm tròn lên", "Đếm số", "Tổng số"],
+            "answer": 1
+        },
+        {
+            "question": "Hàm FLOOR trong T-SQL làm gì?",
+            "options": ["Làm tròn xuống", "Làm tròn lên", "Đếm số", "Tổng số"],
+            "answer": 0
+        },
+        {
+            "question": "Câu lệnh BREAK trong T-SQL dùng để làm gì?",
+            "options": ["Thoát vòng lặp", "Tiếp tục vòng lặp", "Thêm dữ liệu", "Xóa dữ liệu"],
+            "answer": 0
+        },
+        {
+            "question": "Hàm POWER trong T-SQL trả về gì?",
+            "options": ["Lũy thừa của số", "Căn bậc hai", "Tổng số", "Đếm số"],
+            "answer": 0
+        },
+        {
+            "question": "Câu lệnh CONTINUE trong T-SQL dùng để làm gì?",
+            "options": ["Thoát vòng lặp", "Tiếp tục vòng lặp", "Thêm dữ liệu", "Xóa dữ liệu"],
+            "answer": 1
+        },
+        {
+            "question": "Hàm RAND trong T-SQL trả về gì?",
+            "options": ["Số ngẫu nhiên", "Ngày hiện tại", "Độ dài chuỗi", "Số lượng hàng"],
+            "answer": 0
+        },
+        {
+            "question": "Câu lệnh WAITFOR trong T-SQL dùng để làm gì?",
+            "options": ["Tạm dừng thực thi", "Xóa dữ liệu", "Thêm dữ liệu", "Sửa dữ liệu"],
+            "answer": 0
+        },
+        {
+            "question": "Hàm SIGN trong T-SQL trả về gì?",
+            "options": ["Dấu của số", "Giá trị tuyệt đối", "Lũy thừa", "Căn bậc hai"],
+            "answer": 0
+        },
+        {
+            "question": "Câu lệnh PRINT trong T-SQL dùng để làm gì?",
+            "options": ["Hiển thị thông báo", "Xóa dữ liệu", "Thêm dữ liệu", "Sửa dữ liệu"],
+            "answer": 0
+        },
+        {
+            "question": "Hàm ABS trong T-SQL trả về gì?",
+            "options": ["Giá trị tuyệt đối", "Dấu của số", "Lũy thừa", "Căn bậc hai"],
+            "answer": 0
+        },
+        {
+            "question": "Câu lệnh RAISERROR trong T-SQL dùng để làm gì?",
+            "options": ["Tạo lỗi tùy chỉnh", "Xóa lỗi", "Thêm dữ liệu", "Sửa dữ liệu"],
+            "answer": 0
+        },
+        {
+            "question": "Hàm SQUARE trong T-SQL trả về gì?",
+            "options": ["Bình phương số", "Căn bậc hai", "Lũy thừa", "Giá trị tuyệt đối"],
+            "answer": 0
+        },
+        {
+            "question": "Câu lệnh IDENTITY trong T-SQL dùng để làm gì?",
+            "options": ["Tạo giá trị tự tăng", "Xóa dữ liệu", "Thêm dữ liệu", "Sửa dữ liệu"],
+            "answer": 0
+        },
+        {
+            "question": "Hàm LEFT trong T-SQL làm gì?",
+            "options": ["Lấy ký tự bên trái", "Lấy ký tự bên phải", "Nối chuỗi", "Đếm ký tự"],
+            "answer": 0
+        },
+        {
+            "question": "Hàm RIGHT trong T-SQL làm gì?",
+            "options": ["Lấy ký tự bên trái", "Lấy ký tự bên phải", "Nối chuỗi", "Đếm ký tự"],
+            "answer": 1
+        },
+        {
+            "question": "Câu lệnh CHECK trong T-SQL dùng để làm gì?",
+            "options": ["Thêm ràng buộc kiểm tra", "Xóa dữ liệu", "Thêm dữ liệu", "Sửa dữ liệu"],
+            "answer": 0
+        },
+        {
+            "question": "Hàm TRIM trong T-SQL làm gì?",
+            "options": ["Xóa khoảng trắng", "Nối chuỗi", "Cắt chuỗi", "Đếm ký tự"],
+            "answer": 0
+        },
+        {
+            "question": "Câu lệnh DEFAULT trong T-SQL dùng để làm gì?",
+            "options": ["Thêm giá trị mặc định", "Xóa dữ liệu", "Thêm dữ liệu", "Sửa dữ liệu"],
+            "answer": 0
+        },
+        {
+            "question": "Hàm YEAR trong T-SQL trả về gì?",
+            "options": ["Năm từ ngày", "Tháng từ ngày", "Ngày hiện tại", "Khoảng cách ngày"],
+            "answer": 0
+        },
+        {
+            "question": "Hàm MONTH trong T-SQL trả về gì?",
+            "options": ["Năm từ ngày", "Tháng từ ngày", "Ngày hiện tại", "Khoảng cách ngày"],
+            "answer": 1
+        },
+        {
+            "question": "Câu lệnh CONSTRAINT trong T-SQL dùng để làm gì?",
+            "options": ["Thêm ràng buộc", "Xóa dữ liệu", "Thêm dữ liệu", "Sửa dữ liệu"],
+            "answer": 0
+        },
+        {
+            "question": "Hàm DAY trong T-SQL trả về gì?",
+            "options": ["Năm từ ngày", "Tháng từ ngày", "Ngày từ ngày", "Khoảng cách ngày"],
+            "answer": 2
+        },
+        {
+            "question": "Câu lệnh FETCH trong T-SQL dùng để làm gì?",
+            "options": ["Lấy dữ liệu từ cursor", "Xóa dữ liệu", "Thêm dữ liệu", "Sửa dữ liệu"],
+            "answer": 0
+        },
+        {
+            "question": "Hàm CURRENT_TIMESTAMP trong T-SQL trả về gì?",
+            "options": ["Ngày giờ hiện tại", "Số lượng hàng", "Độ dài chuỗi", "Giá trị lớn nhất"],
+            "answer": 0
+        },
+        {
+            "question": "Câu lệnh OPEN trong T-SQL dùng để làm gì?",
+            "options": ["Mở cursor", "Đóng cursor", "Xóa cursor", "Sửa cursor"],
+            "answer": 0
+        },
+        {
+            "question": "Hàm FORMAT trong T-SQL làm gì?",
+            "options": ["Định dạng giá trị", "Đếm ký tự", "Nối chuỗi", "Cắt chuỗi"],
+            "answer": 0
+        },
+        {
+            "question": "Câu lệnh CLOSE trong T-SQL dùng để làm gì?",
+            "options": ["Mở cursor", "Đóng cursor", "Xóa cursor", "Sửa cursor"],
+            "answer": 1
+        },
+        {
+            "question": "Hàm STRING_AGG trong T-SQL làm gì?",
+            "options": ["Nối chuỗi trong nhóm", "Cắt chuỗi", "Đếm ký tự", "Chuyển chuỗi"],
+            "answer": 0
+        },
+        {
+            "question": "Câu lệnh OUTPUT trong T-SQL dùng để làm gì?",
+            "options": ["Trả về dữ liệu bị ảnh hưởng", "Xóa dữ liệu", "Thêm dữ liệu", "Sửa dữ liệu"],
+            "answer": 0
+        },
+        {
+            "question": "Hàm LTRIM trong T-SQL làm gì?",
+            "options": ["Xóa khoảng trắng bên trái", "Xóa khoảng trắng bên phải", "Nối chuỗi", "Cắt chuỗi"],
+            "answer": 0
+        },
+        {
+            "question": "Hàm RTRIM trong T-SQL làm gì?",
+            "options": ["Xóa khoảng trắng bên trái", "Xóa khoảng trắng bên phải", "Nối chuỗi", "Cắt chuỗi"],
+            "answer": 1
+        }
+    ],
+    "chuong5": [
+        {
+            "question": "Mục đích của bảo mật CSDL là gì?",
+            "options": ["Tăng tốc truy vấn", "Bảo vệ dữ liệu khỏi truy cập trái phép", "Xóa dữ liệu cũ", "Tạo bảng mới"],
+            "answer": 1
+        },
+        {
+            "question": "Lệnh nào thêm người dùng mới trong MS SQL Server?",
+            "options": ["CREATE USER", "DROP USER", "ALTER USER", "DELETE USER"],
+            "answer": 0
+        },
+        {
+            "question": "Lệnh DROP USER trong MS SQL Server làm gì?",
+            "options": ["Thêm người dùng", "Xóa người dùng", "Sửa người dùng", "Truy vấn người dùng"],
+            "answer": 1
+        },
+        {
+            "question": "Lệnh ALTER USER trong MS SQL Server làm gì?",
+            "options": ["Thêm người dùng", "Xóa người dùng", "Sửa thông tin người dùng", "Truy vấn người dùng"],
+            "answer": 2
+        },
+        {
+            "question": "Quyền SELECT trong MS SQL Server cho phép gì?",
+            "options": ["Xóa dữ liệu", "Xem dữ liệu", "Sửa dữ liệu", "Thêm dữ liệu"],
+            "answer": 1
+        },
+        {
+            "question": "Quyền INSERT trong MS SQL Server cho phép gì?",
+            "options": ["Xóa dữ liệu", "Xem dữ liệu", "Sửa dữ liệu", "Thêm dữ liệu"],
+            "answer": 3
+        },
+        {
+            "question": "Quyền UPDATE trong MS SQL Server cho phép gì?",
+            "options": ["Xóa dữ liệu", "Xem dữ liệu", "Sửa dữ liệu", "Thêm dữ liệu"],
+            "answer": 2
+        },
+        {
+            "question": "Quyền DELETE trong MS SQL Server cho phép gì?",
+            "options": ["Xóa dữ liệu", "Xem dữ liệu", "Sửa dữ liệu", "Thêm dữ liệu"],
+            "answer": 0
+        },
+        {
+            "question": "Lệnh GRANT trong MS SQL Server làm gì?",
+            "options": ["Thu hồi quyền", "Cấp quyền", "Xóa người dùng", "Sửa người dùng"],
+            "answer": 1
+        },
+        {
+            "question": "Lệnh REVOKE trong MS SQL Server làm gì?",
+            "options": ["Thu hồi quyền", "Cấp quyền", "Xóa người dùng", "Sửa người dùng"],
+            "answer": 0
+        },
+        {
+            "question": "Vai trò (Role) trong MS SQL Server dùng để làm gì?",
+            "options": ["Xóa dữ liệu", "Nhóm quyền cho người dùng", "Tạo bảng", "Sửa bảng"],
+            "answer": 1
+        },
+        {
+            "question": "Lệnh CREATE ROLE trong MS SQL Server làm gì?",
+            "options": ["Xóa vai trò", "Tạo vai trò mới", "Sửa vai trò", "Truy vấn vai trò"],
+            "answer": 1
+        },
+        {
+            "question": "Lệnh DROP ROLE trong MS SQL Server làm gì?",
+            "options": ["Xóa vai trò", "Tạo vai trò mới", "Sửa vai trò", "Truy vấn vai trò"],
+            "answer": 0
+        },
+        {
+            "question": "Lệnh ALTER ROLE trong MS SQL Server làm gì?",
+            "options": ["Xóa vai trò", "Tạo vai trò mới", "Sửa vai trò", "Truy vấn vai trò"],
+            "answer": 2
+        },
+        {
+            "question": "Vai trò sysadmin trong MS SQL Server có quyền gì?",
+            "options": ["Chỉ xem dữ liệu", "Toàn quyền trên server", "Chỉ thêm dữ liệu", "Không có quyền"],
+            "answer": 1
+        },
+        {
+            "question": "Vai trò db_owner trong MS SQL Server có quyền gì?",
+            "options": ["Toàn quyền trên CSDL", "Chỉ xem dữ liệu", "Chỉ thêm dữ liệu", "Không có quyền"],
+            "answer": 0
+        },
+        {
+            "question": "Lệnh DENY trong MS SQL Server làm gì?",
+            "options": ["Cấp quyền", "Chặn quyền", "Xóa người dùng", "Sửa người dùng"],
+            "answer": 1
+        },
+        {
+            "question": "Login trong MS SQL Server là gì?",
+            "options": ["Tài khoản cấp server", "Tài khoản cấp CSDL", "Vai trò", "Quyền"],
+            "answer": 0
+        },
+        {
+            "question": "User trong MS SQL Server là gì?",
+            "options": ["Tài khoản cấp server", "Tài khoản cấp CSDL", "Vai trò", "Quyền"],
+            "answer": 1
+        },
+        {
+            "question": "Lệnh CREATE LOGIN trong MS SQL Server làm gì?",
+            "options": ["Xóa tài khoản", "Tạo tài khoản cấp server", "Sửa tài khoản", "Truy vấn tài khoản"],
+            "answer": 1
+        },
+        {
+            "question": "Phân quyền trong MS SQL Server giúp gì?",
+            "options": ["Tăng rủi ro", "Kiểm soát truy cập", "Xóa dữ liệu", "Tạo bảng"],
+            "answer": 1
+        },
+        {
+            "question": "Tính năng mã hóa trong MS SQL Server là gì?",
+            "options": ["Transparent Data Encryption", "Query Optimizer", "Backup", "Restore"],
+            "answer": 0
+        },
+        {
+            "question": "Vai trò db_datareader trong MS SQL Server có quyền gì?",
+            "options": ["Toàn quyền", "Chỉ đọc dữ liệu", "Chỉ ghi dữ liệu", "Xóa dữ liệu"],
+            "answer": 1
+        },
+        {
+            "question": "Vai trò db_datawriter trong MS SQL Server có quyền gì?",
+            "options": ["Toàn quyền", "Chỉ đọc dữ liệu", "Chỉ ghi dữ liệu", "Xóa dữ liệu"],
+            "answer": 2
+        },
+        {
+            "question": "Lệnh sp_adduser trong MS SQL Server làm gì?",
+            "options": ["Xóa người dùng", "Thêm người dùng vào CSDL", "Sửa người dùng", "Truy vấn người dùng"],
+            "answer": 1
+        },
+        {
+            "question": "Quyền EXECUTE trong MS SQL Server cho phép gì?",
+            "options": ["Thực thi stored procedure", "Xem dữ liệu", "Sửa dữ liệu", "Thêm dữ liệu"],
+            "answer": 0
+        },
+        {
+            "question": "Tính năng nào giúp bảo mật dữ liệu trong MS SQL Server?",
+            "options": ["Tăng dư thừa", "Phân quyền và mã hóa", "Giảm hiệu suất", "Xóa dữ liệu"],
+            "answer": 1
+        },
+        {
+            "question": "Lệnh sp_helprole trong MS SQL Server làm gì?",
+            "options": ["Xóa vai trò", "Hiển thị thông tin vai trò", "Sửa vai trò", "Tạo vai trò"],
+            "answer": 1
+        },
+        {
+            "question": "Quyền CONTROL trong MS SQL Server cho phép gì?",
+            "options": ["Toàn quyền trên đối tượng", "Chỉ xem dữ liệu", "Chỉ thêm dữ liệu", "Xóa dữ liệu"],
+            "answer": 0
+        },
+        {
+            "question": "Lệnh sp_addrolemember trong MS SQL Server làm gì?",
+            "options": ["Xóa thành viên", "Thêm thành viên vào vai trò", "Sửa thành viên", "Truy vấn thành viên"],
+            "answer": 1
+        },
+        {
+            "question": "Quyền ALTER trong MS SQL Server cho phép gì?",
+            "options": ["Xóa dữ liệu", "Sửa đổi đối tượng", "Xem dữ liệu", "Thêm dữ liệu"],
+            "answer": 1
+        },
+        {
+            "question": "Lệnh sp_droprolemember trong MS SQL Server làm gì?",
+            "options": ["Xóa thành viên khỏi vai trò", "Thêm thành viên", "Sửa thành viên", "Truy vấn thành viên"],
+            "answer": 0
+        },
+        {
+            "question": "Tính năng Auditing trong MS SQL Server là gì?",
+            "options": ["Tăng tốc truy vấn", "Theo dõi hoạt động", "Xóa dữ liệu", "Tạo bảng"],
+            "answer": 1
+        },
+        {
+            "question": "Lệnh sp_helplogins trong MS SQL Server làm gì?",
+            "options": ["Xóa login", "Hiển thị thông tin login", "Sửa login", "Tạo login"],
+            "answer": 1
+        },
+        {
+            "question": "Quyền REFERENCES trong MS SQL Server cho phép gì?",
+            "options": ["Tham chiếu khóa ngoại", "Xem dữ liệu", "Sửa dữ liệu", "Thêm dữ liệu"],
+            "answer": 0
+        },
+        {
+            "question": "Lệnh DENY có ưu tiên hơn GRANT không?",
+            "options": ["Không", "Có", "Tùy trường hợp", "Không kiểm tra"],
+            "answer": 1
+        },
+        {
+            "question": "Vai trò public trong MS SQL Server là gì?",
+            "options": ["Vai trò mặc định cho mọi người dùng", "Vai trò quản trị", "Vai trò chỉ đọc", "Vai trò chỉ ghi"],
+            "answer": 0
+        },
+        {
+            "question": "Lệnh sp_configure trong MS SQL Server làm gì?",
+            "options": ["Cấu hình server", "Xóa người dùng", "Sửa vai trò", "Truy vấn quyền"],
+            "answer": 0
+        },
+        {
+            "question": "Quyền VIEW DEFINITION trong MS SQL Server cho phép gì?",
+            "options": ["Xem định nghĩa đối tượng", "Sửa dữ liệu", "Thêm dữ liệu", "Xóa dữ liệu"],
+            "answer": 0
+        },
+        {
+            "question": "Lệnh CREATE LOGIN hỗ trợ xác thực nào?",
+            "options": ["Chỉ Windows", "Windows và SQL Server", "Chỉ SQL Server", "Không hỗ trợ"],
+            "answer": 1
+        },
+        {
+            "question": "Phân quyền trong MS SQL Server giúp gì trong hiệu suất?",
+            "options": ["Tăng rủi ro", "Giới hạn truy cập, giảm tải không cần thiết", "Giảm hiệu suất", "Xóa dữ liệu"],
+            "answer": 1
+        },
+        {
+            "question": "Quản trị viên CSDL có thể dùng lệnh gì để kiểm tra quyền?",
+            "options": ["sp_helprotect", "CREATE USER", "DROP ROLE", "INSERT"],
+            "answer": 0
+        },
+        {
+            "question": "GRANT trong T-SQL có thể cấp quyền REFERENCES không?",
+            "options": ["Có", "Không", "Chỉ dùng với SELECT", "Chỉ dùng với INSERT"],
+            "answer": 0
+        },
+        {
+            "question": "Quyền VIEW SERVER STATE trong MS SQL Server cho phép gì?",
+            "options": ["Xem trạng thái Server", "Sửa dữ liệu", "Xóa dữ liệu", "Thêm dữ liệu"],
+            "answer": 0
+        },
+        {
+            "question": "DENY trong MS SQL Server có thể áp dụng cho vai trò sysadmin không?",
+            "options": ["Không, sysadmin vượt qua DENY", "Có", "Chỉ áp dụng cho người dùng thường", "Không áp dụng"],
+            "answer": 0
+        },
+        {
+            "question": "Người dùng trong MS SQL Server có thể được gán quyền qua gì?",
+            "options": ["Vai trò hoặc trực tiếp", "Chỉ vai trò", "Chỉ trực tiếp", "Không gán được"],
+            "answer": 0
+        },
+        {
+            "question": "Lệnh ALTER LOGIN trong MS SQL Server có thể làm gì?",
+            "options": ["Thay đổi mật khẩu hoặc trạng thái", "Tạo Login mới", "Xóa Login", "Truy vấn Login"],
+            "answer": 0
+        },
+        {
+            "question": "Bảo mật CSDL trong MS SQL Server đảm bảo gì?",
+            "options": ["Tăng tốc truy vấn", "Dữ liệu an toàn và chỉ truy cập bởi người được phép", "Xóa dữ liệu tự động", "Tạo bảng mới"],
+            "answer": 1
+        },
+        {
+            "question": "Lệnh sp_who trong MS SQL Server làm gì?",
+            "options": ["Hiển thị người dùng đang kết nối", "Xóa người dùng", "Sửa người dùng", "Tạo người dùng"],
+            "answer": 0
+        },
+        {
+            "question": "Quyền TAKE OWNERSHIP trong MS SQL Server cho phép gì?",
+            "options": ["Sở hữu đối tượng", "Xem dữ liệu", "Sửa dữ liệu", "Thêm dữ liệu"],
+            "answer": 0
+        },
+        {
+            "question": "Lệnh sp_addlogin trong MS SQL Server làm gì?",
+            "options": ["Xóa login", "Thêm login SQL Server", "Sửa login", "Truy vấn login"],
+            "answer": 1
+        },
+        {
+            "question": "Tính năng nào giúp mã hóa kết nối trong MS SQL Server?",
+            "options": ["SSL/TLS", "Query Optimizer", "Backup", "Restore"],
+            "answer": 0
+        },
+        {
+            "question": "Vai trò db_ddladmin trong MS SQL Server có quyền gì?",
+            "options": ["Chỉ đọc dữ liệu", "Thực thi lệnh DDL", "Chỉ ghi dữ liệu", "Xóa dữ liệu"],
+            "answer": 1
+        },
+        {
+            "question": "Lệnh sp_helpuser trong MS SQL Server làm gì?",
+            "options": ["Hiển thị thông tin người dùng", "Xóa người dùng", "Sửa người dùng", "Tạo người dùng"],
+            "answer": 0
+        },
+        {
+            "question": "Quyền IMPERSONATE trong MS SQL Server cho phép gì?",
+            "options": ["Giả lập người dùng khác", "Xem dữ liệu", "Sửa dữ liệu", "Thêm dữ liệu"],
+            "answer": 0
+        },
+        {
+            "question": "Lệnh sp_droplogin trong MS SQL Server làm gì?",
+            "options": ["Xóa login", "Thêm login", "Sửa login", "Truy vấn login"],
+            "answer": 0
+        },
+        {
+            "question": "Tính năng nào giúp theo dõi đăng nhập trong MS SQL Server?",
+            "options": ["Login Auditing", "Query Optimizer", "Backup", "Restore"],
+            "answer": 0
+        },
+        {
+            "question": "Vai trò db_securityadmin trong MS SQL Server có quyền gì?",
+            "options": ["Quản lý bảo mật CSDL", "Chỉ đọc dữ liệu", "Chỉ ghi dữ liệu", "Xóa dữ liệu"],
+            "answer": 0
+        },
+        {
+            "question": "Lệnh sp_helprolemember trong MS SQL Server làm gì?",
+            "options": ["Hiển thị thành viên vai trò", "Xóa vai trò", "Sửa vai trò", "Tạo vai trò"],
+            "answer": 0
+        },
+        {
+            "question": "Quyền CREATE TABLE trong MS SQL Server cho phép gì?",
+            "options": ["Tạo bảng", "Xem dữ liệu", "Sửa dữ liệu", "Thêm dữ liệu"],
+            "answer": 0
+        },
+        {
+            "question": "Lệnh DENY có thể áp dụng cho cột không?",
+            "options": ["Không", "Có", "Tùy trường hợp", "Không kiểm tra"],
+            "answer": 1
+        },
+        {
+            "question": "Tính năng nào giúp bảo vệ dữ liệu nhạy cảm?",
+            "options": ["Dynamic Data Masking", "Query Optimizer", "Backup", "Restore"],
+            "answer": 0
+        },
+        {
+            "question": "Vai trò serveradmin trong MS SQL Server có quyền gì?",
+            "options": ["Quản lý cấu hình server", "Chỉ đọc dữ liệu", "Chỉ ghi dữ liệu", "Xóa dữ liệu"],
+            "answer": 0
+        },
+        {
+            "question": "Lệnh sp_help trong MS SQL Server làm gì?",
+            "options": ["Hiển thị thông tin đối tượng", "Xóa đối tượng", "Sửa đối tượng", "Tạo đối tượng"],
+            "answer": 0
+        },
+        {
+            "question": "Quyền SHUTDOWN trong MS SQL Server cho phép gì?",
+            "options": ["Tắt server", "Xem dữ liệu", "Sửa dữ liệu", "Thêm dữ liệu"],
+            "answer": 0
+        },
+        {
+            "question": "Lệnh GRANT có thể cấp quyền cho vai trò không?",
+            "options": ["Không", "Có", "Tùy trường hợp", "Không kiểm tra"],
+            "answer": 1
+        },
+        {
+            "question": "Tính năng nào giúp sao lưu mã hóa trong MS SQL Server?",
+            "options": ["Encrypted Backup", "Query Optimizer", "Backup", "Restore"],
+            "answer": 0
+        },
+        {
+            "question": "Vai trò db_backupoperator trong MS SQL Server có quyền gì?",
+            "options": ["Sao lưu CSDL", "Chỉ đọc dữ liệu", "Chỉ ghi dữ liệu", "Xóa dữ liệu"],
+            "answer": 0
+        },
+        {
+            "question": "Lệnh sp_helplogins hiển thị gì?",
+            "options": ["Thông tin login", "Thông tin bảng", "Thông tin vai trò", "Thông tin quyền"],
+            "answer": 0
+        },
+        {
+            "question": "Quyền CREATE DATABASE trong MS SQL Server cho phép gì?",
+            "options": ["Tạo CSDL", "Xem dữ liệu", "Sửa dữ liệu", "Thêm dữ liệu"],
+            "answer": 0
+        },
+        {
+            "question": "Lệnh REVOKE có thể thu hồi quyền từ vai trò không?",
+            "options": ["Không", "Có", "Tùy trường hợp", "Không kiểm tra"],
+            "answer": 1
+        },
+        {
+            "question": "Tính năng nào giúp kiểm soát truy cập chi tiết?",
+            "options": ["Row-Level Security", "Query Optimizer", "Backup", "Restore"],
+            "answer": 0
+        },
+        {
+            "question": "Vai trò processadmin trong MS SQL Server có quyền gì?",
+            "options": ["Quản lý tiến trình", "Chỉ đọc dữ liệu", "Chỉ ghi dữ liệu", "Xóa dữ liệu"],
+            "answer": 0
+        },
+        {
+            "question": "Lệnh sp_who2 trong MS SQL Server làm gì?",
+            "options": ["Hiển thị chi tiết người dùng đang kết nối", "Xóa người dùng", "Sửa người dùng", "Tạo người dùng"],
+            "answer": 0
+        },
+        {
+            "question": "Quyền ALTER ANY LOGIN trong MS SQL Server cho phép gì?",
+            "options": ["Sửa bất kỳ login nào", "Xem dữ liệu", "Sửa dữ liệu", "Thêm dữ liệu"],
+            "answer": 0
+        },
+        {
+            "question": "Lệnh GRANT có thể cấp quyền cho cột không?",
+            "options": ["Không", "Có", "Tùy trường hợp", "Không kiểm tra"],
+            "answer": 1
+        },
+        {
+            "question": "Tính năng nào giúp phát hiện mối đe dọa trong MS SQL Server?",
+            "options": ["Threat Detection", "Query Optimizer", "Backup", "Restore"],
+            "answer": 0
+        },
+        {
+            "question": "Vai trò setupadmin trong MS SQL Server có quyền gì?",
+            "options": ["Cài đặt server", "Chỉ đọc dữ liệu", "Chỉ ghi dữ liệu", "Xóa dữ liệu"],
+            "answer": 0
+        },
+        {
+            "question": "Lệnh sp_helprotect hiển thị gì?",
+            "options": ["Thông tin quyền", "Thông tin bảng", "Thông tin vai trò", "Thông tin login"],
+            "answer": 0
+        },
+        {
+            "question": "Quyền ALTER ANY DATABASE trong MS SQL Server cho phép gì?",
+            "options": ["Sửa bất kỳ CSDL nào", "Xem dữ liệu", "Sửa dữ liệu", "Thêm dữ liệu"],
+            "answer": 0
+        },
+        {
+            "question": "Lệnh DENY có thể áp dụng cho login không?",
+            "options": ["Không", "Có", "Tùy trường hợp", "Không kiểm tra"],
+            "answer": 1
+        },
+        {
+            "question": "Tính năng nào giúp ẩn dữ liệu nhạy cảm?",
+            "options": ["Dynamic Data Masking", "Query Optimizer", "Backup", "Restore"],
+            "answer": 0
+        },
+        {
+            "question": "Vai trò bulkadmin trong MS SQL Server có quyền gì?",
+            "options": ["Thực thi lệnh BULK", "Chỉ đọc dữ liệu", "Chỉ ghi dữ liệu", "Xóa dữ liệu"],
+            "answer": 0
+        },
+        {
+            "question": "Lệnh sp_helpuser hiển thị gì?",
+            "options": ["Thông tin người dùng", "Thông tin bảng", "Thông tin vai trò", "Thông tin quyền"],
+            "answer": 0
+        },
+        {
+            "question": "Quyền CREATE PROCEDURE trong MS SQL Server cho phép gì?",
+            "options": ["Tạo stored procedure", "Xem dữ liệu", "Sửa dữ liệu", "Thêm dữ liệu"],
+            "answer": 0
+        },
+        {
+            "question": "Lệnh REVOKE có thể thu hồi quyền từ cột không?",
+            "options": ["Không", "Có", "Tùy trường hợp", "Không kiểm tra"],
+            "answer": 1
+        },
+        {
+            "question": "Tính năng nào giúp bảo vệ dữ liệu trong MS SQL Server?",
+            "options": ["Always Encrypted", "Query Optimizer", "Backup", "Restore"],
+            "answer": 0
+        },
+        {
+            "question": "Vai trò db_denydatareader trong MS SQL Server có quyền gì?",
+            "options": ["Chặn đọc dữ liệu", "Chỉ đọc dữ liệu", "Chỉ ghi dữ liệu", "Xóa dữ liệu"],
+            "answer": 0
+        },
+        {
+            "question": "Lệnh sp_helprolemember hiển thị gì?",
+            "options": ["Thành viên vai trò", "Thông tin bảng", "Thông tin quyền", "Thông tin login"],
+            "answer": 0
+        },
+        {
+            "question": "Quyền CREATE VIEW trong MS SQL Server cho phép gì?",
+            "options": ["Tạo view", "Xem dữ liệu", "Sửa dữ liệu", "Thêm dữ liệu"],
+            "answer": 0
+        },
+        {
+            "question": "Lệnh GRANT có thể cấp quyền cho user không?",
+            "options": ["Không", "Có", "Tùy trường hợp", "Không kiểm tra"],
+            "answer": 1
+        }
+    ]
+}

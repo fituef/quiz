@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trắc Nghiệm Cơ Sở Dữ Liệu</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #e0eafc, #cfdef3);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .container {
+            background: #fff;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 800px;
+            padding: 30px;
+            overflow: hidden;
+        }
+
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            margin-bottom: 20px;
+            font-size: 2em;
+        }
+
+        #home {
+            text-align: center;
+        }
+
+        .chapter-btn {
+            display: inline-block;
+            background: #3498db;
+            color: #fff;
+            padding: 12px 25px;
+            margin: 10px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-size: 1.1em;
+            transition: background 0.3s, transform 0.2s;
+        }
+
+        .chapter-btn:hover {
+            background: #2980b9;
+            transform: translateY(-2px);
+        }
+
+        #time-select {
+            display: block;
+            margin: 20px auto;
+            padding: 10px;
+            font-size: 1.1em;
+            border-radius: 5px;
+            border: 1px solid #bdc3c7;
+            background: #ecf0f1;
+            cursor: pointer;
+            width: 200px;
+        }
+
+        #quiz {
+            display: none;
+        }
+
+        #chapter-title {
+            color: #34495e;
+            font-size: 1.5em;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        #timer {
+            text-align: center;
+            font-size: 1.2em;
+            color: #e74c3c;
+            margin-bottom: 20px;
+        }
+
+        #question {
+            font-size: 1.3em;
+            color: #2c3e50;
+            margin-bottom: 20px;
+            line-height: 1.4;
+        }
+
+        .option {
+            background: #ecf0f1;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: background 0.3s, transform 0.2s;
+            font-size: 1.1em;
+            color: #34495e;
+        }
+
+        .option:hover {
+            background: #dfe6e9;
+            transform: translateX(5px);
+        }
+
+        .option.selected {
+            background: #2ecc71;
+            color: #fff;
+        }
+
+        .buttons {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 30px;
+        }
+
+        .btn {
+            background: #3498db;
+            color: #fff;
+            padding: 12px 25px;
+            border-radius: 25px;
+            border: none;
+            cursor: pointer;
+            font-size: 1.1em;
+            transition: background 0.3s, transform 0.2s;
+        }
+
+        .btn:hover {
+            background: #2980b9;
+            transform: translateY(-2px);
+        }
+
+        .btn:disabled {
+            background: #bdc3c7;
+            cursor: not-allowed;
+        }
+
+        #result {
+            display: none;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        #result h2 {
+            color: #2ecc71;
+            font-size: 1.8em;
+            margin-bottom: 20px;
+        }
+
+        #result p {
+            font-size: 1.2em;
+            color: #34495e;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 20px;
+            }
+
+            h1 {
+                font-size: 1.5em;
+            }
+
+            .chapter-btn, .btn {
+                padding: 10px 20px;
+                font-size: 1em;
+            }
+
+            #question {
+                font-size: 1.1em;
+            }
+
+            .option {
+                font-size: 1em;
+            }
+
+            #time-select {
+                width: 150px;
+                font-size: 1em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Trắc Nghiệm Cơ Sở Dữ Liệu</h1>
+        <div id="home">
+            <select id="time-select">
+                <option value="600" selected>10 phút</option>
+                <option value="900">15 phút</option>
+                <option value="1200">20 phút</option>
+                <option value="1800">30 phút</option>
+                <option value="2400">40 phút</option> 
+                <option value="3000">50 phút</option>
+                <option value="3600">60 phút</option>
+            </select>
+            <a href="#" class="chapter-btn" onclick="startQuiz('chuong1')">Chương 1</a>
+            <a href="#" class="chapter-btn" onclick="startQuiz('chuong2')">Chương 2</a>
+            <a href="#" class="chapter-btn" onclick="startQuiz('chuong3')">Chương 3</a>
+            <a href="#" class="chapter-btn" onclick="startQuiz('chuong4')">Chương 4</a>
+            <a href="#" class="chapter-btn" onclick="startQuiz('chuong5')">Chương 5</a>
+            <a href="#" class="chapter-btn" onclick="startExam()">Thi thử (50 câu)</a>
+        </div>
+        <div id="quiz">
+            <h2 id="chapter-title" style="font-weight: bold; text-transform: uppercase;"></h2>
+            <div id="timer">Thời gian còn lại: --:--</div>
+            <div id="question" style="font-weight: bold;"></div>
+            <div id="options"></div>
+            <div class="buttons">
+                <button class="btn" id="prev-btn" onclick="prevQuestion()">Câu trước</button>
+                <button class="btn" id="next-btn" onclick="nextQuestion()">Câu sau</button>
+                <button class="btn" id="submit-btn" onclick="submitQuiz()">Nộp bài</button>
+            </div>
+        </div>
+        <div id="result">
+            <h2>Kết quả</h2>
+            <p id="score"></p>
+            <button class="btn" onclick="restartQuiz()">Làm lại</button>
+        </div>
+    </div>
+
+    <script>
+        let questions = {};
+        let currentChapter = '';
+        let currentQuestion = 0;
+        let score = 0;
+        let timer;
+        let timeLeft = 600; // Giá trị mặc định sẽ được cập nhật từ dropdown hoặc thi thử
+        let userAnswers = [];
+        let examQuestions = []; // Lưu đề thi thử
+
+        // Tải dữ liệu từ file JSON
+        fetch('data.json')
+            .then(response => response.json())
+            .then(data => {
+                questions = data;
+                console.log('Dữ liệu đã tải:', questions);
+            })
+            .catch(error => console.error('Lỗi khi tải dữ liệu:', error));
+
+        function startQuiz(chapter) {
+            currentChapter = chapter;
+            currentQuestion = 0;
+            score = 0;
+            timeLeft = parseInt(document.getElementById('time-select').value); // Lấy thời gian từ dropdown
+            userAnswers = new Array(questions[chapter].length).fill(null);
+            examQuestions = questions[chapter]; // Dùng toàn bộ câu hỏi của chương
+            document.getElementById('home').style.display = 'none';
+            document.getElementById('quiz').style.display = 'block';
+            document.getElementById('chapter-title').innerText = `Chương ${chapter.slice(-1)}`;
+            startTimer();
+            loadQuestion();
+        }
+
+        function startExam() {
+            currentChapter = 'exam';
+            currentQuestion = 0;
+            score = 0;
+            timeLeft = 3600; // 60 phút cho thi thử
+            examQuestions = generateExamQuestions(); // Tạo đề thi 50 câu
+            userAnswers = new Array(examQuestions.length).fill(null);
+            document.getElementById('home').style.display = 'none';
+            document.getElementById('quiz').style.display = 'block';
+            document.getElementById('chapter-title').innerText = 'Đề Thi Thử (50 câu)';
+            startTimer();
+            loadQuestion();
+        }
+
+        function generateExamQuestions() {
+            // Gộp tất cả câu hỏi từ 5 chương
+            let allQuestions = [];
+            for (let chapter in questions) {
+                allQuestions = allQuestions.concat(questions[chapter]);
+            }
+            // Xáo trộn ngẫu nhiên và lấy 50 câu
+            for (let i = allQuestions.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [allQuestions[i], allQuestions[j]] = [allQuestions[j], allQuestions[i]];
+            }
+            return allQuestions.slice(0, 50);
+        }
+
+        function startTimer() {
+            clearInterval(timer);
+            timer = setInterval(() => {
+                timeLeft--;
+                let minutes = Math.floor(timeLeft / 60);
+                let seconds = timeLeft % 60;
+                document.getElementById('timer').innerText = `Thời gian còn lại: ${minutes}:${seconds < 10 ? '0' + seconds : seconds}`;
+                if (timeLeft <= 0) {
+                    clearInterval(timer);
+                    submitQuiz();
+                }
+            }, 1000);
+        }
+
+        function loadQuestion() {
+            const q = currentChapter === 'exam' ? examQuestions[currentQuestion] : questions[currentChapter][currentQuestion];
+            document.getElementById('question').innerText = `${currentQuestion + 1}. ${q.question}`;
+            const optionsDiv = document.getElementById('options');
+            optionsDiv.innerHTML = '';
+            q.options.forEach((option, index) => {
+                const div = document.createElement('div');
+                div.className = 'option';
+                div.innerText = `${String.fromCharCode(65 + index)}. ${option}`;
+                div.onclick = () => selectOption(index);
+                if (userAnswers[currentQuestion] === index) {
+                    div.classList.add('selected');
+                }
+                optionsDiv.appendChild(div);
+            });
+            document.getElementById('prev-btn').disabled = currentQuestion === 0;
+            document.getElementById('next-btn').disabled = currentQuestion === (currentChapter === 'exam' ? examQuestions.length - 1 : questions[currentChapter].length - 1);
+            document.getElementById('submit-btn').style.display = currentQuestion === (currentChapter === 'exam' ? examQuestions.length - 1 : questions[currentChapter].length - 1) ? 'block' : 'none';
+        }
+
+        function selectOption(index) {
+            userAnswers[currentQuestion] = index;
+            loadQuestion();
+        }
+
+        function prevQuestion() {
+            if (currentQuestion > 0) {
+                currentQuestion--;
+                loadQuestion();
+            }
+        }
+
+        function nextQuestion() {
+            if (currentQuestion < (currentChapter === 'exam' ? examQuestions.length - 1 : questions[currentChapter].length - 1)) {
+                currentQuestion++;
+                loadQuestion();
+            }
+        }
+
+        function submitQuiz() {
+            clearInterval(timer);
+            score = 0;
+            const currentQuestions = currentChapter === 'exam' ? examQuestions : questions[currentChapter];
+            currentQuestions.forEach((q, index) => {
+                if (userAnswers[index] === q.answer) score++;
+            });
+            document.getElementById('quiz').style.display = 'none';
+            document.getElementById('result').style.display = 'block';
+            document.getElementById('score').innerText = `Bạn đúng ${score}/${currentQuestions.length} câu (${(score / currentQuestions.length * 100).toFixed(2)}%)`;
+        }
+
+        function restartQuiz() {
+            document.getElementById('result').style.display = 'none';
+            document.getElementById('home').style.display = 'block';
+        }
+    </script>
+</body>
+</html>

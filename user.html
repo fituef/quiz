@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quản Lý Tài Khoản</title>
+    <!-- Thêm thư viện CryptoJS từ CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #e0eafc, #cfdef3);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .container {
+            background: #fff;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 400px;
+            padding: 30px;
+            overflow: hidden;
+        }
+
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            margin-bottom: 20px;
+            font-size: 1.8em;
+        }
+
+        #login, #register {
+            text-align: center;
+        }
+
+        #register {
+            display: none;
+        }
+
+        input {
+            display: block;
+            width: 100%;
+            margin: 10px auto;
+            padding: 12px;
+            font-size: 1.1em;
+            border-radius: 5px;
+            border: 1px solid #bdc3c7;
+            background: #ecf0f1;
+        }
+
+        label {
+            display: block;
+            margin: 10px auto;
+            font-size: 1em;
+            color: #34495e;
+        }
+
+        button {
+            background: #3498db;
+            color: #fff;
+            padding: 12px 25px;
+            border-radius: 25px;
+            border: none;
+            cursor: pointer;
+            font-size: 1.1em;
+            transition: background 0.3s, transform 0.2s;
+            margin-top: 20px;
+        }
+
+        button:hover {
+            background: #2980b9;
+            transform: translateY(-2px);
+        }
+
+        .switch-btn {
+            background: none;
+            border: none;
+            color: #3498db;
+            font-size: 1em;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        .switch-btn:hover {
+            color: #2980b9;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Quản Lý Tài Khoản</h1>
+        <div id="login">
+            <input type="text" id="username" placeholder="Tên đăng nhập">
+            <input type="password" id="password" placeholder="Mật khẩu">
+            <label><input type="checkbox" id="remember"> Ghi nhớ đăng nhập</label>
+            <button onclick="login()">Đăng nhập</button>
+            <button class="switch-btn" onclick="showRegister()">Chưa có tài khoản? Đăng ký</button>
+        </div>
+        <div id="register">
+            <input type="text" id="reg-username" placeholder="Tên đăng nhập">
+            <input type="password" id="reg-password" placeholder="Mật khẩu">
+            <input type="password" id="reg-confirm-password" placeholder="Xác nhận mật khẩu">
+            <button onclick="register()">Đăng ký</button>
+            <button class="switch-btn" onclick="showLogin()">Đã có tài khoản? Đăng nhập</button>
+        </div>
+    </div>
+
+    <script>
+        let users = [];
+        let usersFromJson = [];
+
+        // Tải danh sách người dùng từ users.json
+        fetch('users.json')
+            .then(response => response.json())
+            .then(data => {
+                users = data;
+                usersFromJson = [...data]; // Lưu bản sao của users.json
+                const storedUsers = JSON.parse(localStorage.getItem('users') || '[]');
+                users = [...users, ...storedUsers]; // Kết hợp users.json và localStorage
+                console.log('Dữ liệu người dùng đã tải:', users);
+                checkRememberedLogin();
+            })
+            .catch(error => {
+                console.error('Lỗi khi tải users.json:', error);
+                users = JSON.parse(localStorage.getItem('users') || '[]');
+                checkRememberedLogin();
+            });
+
+        function login() {
+            const username = document.getElementById('username').value;
+            const password = document.getElementById('password').value;
+            const remember = document.getElementById('remember').checked;
+            const hashedPassword = CryptoJS.SHA256(password).toString();
+            const user = users.find(u => u.username === username && u.password === hashedPassword);
+            if (user) {
+                if (remember) {
+                    localStorage.setItem('rememberedUser', JSON.stringify({ username: username, hashedPassword: hashedPassword }));
+                }
+                localStorage.setItem('isLoggedIn', 'true');
+                window.location.href = 'index.html';
+            } else {
+                alert('Tên đăng nhập hoặc mật khẩu không đúng!');
+            }
+        }
+
+        function checkRememberedLogin() {
+            const remembered = localStorage.getItem('rememberedUser');
+            if (remembered) {
+                const { username, hashedPassword } = JSON.parse(remembered);
+                const user = users.find(u => u.username === username && u.password === hashedPassword);
+                if (user) {
+                    localStorage.setItem('isLoggedIn', 'true');
+                    window.location.href = 'index.html';
+                }
+            }
+        }
+
+        function register() {
+            const username = document.getElementById('reg-username').value;
+            const password = document.getElementById('reg-password').value;
+            const confirmPassword = document.getElementById('reg-confirm-password').value;
+
+            if (!username || !password || !confirmPassword) {
+                alert('Vui lòng điền đầy đủ thông tin!');
+                return;
+            }
+
+            if (password !== confirmPassword) {
+                alert('Mật khẩu xác nhận không khớp!');
+                return;
+            }
+
+            if (users.find(u => u.username === username)) {
+                alert('Tên đăng nhập đã tồn tại!');
+                return;
+            }
+
+            const hashedPassword = CryptoJS.SHA256(password).toString();
+            const newUser = { username: username, password: hashedPassword };
+            users.push(newUser);
+
+            // Lưu danh sách users mới vào file JSON để tải xuống
+            const blob = new Blob([JSON.stringify(users, null, 2)], { type: 'application/json' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = 'users.json';
+            a.click();
+            URL.revokeObjectURL(url);
+
+            // Cập nhật localStorage
+            localStorage.setItem('users', JSON.stringify(users.filter(u => !usersFromJson.some(j => j.username === u.username))));
+            alert('Đăng ký thành công! Tải file users.json mới và thay thế file cũ để cập nhật danh sách tài khoản.');
+            showLogin();
+        }
+
+        function showRegister() {
+            document.getElementById('login').style.display = 'none';
+            document.getElementById('register').style.display = 'block';
+        }
+
+        function showLogin() {
+            document.getElementById('register').style.display = 'none';
+            document.getElementById('login').style.display = 'block';
+            document.getElementById('reg-username').value = '';
+            document.getElementById('reg-password').value = '';
+            document.getElementById('reg-confirm-password').value = '';
+        }
+    </script>
+</body>
+</html>
